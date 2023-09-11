@@ -9,7 +9,7 @@
       <b>
         Hello There
       <br>
-        I'm SOHAM, Jusr A Computer Science Student And A Tech Enthusisat.
+        I'm SOHAM, Just A Computer Science Student And A Tech Enthusisat.
       <br>
         I Try To Build Aesthetic Projects. I Always Stay Organised, Love To Use Discord And Watch Anime.
       <br>
