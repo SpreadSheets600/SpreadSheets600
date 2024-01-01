@@ -26,17 +26,6 @@
 
 <h2></h2><br>
 
-<!-- Contact Me -->
-<p align="center">
-<samp>
-    [<a href="https://shorturl.at/ERTU1">Website</a>]
-    [<a href="https://www.instagram.com/_._soham._/">Instagram</a>]
-    [<a href="https://shorturl.at/fnuyI/">Work Page</a>]
-    [<a href="mailto:sohammaity239@gmail.com">E-Mail</a>]
-    [<a href="https://discord.com/users/727012870683885578">Dicord</a>]
-  </samp>
-</p>
-
   
 <br>
   
