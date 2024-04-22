@@ -52,14 +52,11 @@
 
   <a href="https://bento.me/spreadsheets"><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"></a>
   <a href="https://bento.me/spreadsheets"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"></a>
+  [![Dev.to](https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=dev-dot-to&logoColor=white)](https://dev.to/sspreadsheets600)
+  [![Stack Overflow](https://img.shields.io/badge/STACKOVERFLOW-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/23220449/soham-maity)
+  [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soham-maity-523329305)
 
   <br>
-
-  <p align="center">
-    <a href="https://dev.to/sspreadsheets600"><img src="https://skillicons.dev/icons?i=devto&theme=dark" alt="Dev Community" /></a>
-    <a href="https://stackoverflow.com/users/23220449/soham-maity"><img src="https://skillicons.dev/icons?i=stackoverflow&theme=dark" alt="Dev Community" /></a>
-    <a href="https://www.linkedin.com/in/soham-maity-523329305"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="Dev Community" /></a>
-  </p>
 
 </div>
 
