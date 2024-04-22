@@ -62,6 +62,7 @@
 
   <a herf="https://bento.me/spreadsheets"><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"></a>
   <a herf="https://stackoverflow.com/users/23220449/soham-maity"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white"></a>
+  <a herf="https://www.linkedin.com/in/soham-maity-523329305/"><img src="	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   
   
 </div>
