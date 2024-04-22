@@ -44,16 +44,23 @@
  # <b><samp> GitHub Base Stats </samp></b>
 
 <div align="center">
-  
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=SpreadSheets600&theme=tokyonight&hide_border=true&border_radius=&card_width=1000" alt="GitHub Streak" /></a>
-  
+  <table>
+    <tr> 
+      <td><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=SpreadSheets600&theme=tokyonight&hide_border=true&border_radius=&card_width=1000" alt="GitHub Streak" /></a></td>td>
+    </tr>
+  </table
+
+<br>
+    
   <table>
     <tr>
-      <td><a href="#--------"><img height="200px" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=nord"/></a></td>
-      <td><a href="#--------"><img height="200px" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=nord"/></a></td>
-      <td><a><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge" </a></td>
+      <td><a href="#--------"><img height="215px" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=nord"/></a></td>
+      <td><a href="#--------"><img height="215px" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=nord"/></a></td>
     </tr>
   </table>
+
+  <a herf="bento.me/spreadsheets"><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"></a>
+  
 </div>
 
 <br>
