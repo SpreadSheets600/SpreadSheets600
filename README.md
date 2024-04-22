@@ -6,7 +6,7 @@
 
 <p align="left"><strong><samp>「 </samp></strong></p>
 
-  <p align="center">
+ <h3> <p align="center">
 <samp>
       <b>
         Hello There 
@@ -18,6 +18,7 @@
         ~ SOHAM ~
       </b>
 </samp>
+ <h3>
     </p>
 
 <p align="right"><strong><samp> 」</samp></strong></p>
