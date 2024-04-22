@@ -25,7 +25,9 @@
 <!-- Status -->
 <details>
 
-<summary> <samp> My Status </summary>
+<summary> <h2> <samp> My Status </samp> </h2> </summary>
+
+<br>
 
 <a> ![My Discord](https://discord-readme-badge.vercel.app/api?id=727012870683885578) </a>
 
