@@ -43,7 +43,7 @@
 
 <div align="center">
   
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=SpreadSheets600&theme=tokyonight" alt="GitHub Streak" /></a>
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=SpreadSheets600&theme=tokyonight&hide_border=true&border_radius=&card_width=1000" alt="GitHub Streak" /></a>
   
   <table>
     <tr>
