@@ -29,24 +29,27 @@
 
 <a> ![My Discord](https://discord-readme-badge.vercel.app/api?id=727012870683885578) </a>
 
-<a> [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=x4o0yd3uqpjbzgo1atn61ik6l&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true&bar_color=ffffff&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile) </a>
-
-
 </details>
 
 
 
 <br>
 
+
+
 <!-- Github Stats -->
 
-  <summary><b><h2><samp>GitHub Base Stats</samp></h2></b></summary>
+ # <b><samp> GitHub Base Stats </samp></b>
 
 <div align="center">
+  
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=SpreadSheets600&theme=tokyonight" alt="GitHub Streak" /></a>
+  
   <table>
     <tr>
-      <td><a href="#--------"><img height="137px" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=nord"/></a></td>
-      <td><a href="#--------"><img height="137px" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=nord"/></a></td>
+      <td><a href="#--------"><img height="200px" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=nord"/></a></td>
+      <td><a href="#--------"><img height="200px" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=nord"/></a></td>
+      <td><a><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge" </a></td>
     </tr>
   </table>
 </div>
@@ -56,7 +59,7 @@
 
 <!-- Skill Section -->
 
-  <summary><b><h2> <samp>Language And Tools</samp></h2></b></summary>
+# <samp>Language And Tools</samp>
 
 <p align="center">
 
