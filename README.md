@@ -13,7 +13,7 @@
     <br>
     I'm SOHAM, Just A Computer Science Student And A Tech Enthusiast.
     <br>
-    I Try To Build Aesthetic Projects. I Love To Code Bots And Watch Anime.
+    I Try To Build Aesthetic Projects. I Love To Code Discord Bots And Watch Anime.
     <br>
     ~ SOHAM ~
   </b>
