@@ -1,42 +1,58 @@
 <!-- SpreadSheets650's GitHub Profile -->
 
+## Profile
+
 <div align="justify">
 
-<!-- Profile -->
+<h3 align="left"><samp>「</samp></h3>
 
-<p align="left"><strong><samp>「</samp></strong></p>
-
-<h3><p align="center">
-<samp>
-  <b>
-    Hello There
-    <br>
-    I'm SOHAM, Just A Computer Science Student And A Tech Enthusiast.
-    <br>
-    I Try To Build Aesthetic Projects. I Love To Code Discord Bots And Watch Anime.
-    <br>
-    ~ SOHAM ~
-  </b>
-</samp>
+<h3 align="center">
+  <samp>
+    <b>
+      Hello There
+      <br>
+      I'm SOHAM, Just A Computer Science Student And A Tech Enthusiast.
+      <br>
+      I Try To Build Aesthetic Projects. I Love To Code Discord Bots And Watch Anime.
+      <br>
+      ~ SOHAM ~
+    </b>
+  </samp>
 </h3>
-</p>
 
-<p align="right"><strong><samp>」</samp></strong></p>
+<h3 align="right"><samp>」</samp></h3>
 
 <!-- Status -->
 <details>
-  <summary><h2><samp>My Status</samp></h2></summary>
+  <summary><h2 align="center"><samp>My Status</samp></h2></summary>
   
   <br>
   
-  <a> ![My Discord](https://discord-readme-badge.vercel.app/api?id=727012870683885578) </a>
+  <div align="center">
+    <table align="center">
+      <tr>
+        <td align="center"><h1><samp>Discord</samp></h1>
+          <a href="">
+            <img src="https://discord-readme-badge.vercel.app/api?id=727012870683885578"/>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center"><h1><samp>30NitesOfCode</samp></h1><br><a href="https://www.codedex.io/@SpreadSheets/30-nites-of-code">
+            <img src="https://www.codedex.io/api/petStatus?user=SpreadSheets"/>
+          </a></td>
+      </tr>
+      <tr>
+        <td align="center"><h1><samp>Spotify</samp></h1><br><a herf="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><img src = "https://spotify-github-profile.vercel.app/api/view?uid=x4o0yd3uqpjbzgo1atn61ik6l&cover_image=true&theme=compact&show_offline=false&background_color=121212&interchange=true"></a></td>
+      </tr>
+    </table>
+  </div>
+
 </details>
 
 <br>
 
-<!-- GitHub Stats -->
-
-# <b><samp>GitHub Base Stats</samp></b>
+## GitHub Stats
 
 <div align="center">
   <table>
@@ -64,11 +80,9 @@
 
 <br>
 
-<!-- Skill Section -->
+## Language And Tools
 
-# <samp>Language And Tools</samp>
-
-<p align="center">
+<div align="left">
 
 <h3><samp>Programming languages</samp></h3>
 
@@ -91,4 +105,6 @@
 <a>![Languages](https://skillicons.dev/icons?i=vscode,sublime,replit,notion,github&theme=dark)</a>
 <a>![Languages](https://skillicons.dev/icons?i=discord,bots&theme=dark)</a>
 
-</p>
+</div>
+
+</div>
