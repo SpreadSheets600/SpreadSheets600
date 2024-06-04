@@ -86,7 +86,7 @@
 
 <h3><samp>Programming languages</samp></h3>
 
-<a>![Languages](https://skillicons.dev/icons?i=html,css,js,py,bash&theme=dark)</a>
+<a>![Languages](https://skillicons.dev/icons?i=html,css,js,react,py,bash&theme=dark)</a>
 
 <h3><samp>Backend Technologies</samp></h3>
 
