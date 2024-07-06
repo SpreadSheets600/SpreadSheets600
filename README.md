@@ -24,12 +24,8 @@
   </a>
 </div>
 
-<details>
-
+<details> 
   <summary><h2 align="center"><samp>My Status</samp></h2></summary>
-  
-  <br>
-  
   <div align="center">
     <table align="center">
       <tr>
