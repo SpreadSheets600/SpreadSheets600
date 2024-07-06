@@ -24,25 +24,26 @@
   </a>
 </div>
 
-<details> 
-  <summary><h2 align="center"><samp>My Status</samp></h2></summary>
-  <div align="center">
-    <table align="center">
-      <tr>
-        <td align="center"><h1><samp>Discord</samp></h1>
-          <a href="">
-            <img src="https://discord-readme-badge.vercel.app/api?id=727012870683885578"/>
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td align="center"><h1><samp>Spotify</samp></h1><br><a herf="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><img src = "https://spotify-github-profile.kittinanx.com/api/view?uid=x4o0yd3uqpjbzgo1atn61ik6l&cover_image=true&theme=compact&show_offline=false&background_color=121212&interchange=true"></a></td>
-      </tr>
-    </table>
-  </div>
-
-</details>
-
+<div align="centre">
+  <details> 
+    <summary><h2 align="center"><samp>My Status</samp></h2></summary>
+    <div align="center">
+      <table align="center">
+        <tr>
+          <td align="center"><h1><samp>Discord</samp></h1>
+            <a href="">
+              <img src="https://discord-readme-badge.vercel.app/api?id=727012870683885578"/>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center"><h1><samp>Spotify</samp></h1><br><a herf="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><img src = "https://spotify-github-profile.kittinanx.com/api/view?uid=x4o0yd3uqpjbzgo1atn61ik6l&cover_image=true&theme=compact&show_offline=false&background_color=121212&interchange=true"></a></td>
+        </tr>
+      </table>
+    </div>
+  
+  </details>
+</div>
 <br>
 
 <h2>GitHub Stats</h2>
