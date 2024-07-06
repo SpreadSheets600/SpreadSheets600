@@ -49,7 +49,7 @@
 
 <br>
 
-## GitHub Stats
+<h2>GitHub Stats</h2>
 
 <div align="center">
   <table>
@@ -77,7 +77,7 @@
 
 <br>
 
-## Language And Tools
+<h2>Language And Tools</h2>
 
 <div align="left">
 
