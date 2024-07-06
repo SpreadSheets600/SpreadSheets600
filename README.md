@@ -1,4 +1,3 @@
-
 ## Profile
 
 <div align="justify">
@@ -27,8 +26,8 @@
   </a>
 </div>
 
-<!-- Status -->
 <details>
+
   <summary><h2 align="center"><samp>My Status</samp></h2></summary>
   
   <br>
@@ -68,11 +67,11 @@
     </tr>
   </table>
 
-  <a href="https://bento.me/spreadsheets"><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"></a>
-  <a href="https://bento.me/spreadsheets"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"></a>
-  [![Dev.to](https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=dev-dot-to&logoColor=white)](https://dev.to/sspreadsheets600)
-  [![Stack Overflow](https://img.shields.io/badge/STACKOVERFLOW-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/23220449/soham-maity)
-  [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soham-maity-523329305)
+<a href="https://bento.me/spreadsheets"><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"></a>
+<a href="https://bento.me/spreadsheets"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"></a>
+<a href="https://dev.to/sspreadsheets600"><img src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=dev-dot-to&logoColor=white"></a>
+<a href="https://stackoverflow.com/users/23220449/soham-maity"><img src="https://img.shields.io/badge/STACKOVERFLOW-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white"></a>
+<a herf="https://www.linkedin.com/in/soham-maity-523329305"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
   <br>
 
@@ -86,24 +85,24 @@
 
 <h3><samp>Programming languages</samp></h3>
 
-<a>![Languages](https://skillicons.dev/icons?i=html,css,js,react,py,bash&theme=dark)</a>
+<a><img src="https://skillicons.dev/icons?i=html,css,js,react,py,bash&theme=dark"></a>
 
 <h3><samp>Backend Technologies</samp></h3>
 
-<a>![Languages](https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs&theme=dark)</a>
+<a><img src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs&theme=dark"></a>
 
 <h3><samp>Design & Creativity</samp></h3>
 
-<a>![Languages](https://skillicons.dev/icons?i=illustrator,xd,figma&theme=dark)</a>
+<a><img src="https://skillicons.dev/icons?i=illustrator,xd,figma&theme=dark"></a>
 
 <h3><samp>Database</samp></h3>
 
-<a>![Languages](https://skillicons.dev/icons?i=mongo,mysql,&theme=dark)</a>
+<a><img src="https://skillicons.dev/icons?i=mongo,mysql,&theme=dark"></a>
 
 <h3><samp>Tools</samp></h3>
 
-<a>![Languages](https://skillicons.dev/icons?i=vscode,sublime,replit,notion,github&theme=dark)</a>
-<a>![Languages](https://skillicons.dev/icons?i=discord,bots&theme=dark)</a>
+<a><img src="https://skillicons.dev/icons?i=vscode,sublime,replit,notion,github&theme=dark"></a><br>
+<a><img src="https://skillicons.dev/icons?i=discord,bots&theme=dark"></a>
 
 </div>
 
