@@ -26,7 +26,7 @@
 
 <div align="centre">
   <details> 
-    <summary><h2 align="center"><samp>My Status</samp></h2></summary>
+    <summary><h2 align="left"><samp>My Status</samp></h2></summary>
     <div align="center">
       <table align="center">
         <tr>
