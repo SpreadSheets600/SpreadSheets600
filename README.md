@@ -20,13 +20,9 @@
 </h3>
 
 <h3 align="right"><samp>」</samp></h3>
-
 <div align="center">
-  <a href="https://yourblogsite.com">
-    <img src="https://img.shields.io/badge/Visit%20My%20Blog-255E63?style=for-the-badge&logo=About.me&logoColor=white">
-  </a>
+  <a href="https://yourblogsite.com"><kbd>Visit My Blog</kbd></a>
 </div>
-
 <!-- Status -->
 <details>
   <summary><h2 align="center"><samp>My Status</samp></h2></summary>
