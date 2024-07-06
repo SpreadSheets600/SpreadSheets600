@@ -1,5 +1,3 @@
-## Profile
-
 <div align="justify">
 
 <h3 align="left"><samp>「</samp></h3>
