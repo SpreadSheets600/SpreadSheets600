@@ -20,9 +20,13 @@
 </h3>
 
 <h3 align="right"><samp>」</samp></h3>
+
 <div align="center">
-  <a href="https://yourblogsite.com"><kbd>Visit My Blog</kbd></a>
+  <a href="https://blog.spreadsheets600.me">
+    <img src="https://img.shields.io/badge/Visit%20My%20Blog-black?style=for-the-badge&logo=blogger&logoColor=white" height="30" padding="10"/>
+  </a>
 </div>
+
 <!-- Status -->
 <details>
   <summary><h2 align="center"><samp>My Status</samp></h2></summary>
