@@ -32,7 +32,7 @@
         <tr>
           <td align="center"><h1><samp>Discord</samp></h1>
             <a href="">
-              <img src="https://lanyard.cnrad.dev/api/979191620610170950"/>
+              <img src="https://lanyard-profile-readme.vercel.app/api/979191620610170950?theme=dark&animated=true&borderRadius=10px&showDisplayName=true&idleMessage=Probably%20Studying%20..."/>
             </a>
           </td>
         </tr>
