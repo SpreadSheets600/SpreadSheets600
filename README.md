@@ -27,12 +27,13 @@
 <div align="centre">
   <details> 
     <summary><h2 align="left"><samp>My Status</samp></h2></summary>
+    [![Discord Activity Badge Updater](https://github.com/SpreadSheets600/Spreadsheets600/actions/workflows/Profile.yaml/badge.svg?branch=latest)]
     <div align="center">
       <table align="center">
         <tr>
           <td align="center"><h1><samp>Discord</samp></h1>
             <a href="">
-              <img src="https://lanyard-profile-readme.vercel.app/api/979191620610170950?theme=dark&animated=true&borderRadius=10px&showDisplayName=true&idleMessage=Probably%20Studying%20..."/>
+              <img src="https://discord-readme-badge.vercel.app/api?id=979191620610170950"/>
             </a>
           </td>
         </tr>
