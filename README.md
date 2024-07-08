@@ -27,7 +27,6 @@
 <div align="centre">
   <details> 
     <summary><h2 align="left"><samp>My Status</samp></h2></summary>
-    [![Discord Activity Badge Updater](https://github.com/SpreadSheets600/Spreadsheets600/actions/workflows/Profile.yaml/badge.svg?branch=latest)]
     <div align="center">
       <table align="center">
         <tr>
