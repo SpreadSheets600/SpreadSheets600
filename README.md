@@ -32,7 +32,7 @@
         <tr>
           <td align="center"><h1><samp>Discord</samp></h1>
             <a href="">
-              <img src="https://discord-readme-badge.vercel.app/api?id=979191620610170950"/>
+              <img src="https://discord-readme-badge.vercel.app/api?id=727012870683885578"/>
             </a>
           </td>
         </tr>
