@@ -91,27 +91,26 @@
 
 <div align="left">
 
-<h3><samp>Programming languages</samp></h3>
-
-<a><img src="https://skillicons.dev/icons?i=html,css,js,react,py,bash&theme=dark"></a>
-
-<h3><samp>Backend Technologies</samp></h3>
-
-<a><img src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs&theme=dark"></a>
-
-<h3><samp>Design & Creativity</samp></h3>
-
-<a><img src="https://skillicons.dev/icons?i=illustrator,xd,figma&theme=dark"></a>
-
-<h3><samp>Database</samp></h3>
-
-<a><img src="https://skillicons.dev/icons?i=mongo,mysql,&theme=dark"></a>
-
-<h3><samp>Tools</samp></h3>
-
-<a><img src="https://skillicons.dev/icons?i=vscode,sublime,replit,notion,github&theme=dark"></a><br>
-<a><img src="https://skillicons.dev/icons?i=discord,bots&theme=dark"></a>
-
-</div>
+  <h3><samp>Programming languages</samp></h3>
+  
+  <a><img src="https://skillicons.dev/icons?i=html,css,js,react,py,bash&theme=dark"></a>
+  
+  <h3><samp>Backend Technologies</samp></h3>
+  
+  <a><img src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs&theme=dark"></a>
+  
+  <h3><samp>Design & Creativity</samp></h3>
+  
+  <a><img src="https://skillicons.dev/icons?i=illustrator,xd,figma&theme=dark"></a>
+  
+  <h3><samp>Database</samp></h3>
+  
+  <a><img src="https://skillicons.dev/icons?i=mongo,mysql,&theme=dark"></a>
+  
+  <h3><samp>Tools</samp></h3>
+  
+  <a><img src="https://skillicons.dev/icons?i=vscode,sublime,replit,notion,github&theme=dark"></a><br>
+  <a><img src="https://skillicons.dev/icons?i=discord,bots&theme=dark"></a>
 
 </div>
+
