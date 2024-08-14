@@ -51,20 +51,26 @@
 <div align="center">
   <table>
     <tr>
-      <td><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=SpreadSheets600&theme=tokyonight&hide_border=true&border_radius=&card_width=1000" alt="GitHub Streak" /></a></td>
+      <td><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=SpreadSheets600&theme=github_dark&hide_border=true&border_radius=&card_width=1000" alt="GitHub Streak" /></a></td>
     </tr>
   </table>
   <br>
   <table>
     <tr>
-      <td><a href="#--------"><img height="215px" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=nord"/></a></td>
-      <td><a href="#--------"><img height="215px" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=nord"/></a></td>
+      <td><a href="#--------"><img height="215px" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=github_dark"/></a></td>
+      <td><a href="#--------"><img height="215px" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=github_dark"/></a></td>
     </tr>
   </table>
   <br>
   <table>
     <tr>
-      <td><a herf="#--------"><img width="1000px" align="center" src = "https://github-profile-trophy.vercel.app/?username=SpreadSheets600&theme=nord&row=2&margin-w=15&margin-h=15&title=-Reviews" /></a></td>
+      <td><a herf="#--------"><img width="1000px" align="center" src = "https://github-readme-activity-graph.vercel.app/graph?username=SpreadSheets600&theme=github-compact&hide_border=true" /></a></td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr>
+      <td><a herf="#--------"><img width="1000px" align="center" src = "https://github-profile-trophy.vercel.app/?username=SpreadSheets600&theme=onestar&row=2&margin-w=15&margin-h=15&title=-Reviews" /></a></td>
     </tr>
   </table>
 
