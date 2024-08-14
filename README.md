@@ -61,6 +61,12 @@
       <td><a href="#--------"><img height="215px" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=nord"/></a></td>
     </tr>
   </table>
+  <br>
+  <table>
+    <tr>
+      <td><a herf="#--------"><img width="1000px" align="center" src = "https://github-profile-trophy.vercel.app/?username=SpreadSheets600&theme=nord&row=2&margin-w=15&margin-h=15&title=-Reviews" /></a></td>
+    </tr>
+  </table>
 
 <a href="https://bento.me/spreadsheets"><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"></a>
 <a href="https://bento.me/spreadsheets"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"></a>
