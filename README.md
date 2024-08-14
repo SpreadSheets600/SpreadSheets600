@@ -61,7 +61,7 @@
 <div align="center">
   <table>
     <tr>
-      <td><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=spreadsheets600&theme=transparent&hide_border=true&border_radius=&card_width=1000&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=39D353&currStreakLabel=AFAFAF&sideLabels=D8D8D8&dates=39D353" alt="GitHub Streak" /></a></td>
+      <td><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=spreadsheets600&theme=transparent&hide_border=true&border_radius=&card_width=1000&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=39D353&currStreakLabel=AFAFAF&sideLabels=AFAFAF&dates=39D353" alt="GitHub Streak" /></a></td>
     </tr>
   </table>
   <br>
