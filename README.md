@@ -51,7 +51,7 @@
           <td><a herf="#--------"><img width="1000px" align="center" src = "https://github-profile-trophy.vercel.app/?username=SpreadSheets600&theme=onestar&row=2&margin-w=15&margin-h=15&title=-Reviews" /></a></td>
         </tr>
       </table>
-  </details>
+  </details>  
 </div>
 
 <br>
