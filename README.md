@@ -26,7 +26,7 @@
 
 <div align="centre">
   <details> 
-    <summary><h2 align="left"><samp>My Status</samp></h2></summary>
+    <summary><h2 align="left"><samp>Status</samp></h2></summary>
     <div align="center">
       <table align="center">
         <tr>
@@ -43,7 +43,17 @@
     </div>
   
   </details>
+  <details> 
+    <summary><h2 align="left"><samp>Trophies</samp></h2></summary>
+    <div align="left">
+      <table>
+        <tr>
+          <td><a herf="#--------"><img width="1000px" align="center" src = "https://github-profile-trophy.vercel.app/?username=SpreadSheets600&theme=onestar&row=2&margin-w=15&margin-h=15&title=-Reviews" /></a></td>
+        </tr>
+      </table>
+  </details>
 </div>
+
 <br>
 
 <h2>GitHub Stats</h2>
@@ -68,20 +78,11 @@
     </tr>
   </table>
   <br>
-  <table>
-    <tr>
-      <td><a herf="#--------"><img width="1000px" align="center" src = "https://github-profile-trophy.vercel.app/?username=SpreadSheets600&theme=onestar&row=2&margin-w=15&margin-h=15&title=-Reviews" /></a></td>
-    </tr>
-  </table>
-
-<a href="https://bento.me/spreadsheets"><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"></a>
-<a href="https://bento.me/spreadsheets"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"></a>
-<a href="https://dev.to/sspreadsheets600"><img src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=dev-dot-to&logoColor=white"></a>
-<a href="https://stackoverflow.com/users/23220449/soham-maity"><img src="https://img.shields.io/badge/STACKOVERFLOW-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white"></a>
-<a herf="https://www.linkedin.com/in/soham-maity-523329305"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-
-  <br>
-
+  <a href="https://bento.me/spreadsheets"><img src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"></a>
+  <a href="https://bento.me/spreadsheets"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"></a>
+  <a href="https://dev.to/sspreadsheets600"><img src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=dev-dot-to&logoColor=white"></a>
+  <a href="https://stackoverflow.com/users/23220449/soham-maity"><img src="https://img.shields.io/badge/STACKOVERFLOW-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white"></a>
+  <a herf="https://www.linkedin.com/in/soham-maity-523329305"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </div>
 
 <br>
