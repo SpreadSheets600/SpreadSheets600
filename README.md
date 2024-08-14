@@ -61,14 +61,14 @@
 <div align="center">
   <table>
     <tr>
-      <td><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=spreadsheets600&theme=transparent&hide_border=true&border_radius=&card_width=1000&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=39D353&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=39D353" alt="GitHub Streak" /></a></td>
+      <td><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=spreadsheets600&theme=transparent&hide_border=true&border_radius=&card_width=1000&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=39D353&currStreakLabel=D8D8D8&sideLabels=D8D8D8&dates=39D353" alt="GitHub Streak" /></a></td>
     </tr>
   </table>
   <br>
   <table>
     <tr>
-      <td><a href="#--------"><img height="215px" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=transparent&title_color=39D353&text_color=39D353&icon_color=FFFFFF"/></a></td>
-      <td><a href="#--------"><img height="215px" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=transparent&title_color=39D353&text_color=FFFFFF&icon_color=39D353"/></a></td>
+      <td><a href="#--------"><img height="215px" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=transparent&title_color=39D353&text_color=39D353&icon_color=D8D8D8"/></a></td>
+      <td><a href="#--------"><img height="215px" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=transparent&title_color=39D353&text_color=D8D8D8&icon_color=39D353"/></a></td>
     </tr>
   </table>
   <br>
