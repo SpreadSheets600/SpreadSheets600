@@ -79,7 +79,7 @@
       "
     >
       <summary style="font-size: 1.5rem; cursor: pointer; color: #ffffff">
-        <samp>Status</samp>
+        <h2><samp>Status</samp></h2>
       </summary>
       <div style="margin-top: 10px">
         <table style="width: 100%; margin-bottom: 20px; border: 1px solid #555">
@@ -121,7 +121,7 @@
       "
     >
       <summary style="font-size: 1.5rem; cursor: pointer; color: #ffffff">
-        <samp>Trophies</samp>
+        <h2><samp>Trophies</samp></h2>
       </summary>
       <div style="margin-top: 10px">
         <table style="width: 100%; border: 1px solid #555">
@@ -189,7 +189,7 @@
     </table>
     <table style="width: 100%; margin-bottom: 20px; border: 1px solid #555">
       <tr>
-        <td style="text-align: left; padding: 10px">
+        <td style="text-align: center; padding: 10px">
           <a href="#--------">
             <img
               width="100%"
@@ -201,6 +201,8 @@
       </tr>
     </table>
     <br />
+  </div>
+    <div align="center">
     <a href="https://bento.me/spreadsheets">
       <img
         src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"
