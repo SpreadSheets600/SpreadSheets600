@@ -210,23 +210,7 @@
         margin-bottom: 20px;
       "
     >
-      <summary style="font-size: 1.5rem; cursor: pointer; color: #ffffff">
-        <h2><samp>Advanced Statistics</samp></h2>
-      </summary>
-      <div style="margin-top: 10px">
-        <table style="width: 100%; margin-bottom: 20px">
-          <tr>
-            <td style="text-align: center; padding: 10px; border: 1px solid #555">
-              <a href="#--------">
-                <img src="/github-metrics.svg" alt="Metrics" width="100%">
-              </a>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </details>
-  </div>
-
+      
   <h2 style="text-align: left; color: #ffffff">Socials And Links</h2>
 
   <a href="https://holopin.me/holopinboard">
