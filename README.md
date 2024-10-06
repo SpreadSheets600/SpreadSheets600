@@ -52,7 +52,7 @@
     <samp style="font-size: 1.5rem; color: #ffffff">」</samp>
   </h3>
 
-  <div align="center" style="margin: 20px 0; align-items: center; text-align: center">
+  <div align = "center" style="margin: 20px 0; align-items: center; text-align: center">
     <a href="https://blog.spreadsheets600.me">
       <img
         src="https://img.shields.io/badge/Visit%20My%20Blog-black?style=for-the-badge&logo=blogger&logoColor=white"
@@ -110,36 +110,35 @@
         </table>
       </div>
     </details>
-    <div>
-      <details
-        style="
-          border: 1px solid #444;
-          border-radius: 5px;
-          padding: 10px;
-          background-color: #2b2b2b;
-          flex: 1;
-        "
-      >
-        <summary style="font-size: 1.5rem; cursor: pointer; color: #ffffff">
-          <h2><samp>Trophies</samp></h2>
-        </summary>
-        <div style="margin-top: 10px">
-          <table style="width: 100%; border: 1px solid #555">
-            <tr>
-              <td style="text-align: left; padding: 10px">
-                <a href="#--------">
-                  <img
-                    width="100%"
-                    style="border-radius: 5px"
-                    src="https://github-profile-trophy.vercel.app/?username=SpreadSheets600&theme=onestar&column=4&margin-w=15&margin-h=15&title=-Reviews"
-                  />
-                </a>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </details>
-    </div>
+<div>
+    <details
+      style="
+        border: 1px solid #444;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #2b2b2b;
+        flex: 1;
+      "
+    >
+      <summary style="font-size: 1.5rem; cursor: pointer; color: #ffffff">
+        <h2><samp>Trophies</samp></h2>
+      </summary>
+      <div style="margin-top: 10px">
+        <table style="width: 100%; border: 1px solid #555">
+          <tr>
+            <td style="text-align: left; padding: 10px">
+              <a href="#--------">
+                <img
+                  width="100%"
+                  style="border-radius: 5px"
+                  src="https://github-profile-trophy.vercel.app/?username=SpreadSheets600&theme=onestar&column=4&margin-w=15&margin-h=15&title=-Reviews"
+                />
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </details>
   </div>
 
   <h2 style="text-align: left; color: #ffffff">GitHub Stats</h2>
@@ -201,26 +200,42 @@
         </td>
       </tr>
     </table>
-    <details
-      style="
-        border: 1px solid #444;
-        border-radius: 5px;
-        padding: 10px;
-        background-color: #2b2b2b;
-        margin-bottom: 20px;
-      "
-    >
-      
-  <h2 style="text-align: left; color: #ffffff">Socials And Links</h2>
-
-  <a href="https://holopin.me/holopinboard">
-    <img
-      src="https://holopin.io/api/user/board?user=spreadsheets600"
-      style="border-radius: 10px"
-    />
-  </a>
-</div>
-
+    <br />
+  </div>
+    <div align="center">
+    <a href="https://bento.me/spreadsheets">
+      <img
+        src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"
+      />
+    </a>
+    <a href="https://bento.me/spreadsheets">
+      <img
+        src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"
+      />
+    </a>
+    <a href="https://dev.to/sspreadsheets600">
+      <img
+        src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=dev-dot-to&logoColor=white"
+      />
+    </a>
+    <a href="https://stackoverflow.com/users/23220449/soham-maity">
+      <img
+        src="https://img.shields.io/badge/STACKOVERFLOW-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white"
+      />
+    </a>
+    <a href="https://www.linkedin.com/in/soham-maity-523329305">
+      <img
+        src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+      />
+    </a>
+  </div>
+  <br>
+  <div>
+    <a herf="https://holopin.io/@spreadsheets600">
+      <img src="https://holopin.me/spreadsheets600"
+        />
+    </a>
+  </div>
 
   <br />
 
