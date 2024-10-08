@@ -208,7 +208,7 @@
         src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"
       />
     </a>
-    <a href="https://bento.me/spreadsheets">
+    <a href="http://spreadsheets600.me">
       <img
         src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"
       />
@@ -223,7 +223,7 @@
         src="https://img.shields.io/badge/STACKOVERFLOW-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white"
       />
     </a>
-    <a href="https://www.linkedin.com/in/soham-maity-523329305">
+    <a href="https://www.linkedin.com/in/soham-maity-114466218/">
       <img
         src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
       />
