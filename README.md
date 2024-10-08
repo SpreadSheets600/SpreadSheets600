@@ -160,6 +160,7 @@
   </div>
 
   </details>
+</div>
 
   <h2 style="text-align: left; color: #ffffff">GitHub Stats</h2>
 
