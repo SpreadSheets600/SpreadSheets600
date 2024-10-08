@@ -141,13 +141,25 @@
     </details>
   </div>
 
+<div>
+    <details
+      style="
+        border: 1px solid #444;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #2b2b2b;
+        flex: 1;
+      "
+    >
   <summary>
-    <h2 style="text-align: left">Open Source Stats</h2>
+    <h2 style="text-align: left"><samp>Open Source Stats</samp></h2>
   </summary>
 
   <div align = "center" style="text-align: center">
     <img src="dev-card.png">
   </div>
+
+  </details>
 
   <h2 style="text-align: left; color: #ffffff">GitHub Stats</h2>
 
