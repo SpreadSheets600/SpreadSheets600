@@ -141,6 +141,14 @@
     </details>
   </div>
 
+  <summary>
+    <h2 style="text-align: left">Open Source Stats</h2>
+  </summary>
+
+  <div align = "center" style="text-align: center">
+    <img src="dev-card.png">
+  </div>
+
   <h2 style="text-align: left; color: #ffffff">GitHub Stats</h2>
 
   <div style="margin: 20px 0">
