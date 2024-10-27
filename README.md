@@ -145,13 +145,14 @@
     <summary><h2 style="text-align: left"><samp>📁 Repositories</samp></h2></summary>
     <br>
       <p align="center">
-          <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Budget-Tracker&theme=dark&hide_border=true"></a>
-          <a href="https://github.com/sortedcord/Sortify"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Password-Manager&theme=dark&hide_border=true" alt="sortify"></a>
-          <a href="https://github.com/sortedcord/sweet-mars-i3"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=Sheets-Astrum-BOT&repo=Astrum-V2&theme=dark&hide_border=true" alt="Sweet mars i3"></a>
-          <a href="https://github.com/sortedcord/Dracula"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Fallen-SMP-BOT&theme=dark&hide_border=true" alt="Dracula"></a>
-          <a href="https://github.com/sortedcord/Dracula"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Spectrum-Analysis&theme=dark&hide_border=true" alt="Dracula"></a>
-          <a href="https://github.com/sortedcord/Dracula"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Pomodoria&theme=dark&hide_border=true" alt="Dracula"></a>
-          <a href="https://github.com/sortedcord/Dracula"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=File-Sorter&theme=dark&hide_border=true" alt="Dracula"></a>
+          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Budget-Tracker&theme=dark&hide_border=true" alt="Budget Tracker"></a>
+          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Password-Manager&theme=dark&hide_border=true" alt="Password-Manager"></a>
+          <a href="https://github.com/SpreadSheets6003"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=Sheets-Astrum-BOT&repo=Astrum-V2&theme=dark&hide_border=true" alt="Astrum-V2"></a>
+          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Fallen-SMP-BOT&theme=dark&hide_border=true" alt="Fallen-SMP-BOT"></a>
+          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Spectrum-Analysis&theme=dark&hide_border=true" alt="Spectrum-Analysis"></a>
+          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=File-Sorter&theme=dark&hide_border=true" alt="File-Sorter"></a>
+          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Pomodoria&theme=dark&hide_border=true" alt="Pomodoria"></a>
+          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Token-Copy&theme=dark&hide_border=true" alt="Token-Copy"></a>
       </p>
   </details>
 
