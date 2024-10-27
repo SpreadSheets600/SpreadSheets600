@@ -152,7 +152,7 @@
           <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Spectrum-Analysis&theme=dark&hide_border=true" alt="Spectrum-Analysis"></a>
           <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=File-Sorter&theme=dark&hide_border=true" alt="File-Sorter"></a>
           <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Pomodoria&theme=dark&hide_border=true" alt="Pomodoria"></a>
-          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Token-Copy&theme=dark&hide_border=true" alt="Token-Copy"></a>
+          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=TokenCopy&theme=dark&hide_border=true" alt="TokenCopy"></a>
       </p>
   </details>
 
