@@ -79,7 +79,7 @@
       "
     >
       <summary style="font-size: 1.5rem; cursor: pointer; color: #ffffff">
-        <h2><samp>Status</samp></h2>
+        <h2><samp>⛽ Status</samp></h2>
       </summary>
       <div style="margin-top: 10px">
         <table style="width: 100%; margin-bottom: 20px; border: 1px solid #555">
@@ -121,7 +121,7 @@
       "
     >
       <summary style="font-size: 1.5rem; cursor: pointer; color: #ffffff">
-        <h2><samp>Trophies</samp></h2>
+        <h2><samp>🏆 Trophies</samp></h2>
       </summary>
       <div style="margin-top: 10px">
         <table style="width: 100%; border: 1px solid #555">
@@ -142,9 +142,8 @@
   </div>
 
   <details>
-    <summary><b>📂 Repositories </b></summary>
+    <summary><h2 style="text-align: left"><samp>📁 Repositories</samp></h2></summary>
     <br>
-    <h2>🎨 Dot Repos</h2>
       <p align="center">
           <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Budget-Tracker&theme=dark&hide_border=true"></a>
           <a href="https://github.com/sortedcord/Sortify"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Password-Manager&theme=dark&hide_border=true" alt="sortify"></a>
@@ -167,7 +166,7 @@
       "
     >
   <summary>
-    <h2 style="text-align: left"><samp>Open Source Stats</samp></h2>
+    <h2 style="text-align: left"><samp>📈 Open Source Stats</samp></h2>
   </summary>
 
   <div align = "center" style="text-align: center,align-items: center; align-self: center; align-content: center">
