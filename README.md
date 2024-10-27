@@ -141,6 +141,21 @@
     </details>
   </div>
 
+  <details>
+    <summary><b>📂 Repositories </b></summary>
+    <br>
+    <h2>🎨 Dot Repos</h2>
+      <p align="center">
+          <a href="https://github.com/sortedcord/Gruvbox-Pink-Dots"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Budget-Tracker&theme=dark&hide_border=true"></a>
+          <a href="https://github.com/sortedcord/Sortify"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Password-Manager&theme=dark&hide_border=true" alt="sortify"></a>
+          <a href="https://github.com/sortedcord/sweet-mars-i3"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=Sheets-Astrum-BOT&repo=Astrum-V2&theme=dark&hide_border=true" alt="Sweet mars i3"></a>
+          <a href="https://github.com/sortedcord/Dracula"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Fallen-SMP-BOT&theme=dark&hide_border=true" alt="Dracula"></a>
+          <a href="https://github.com/sortedcord/Dracula"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Spectrum-Analysis&theme=dark&hide_border=true" alt="Dracula"></a>
+          <a href="https://github.com/sortedcord/Dracula"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Pomodoria&theme=dark&hide_border=true" alt="Dracula"></a>
+          <a href="https://github.com/sortedcord/Dracula"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=File-Sorter&theme=dark&hide_border=true" alt="Dracula"></a>
+      </p>
+  </details>
+
 <div>
     <details
       style="
