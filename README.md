@@ -202,6 +202,19 @@
 
   </details>
 </div>
+  <div>
+    <details>	
+      <summary>
+        <h2 style="text-align: left"><samp>🔗 GSSoC (24) Badges</samp></h2>
+      </summary>
+        <div style='display:flex; align-items:center; gap: 10px;' align='center'><a href="https://gssoc.girlscript.tech/leaderboard">
+        <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/Postman%20White.png" width="100px" height="100px" />
+          <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/1.png" width="100px" height="100px" />
+          <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/2.png" width="100px" height="100px" />
+          <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/3.png" width="100px" height="100px" />
+        </div>
+    </details>
+  </div>
 
   <h2 style="text-align: left; color: #ffffff">GitHub Stats</h2>
 
