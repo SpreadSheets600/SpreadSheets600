@@ -171,32 +171,24 @@
   </summary>
 
   <div align = "center" style="text-align: center,align-items: center; align-self: center; align-content: center">
-    <table
-        style="width: 100%; margin-bottom: 20px; border: 1px solid #555"
+    <table style="width: 800px; margin: 0 auto; border-collapse: collapse; border: 1px solid #ccc;">
+  <tr>
+    <td style="width: 400px; height: 200px; padding: 10px; text-align: center; vertical-align: middle;">
+      <img 
+        src="https://gitroll.io/api/badges/profiles/v1/uVnnLo5DV1iMF0meExWTe4i4XvH22" 
+        alt="GitRoll Profile Badge" 
+        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
       >
-        <tr>
-          <td style="text-align: center; padding: 10px">
-            <img
-              src="dev-card.png"
-              style="border-radius: 5px"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td
-            style="
-              text-align: center;
-              padding: 10px;
-              border: 1px solid #555;
-            "
-          >
-            <img
-              src="https://github-contributor-stats.vercel.app/api?username=spreadsheets600&limit=5&theme=transparent&custom_title=Top%20Contributions&title_color=39D353&card_width=1000px&hide_border=True&icon_color=AFAFAF&line_height=21&text_color=39D353"
-              style="border-radius: 5px"
-            />
-          </td>
-        </tr>
-      </table>
+    </td>
+    <td style="width: 400px; height: 200px; padding: 10px; text-align: center; vertical-align: middle;">
+      <img 
+        src="dev-card.png" 
+        alt="Dev Card" 
+        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
+      >
+    </td>
+  </tr>
+</table>
 
   </div>
 
