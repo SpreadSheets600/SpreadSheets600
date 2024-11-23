@@ -302,24 +302,22 @@
   </div>
 
   <br />
+
+---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-204.6%20thousand%20lines%20of%20code-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue) ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-204.6%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 ? Used in GitHub's Storage 
- > 
+
 > 🏆 1,548 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 55 Public Repositories 
  > 
-> 🔑 0 Private Repositories 
+> 🔑 5 Private Repositories 
  > 
 **I'm an Early 🐤** 
 
@@ -368,10 +366,8 @@ Nix                      1 repo              ░░░░░░░░░░░�
 ```
 
 
-
-
- Last Updated on 23/11/2024 17:43:42 UTC
 <!--END_SECTION:waka-->
+---
   <br />
 
   <h2 style="text-align: left; color: #ffffff">Language And Tools</h2>
