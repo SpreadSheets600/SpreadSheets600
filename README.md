@@ -1,4 +1,4 @@
-[![(Script) Discord Activity Badge](https://badgen.net/badge/Discord%20User/Offline?color=545454&labelColor=434343&icon=discord)](https://github.com/SpreadSheets600/SpreadSheets600)
+
 
 <div
   style="
@@ -308,7 +308,7 @@
 ---
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
-
+[![(Script) Discord Activity Badge](https://badgen.net/badge/Discord%20User/Offline?color=545454&labelColor=434343&icon=discord)](https://github.com/SpreadSheets600/SpreadSheets600)
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-204.6%20thousand%20lines%20of%20code-blue)
 
 **I'm an Early 🐤** 
@@ -360,9 +360,6 @@ HTML                     8 repos             ████░░░░░░░�
 CSS                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.92 % 
 Nix                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.96 % 
 ```
-
-
-
 
 <!--END_SECTION:waka-->
 ---
