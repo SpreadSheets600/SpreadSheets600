@@ -305,7 +305,6 @@
 
 ---
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-204.6%20thousand%20lines%20of%20code-blue)
 
 **I'm an Early 🐤** 
@@ -379,7 +378,7 @@ Nix                      1 repo              ░░░░░░░░░░░�
     <div style="margin-bottom: 20px">
       <a
         ><img
-          src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs&theme=dark"
+          src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs,opencv&theme=dark"
           style="margin-right: 10px; padding: 10px"
       /></a>
     </div>
