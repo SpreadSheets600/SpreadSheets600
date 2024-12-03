@@ -20,5 +20,5 @@ jobs:
           SHOW_LOC_CHART: "False"
           LOCALE: "en"
           SHOW_UPDATED_DATE: "False"
-          SHOW_PROFILE_VIEW: "False"
+          SHOW_PROFILE_VIEWS: "False"
           SHOW_SHORT_INFO: "False"
