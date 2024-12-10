@@ -343,7 +343,7 @@ Nix                      1 repo              ░░░░░░░░░░░�
     <div style="margin-bottom: 20px">
       <a
         ><img
-          src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs,opencv&theme=dark"
+          src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs,opencv,tailwind&theme=dark"
           style="margin-right: 10px; padding: 10px"
       /></a>
     </div>
