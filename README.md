@@ -402,7 +402,7 @@ CSS                      2 repos             █░░░░░░░░░░�
     <div style="margin-bottom: 20px">
       <a
         ><img
-          src="https://skillicons.dev/icons?i=mongo,mysql,postgres&theme=dark"
+          src="https://skillicons.dev/icons?i=sqlite,mongo,mysql,postgres&theme=dark"
           style="margin-right: 10px; padding: 10px"
       /></a>
     </div>
@@ -411,7 +411,7 @@ CSS                      2 repos             █░░░░░░░░░░�
     <div style="margin-bottom: 20px">
       <a
         ><img
-          src="https://skillicons.dev/icons?i=vscode,sublime,replit,notion,github&theme=dark"
+          src="https://skillicons.dev/icons?i=vscode,sublime,replit,notion,github,notion&theme=dark"
           style="margin-right: 10px; padding: 10px" /></a
       ><br />
       <a
