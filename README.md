@@ -374,7 +374,7 @@ C++                      1 repo              ░░░░░░░░░░░�
     <div style="margin-bottom: 20px">
       <a
         ><img
-          src="https://skillicons.dev/icons?i=python,html,css,javascript,bash&theme=dark"
+          src="https://skillicons.dev/icons?i=python,html,css,javascript,c,cpp,bash&theme=dark"
           style="margin-right: 10px; padding: 10px"
       /></a>
     </div>
