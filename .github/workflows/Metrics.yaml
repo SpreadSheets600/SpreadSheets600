@@ -25,3 +25,4 @@ jobs:
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: watching, reading
           plugin_anilist_user: SpreadSheeets
+          plugin_anilist_shuffle: no
