@@ -13,4 +13,6 @@ jobs:
       - uses: glup3/anilist-animes-action@v1.1.0
         with:
           ANILIST_USERNAME: 'SpreadSheeets'
-          HEADER_TITLE: "My Anime List"
+          HEADER_TITLE: "My Anime Manga List"
+          MANGA_GRID: "true"
+          ANIME_GRID: "true
