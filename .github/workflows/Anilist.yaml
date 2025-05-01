@@ -15,4 +15,5 @@ jobs:
           ANILIST_USERNAME: 'SpreadSheeets'
           HEADER_TITLE: "My Anime Manga List"
           MANGA_GRID: "true"
-          ANIME_GRID: "true
+          ANIME_GRID: "true"
+          MARKDOWN_PATH: "./README.md"
