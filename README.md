@@ -159,10 +159,15 @@
   <details>
     <summary><h2 style="text-align: left"><samp>📺 Anilist Stats</samp></h2></summary>
     <br>
+    
 <!-- ANILIST_ANIME:START -->
+    
 <!-- ANILIST_ANIME:END -->
+
 <!-- ANILIST_MANGA:START -->
+
 <!-- ANILIST_MANGA:END -->
+
   </details>
 
 <div>
