@@ -160,14 +160,14 @@
     <summary><h2 style="text-align: left"><samp>📺 Anilist Stats</samp></h2></summary>
     <br>
     
-<!-- ANILIST_ANIME:START -->
-    
-<!-- ANILIST_ANIME:END -->
-
-<!-- ANILIST_MANGA:START -->
-
-<!-- ANILIST_MANGA:END -->
-
+  <table>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://github.com/SpreadSheets600/SpreadSheets600/blob/main/github-metrics.svg" alt=""></img>
+        <img width="900" height="1" alt="">
+      </td>
+    </tr>
+  </table>
   </details>
 
 <div>
