@@ -21,8 +21,8 @@ jobs:
           base: ""
           config_timezone: Europe/Amsterdam
           plugin_anilist: yes
-          plugin_anilist_limit: 4
+          plugin_anilist_limit: 6
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: watching, reading
           plugin_anilist_user: SpreadSheeets
-          plugin_anilist_shuffle: no
+          plugin_anilist_shuffle: yes
