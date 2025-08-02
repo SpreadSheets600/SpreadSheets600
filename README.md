@@ -388,7 +388,7 @@ Vue                      1 repo              ░░░░░░░░░░░�
     <div style="margin-bottom: 20px">
       <a
         ><img
-          src="https://skillicons.dev/icons?i=python,html,css,javascript,c,cpp,bash&theme=dark"
+          src="https://skillicons.dev/icons?i=python,html,css,javascript,c,cpp,java,bash&theme=dark"
           style="margin-right: 10px; padding: 10px"
       /></a>
     </div>
@@ -398,7 +398,7 @@ Vue                      1 repo              ░░░░░░░░░░░�
     <div style="margin-bottom: 20px">
       <a
         ><img
-          src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs,opencv,tailwind&theme=dark"
+          src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs,opencv,tailwind,vue&theme=dark"
           style="margin-right: 10px; padding: 10px"
       /></a>
     </div>
@@ -426,7 +426,7 @@ Vue                      1 repo              ░░░░░░░░░░░�
     <div style="margin-bottom: 20px">
       <a
         ><img
-          src="https://skillicons.dev/icons?i=vscode,sublime,replit,notion,github,notion&theme=dark"
+          src="https://skillicons.dev/icons?i=linux,vscode,sublime,replit,notion,github&theme=dark"
           style="margin-right: 10px; padding: 10px" /></a
       ><br />
       <a
