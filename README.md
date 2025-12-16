@@ -90,7 +90,7 @@
               </h1>
               <a href="">
                 <img
-                  src="https://discord-readme-badge.vercel.app/api?id=727012870683885578"
+                  src="https://lanyard.cnrad.dev/api/727012870683885578"
                 />
               </a>
             </td>
