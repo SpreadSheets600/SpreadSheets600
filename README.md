@@ -222,19 +222,6 @@
   <h2 style="text-align: left; color: #ffffff">GitHub Stats</h2>
 
   <div style="margin: 20px 0">
-    <table style="width: 100%; margin-bottom: 20px; border: 1px solid #555">
-      <tr>
-        <td style="text-align: center; padding: 10px">
-          <a href="https://git.io/streak-stats">
-            <img
-              src="https://streak-stats.demolab.com/?user=spreadsheets600&theme=transparent&hide_border=true&card_width=1000&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=39D353&currStreakLabel=AFAFAF&sideLabels=AFAFAF&dates=39D353"
-              alt="GitHub Streak"
-              style="border-radius: 5px"
-            />
-          </a>
-        </td>
-      </tr>
-    </table>
     <table style="width: 100%; margin-bottom: 20px">
       <tr>
         <td style="text-align: center; padding: 10px; border: 1px solid #555">
@@ -242,7 +229,7 @@
             <img
               height="215px"
               alt="GitHub Stats"
-              src="https://github-readme-stats.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=transparent&title_color=39D353&text_color=39D353&icon_color=AFAFAF"
+              src="https://github-readme-stats-fast.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=dark&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=00000000"
             />
           </a>
         </td>
@@ -258,7 +245,7 @@
             <img
               height="215px"
               alt="Top Language"
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=spreadsheets600&layout=compact&line_height=21&hide_border=true&theme=transparent&title_color=39D353&text_color=AFAFAF&icon_color=39D353"
+              src="https://github-readme-stats-fast.vercel.app/api/streak?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=dark&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=00000000"
               style="border-radius: 5px"
             />
           </a>
@@ -272,7 +259,7 @@
             <img
               width="100%"
               style="border-radius: 5px"
-              src="https://github-readme-activity-graph.vercel.app/graph?username=SpreadSheets600&theme=github-compact&hide_border=true"
+              src="https://github-readme-activity-graph.vercel.app/graph?username=SpreadSheets600&theme=react-dark&hide_border=true&bg_color=151515&color=FFFFFF&line=FFFFFF&point=FFFFFF"
             />
           </a>
         </td>
