@@ -306,7 +306,7 @@
 
 ---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-956%20hrs%2055%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-957%20hrs%2036%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-16.53%20million%20lines%20of%20code-blue?style=flat)
 
@@ -337,13 +337,14 @@ Sunday                   633 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Python                   28 mins             █████████████████░░░░░░░░   69.12 % 
+Markdown                 12 mins             ████████░░░░░░░░░░░░░░░░░   30.88 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  41 mins             █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    41 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
