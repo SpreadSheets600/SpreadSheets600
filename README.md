@@ -306,55 +306,13 @@
 
 ---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-998%20hrs-blue?style=flat)
-
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-19.30%20million%20lines%20of%20code-blue?style=flat)
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                1047 commits        ██████░░░░░░░░░░░░░░░░░░░   24.20 % 
-🌆 Daytime                984 commits         ██████░░░░░░░░░░░░░░░░░░░   22.74 % 
-🌃 Evening                2085 commits        ████████████░░░░░░░░░░░░░   48.19 % 
-🌙 Night                  211 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.88 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   674 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.58 % 
-Tuesday                  550 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.71 % 
-Wednesday                719 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.62 % 
-Thursday                 525 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.13 % 
-Friday                   480 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.09 % 
-Saturday                 663 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.32 % 
-Sunday                   716 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.55 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-TypeScript               1 hr 37 mins        ██████████░░░░░░░░░░░░░░░   40.06 % 
-Python                   1 hr 7 mins         ███████░░░░░░░░░░░░░░░░░░   27.86 % 
-JavaScript               31 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.15 % 
-Bash                     9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.94 % 
-Astro                    9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.78 % 
-
-🔥 Editors: 
-VS Code                  4 hrs 2 mins        █████████████████████████   100.00 % 
-
-💻 Operating System: 
-Linux                    4 hrs 2 mins        █████████████████████████   100.00 % 
-```
 
 **I Mostly Code in Python** 
 
 ```text
-Python                   59 repos            ██████████░░░░░░░░░░░░░░░   41.26 % 
-TypeScript               9 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.29 % 
+Python                   60 repos            ██████████░░░░░░░░░░░░░░░   41.96 % 
+TypeScript               8 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.59 % 
 Astro                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.80 % 
 C++                      3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.10 % 
 QML                      2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
