@@ -306,49 +306,7 @@
 
 ---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C001%20hrs%2036%20mins-blue?style=flat)
-
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-19.30%20million%20lines%20of%20code-blue?style=flat)
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                1029 commits        ██████░░░░░░░░░░░░░░░░░░░   23.95 % 
-🌆 Daytime                980 commits         ██████░░░░░░░░░░░░░░░░░░░   22.81 % 
-🌃 Evening                2077 commits        ████████████░░░░░░░░░░░░░   48.34 % 
-🌙 Night                  211 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.91 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   674 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.69 % 
-Tuesday                  550 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.80 % 
-Wednesday                693 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.13 % 
-Thursday                 529 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.31 % 
-Friday                   474 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.03 % 
-Saturday                 663 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.43 % 
-Sunday                   714 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.62 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-JavaScript               4 hrs 33 mins       ██████████░░░░░░░░░░░░░░░   40.79 % 
-Python                   2 hrs 9 mins        █████░░░░░░░░░░░░░░░░░░░░   19.28 % 
-TypeScript               1 hr 35 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.22 % 
-JSON                     1 hr 11 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.64 % 
-C++                      32 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.81 % 
-
-🔥 Editors: 
-VS Code                  11 hrs 10 mins      █████████████████████████   100.00 % 
-
-💻 Operating System: 
-Linux                    11 hrs 10 mins      █████████████████████████   100.00 % 
-```
 
 **I Mostly Code in Python** 
 
