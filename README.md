@@ -306,49 +306,9 @@
 
 ---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C078%20hrs%2024%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C078%20hrs%2033%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-19.51%20million%20lines%20of%20code-blue?style=flat)
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                1102 commits        ██████░░░░░░░░░░░░░░░░░░░   23.88 % 
-🌆 Daytime                1069 commits        ██████░░░░░░░░░░░░░░░░░░░   23.17 % 
-🌃 Evening                2218 commits        ████████████░░░░░░░░░░░░░   48.07 % 
-🌙 Night                  225 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.88 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   722 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.65 % 
-Tuesday                  591 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.81 % 
-Wednesday                728 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.78 % 
-Thursday                 572 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.40 % 
-Friday                   541 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.73 % 
-Saturday                 676 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.65 % 
-Sunday                   784 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.99 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-Python                   5 hrs 28 mins       ████████░░░░░░░░░░░░░░░░░   31.86 % 
-TypeScript               3 hrs 38 mins       █████░░░░░░░░░░░░░░░░░░░░   21.14 % 
-Markdown                 2 hrs 11 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.74 % 
-Bash                     2 hrs 10 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.62 % 
-Other                    49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.83 % 
-
-🔥 Editors: 
-VS Code                  17 hrs 11 mins      █████████████████████████   100.00 % 
-
-💻 Operating System: 
-Linux                    17 hrs 11 mins      █████████████████████████   100.00 % 
-```
 
 **I Mostly Code in Python** 
 
