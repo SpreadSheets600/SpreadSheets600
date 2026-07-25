@@ -308,48 +308,6 @@
 <!--START_SECTION:waka-->
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-19.97%20million%20lines%20of%20code-blue?style=flat)
 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                1233 commits        ██████░░░░░░░░░░░░░░░░░░░   23.75 % 
-🌆 Daytime                1196 commits        ██████░░░░░░░░░░░░░░░░░░░   23.04 % 
-🌃 Evening                2524 commits        ████████████░░░░░░░░░░░░░   48.62 % 
-🌙 Night                  238 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.58 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   870 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.76 % 
-Tuesday                  647 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.46 % 
-Wednesday                790 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.22 % 
-Thursday                 614 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.83 % 
-Friday                   644 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.41 % 
-Saturday                 755 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.54 % 
-Sunday                   871 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.78 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-Rust                     48 mins             █████░░░░░░░░░░░░░░░░░░░░   18.49 % 
-Markdown                 43 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.66 % 
-TypeScript               31 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.93 % 
-Python                   25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.62 % 
-PowerShell               22 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.72 % 
-
-🔥 Editors: 
-VS Code                  3 hrs 37 mins       █████████████████████░░░░   83.76 % 
-Codex CLI                28 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.86 % 
-Antigravity CLI          14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.38 % 
-
-💻 Operating System: 
-Windows                  4 hrs 20 mins       █████████████████████████   100.00 % 
-```
-
 **I Mostly Code in Python** 
 
 ```text
