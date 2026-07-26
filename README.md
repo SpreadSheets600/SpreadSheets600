@@ -306,7 +306,51 @@
 
 ---
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C119%20hrs%2017%20mins-blue?style=flat)
+
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-19.97%20million%20lines%20of%20code-blue?style=flat)
+
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                1236 commits        ██████░░░░░░░░░░░░░░░░░░░   23.78 % 
+🌆 Daytime                1196 commits        ██████░░░░░░░░░░░░░░░░░░░   23.01 % 
+🌃 Evening                2527 commits        ████████████░░░░░░░░░░░░░   48.62 % 
+🌙 Night                  238 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.58 % 
+```
+📅 **I'm Most Productive on Sunday** 
+
+```text
+Monday                   870 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.74 % 
+Tuesday                  647 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.45 % 
+Wednesday                790 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.20 % 
+Thursday                 614 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.81 % 
+Friday                   647 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.45 % 
+Saturday                 758 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.59 % 
+Sunday                   871 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.76 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+Rust                     48 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.73 % 
+Python                   44 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.62 % 
+Markdown                 41 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.60 % 
+TypeScript               38 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.41 % 
+PowerShell               22 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.89 % 
+
+🔥 Editors: 
+VS Code                  3 hrs 21 mins       █████████████████░░░░░░░░   69.96 % 
+Antigravity CLI          58 mins             █████░░░░░░░░░░░░░░░░░░░░   20.22 % 
+Codex CLI                28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.82 % 
+
+💻 Operating System: 
+Windows                  4 hrs 47 mins       █████████████████████████   100.00 % 
+```
 
 **I Mostly Code in Python** 
 
