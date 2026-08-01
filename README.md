@@ -339,41 +339,41 @@ Sunday                   881 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   12 hrs 24 mins      ████████████████████░░░░░   78.15 % 
-Other                    1 hr 56 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.22 % 
-JSON                     36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.80 % 
-TypeScript               24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.62 % 
-Git Config               24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.55 % 
+Python                   12 hrs 22 mins      ████████████████████░░░░░   80.38 % 
+Other                    1 hr 54 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.39 % 
+JSON                     36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.92 % 
+Git Config               24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.63 % 
+Astro                    5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.56 % 
 
 🔥 Editors: 
-VS Code                  11 hrs 46 mins      ███████████████████░░░░░░   74.23 % 
-Antigravity CLI          4 hrs 5 mins        ██████░░░░░░░░░░░░░░░░░░░   25.77 % 
+VS Code                  11 hrs 45 mins      ███████████████████░░░░░░   76.34 % 
+Antigravity CLI          3 hrs 38 mins       ██████░░░░░░░░░░░░░░░░░░░   23.66 % 
 
 💻 Operating System: 
-WSL                      12 hrs 20 mins      ███████████████████░░░░░░   77.78 % 
-Linux                    2 hrs 21 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.90 % 
-Windows                  1 hr 9 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.32 % 
+WSL                      12 hrs 20 mins      ████████████████████░░░░░   80.18 % 
+Linux                    2 hrs 21 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.36 % 
+Windows                  41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.46 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 13 hrs 1 min (82.03%)
+⏱ AI Coding Time: 12 hrs 34 mins (81.66%)
 
-✍️ 3,509 lines written by AI, 12,437 lines written by hand (22.01% AI-written)
+✍️ 3,509 lines written by AI, 12,435 lines written by hand (22.01% AI-written)
 
 🔤 1,826,877 Input Tokens, 229,057 Output Tokens
 
 💵 $8.92 Estimated AI Cost This Week
 
-🧠 35 AI Sessions, 218 AI Prompts
+🧠 34 AI Sessions, 212 AI Prompts
 
 Deepseek                 3,615 lines         █████████████████████████   100.00 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 22.01% of written lines came from AI
-📚 Verbose Prompter — average 6,451 characters per prompt
+📚 Verbose Prompter — average 6,588 characters per prompt
 🔁 Iterative Prompter — average 6 prompts per session
 🔍 Hands-On Reviewer — 87.93% of changed lines were hand-edited
 ```
