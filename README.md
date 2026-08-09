@@ -306,30 +306,30 @@
 
 ---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C130%20hrs%2024%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C131%20hrs%2013%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-121%20hrs-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-121%20hrs%2047%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-20.64%20million%20lines%20of%20code-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                1112 commits        ██████░░░░░░░░░░░░░░░░░░░   25.43 % 
-🌆 Daytime                1022 commits        ██████░░░░░░░░░░░░░░░░░░░   23.37 % 
-🌃 Evening                2050 commits        ████████████░░░░░░░░░░░░░   46.88 % 
-🌙 Night                  189 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.32 % 
+🌞 Morning                1117 commits        ██████░░░░░░░░░░░░░░░░░░░   25.50 % 
+🌆 Daytime                1022 commits        ██████░░░░░░░░░░░░░░░░░░░   23.33 % 
+🌃 Evening                2050 commits        ████████████░░░░░░░░░░░░░   46.80 % 
+🌙 Night                  191 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.36 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   769 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.59 % 
-Tuesday                  605 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.83 % 
-Wednesday                612 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.99 % 
-Thursday                 467 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.68 % 
-Friday                   548 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.53 % 
-Saturday                 664 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.18 % 
-Sunday                   708 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.19 % 
+Monday                   769 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.56 % 
+Tuesday                  605 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.81 % 
+Wednesday                612 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.97 % 
+Thursday                 467 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.66 % 
+Friday                   548 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.51 % 
+Saturday                 669 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.27 % 
+Sunday                   710 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.21 % 
 ```
 
 
@@ -339,51 +339,52 @@ Sunday                   708 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   2 hrs 15 mins       ████████░░░░░░░░░░░░░░░░░   33.48 % 
-Markdown                 1 hr 21 mins        █████░░░░░░░░░░░░░░░░░░░░   20.04 % 
-TypeScript               1 hr 5 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.18 % 
-Java                     33 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.15 % 
-YAML                     29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.20 % 
+Python                   1 hr 37 mins        ██████████░░░░░░░░░░░░░░░   38.79 % 
+TypeScript               49 mins             █████░░░░░░░░░░░░░░░░░░░░   19.62 % 
+Java                     33 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.08 % 
+YAML                     29 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.56 % 
+Markdown                 25 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.09 % 
 
 🔥 Editors: 
-VS Code                  6 hrs 10 mins       ███████████████████████░░   91.29 % 
-Antigravity CLI          35 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.71 % 
+VS Code                  3 hrs 25 mins       ████████████████████░░░░░   81.42 % 
+Codex CLI                46 mins             █████░░░░░░░░░░░░░░░░░░░░   18.58 % 
 
 💻 Operating System: 
-WSL                      6 hrs 45 mins       █████████████████████████   100.00 % 
+WSL                      4 hrs 12 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 5 hrs 16 mins (77.97%)
+⏱ AI Coding Time: 2 hrs 40 mins (63.59%)
 
-✍️ 6,177 lines written by AI, 124 lines written by hand (98.03% AI-written)
+✍️ 3,670 lines written by AI, 124 lines written by hand (96.73% AI-written)
 
-🔤 491,845 Input Tokens, 137,057 Output Tokens
+🔤 390,929 Input Tokens, 94,744 Output Tokens
 
-💵 $3.53 Estimated AI Cost This Week
+💵 $2.74 Estimated AI Cost This Week
 
-🧠 12 AI Sessions, 49 AI Prompts
+🧠 10 AI Sessions, 26 AI Prompts
 
-Deepseek                 6,406 lines         █████████████████████████   100.00 % 
+Deepseek                 2,830 lines         ███████████████████░░░░░░   74.36 % 
+GPT                      976 lines           ██████░░░░░░░░░░░░░░░░░░░   25.64 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 98.03% of written lines came from AI
-📚 Verbose Prompter — average 2,933 characters per prompt
-🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 13.91% of changed lines were hand-edited
+🤖 AI-Driven — 96.73% of written lines came from AI
+📚 Verbose Prompter — average 3,938 characters per prompt
+🔁 Iterative Prompter — average 3 prompts per session
+🚀 High AI Trust — 21.38% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
 
 ```text
-Python                   62 repos            ██████████░░░░░░░░░░░░░░░   39.74 % 
-HTML                     26 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
-JavaScript               19 repos            ███░░░░░░░░░░░░░░░░░░░░░░   12.18 % 
-Jupyter Notebook         6 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.85 % 
-Astro                    6 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.85 % 
+Python                   62 repos            ██████████░░░░░░░░░░░░░░░   39.49 % 
+HTML                     26 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.56 % 
+JavaScript               19 repos            ███░░░░░░░░░░░░░░░░░░░░░░   12.10 % 
+Jupyter Notebook         6 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.82 % 
+Astro                    6 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.82 % 
 ```
 
 
