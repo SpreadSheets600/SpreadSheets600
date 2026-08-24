@@ -310,26 +310,26 @@
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-136%20hrs%2012%20mins-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-20.89%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-20.91%20million%20lines%20of%20code-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                1241 commits        ██████░░░░░░░░░░░░░░░░░░░   23.70 % 
-🌆 Daytime                1171 commits        ██████░░░░░░░░░░░░░░░░░░░   22.36 % 
-🌃 Evening                2574 commits        ████████████░░░░░░░░░░░░░   49.16 % 
-🌙 Night                  250 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.77 % 
+🌞 Morning                1241 commits        ██████░░░░░░░░░░░░░░░░░░░   23.61 % 
+🌆 Daytime                1171 commits        ██████░░░░░░░░░░░░░░░░░░░   22.28 % 
+🌃 Evening                2595 commits        ████████████░░░░░░░░░░░░░   49.36 % 
+🌙 Night                  250 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
 ```
 📅 **I'm Most Productive on Sunday** 
 
 ```text
-Monday                   863 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.48 % 
-Tuesday                  653 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.47 % 
-Wednesday                780 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.90 % 
-Thursday                 600 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.46 % 
-Friday                   656 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.53 % 
-Saturday                 771 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.72 % 
-Sunday                   913 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.44 % 
+Monday                   861 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.38 % 
+Tuesday                  653 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.42 % 
+Wednesday                780 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.84 % 
+Thursday                 600 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.41 % 
+Friday                   656 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.48 % 
+Saturday                 771 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.67 % 
+Sunday                   936 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.80 % 
 ```
 
 
@@ -339,54 +339,54 @@ Sunday                   913 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-TypeScript               1 hr 50 mins        ██████░░░░░░░░░░░░░░░░░░░   24.89 % 
-Python                   1 hr 23 mins        █████░░░░░░░░░░░░░░░░░░░░   18.77 % 
-HTML                     1 hr 5 mins         ████░░░░░░░░░░░░░░░░░░░░░   14.78 % 
-JavaScript               1 hr 3 mins         ████░░░░░░░░░░░░░░░░░░░░░   14.36 % 
-Markdown                 53 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.13 % 
+Markdown                 4 hrs 16 mins       ██████████░░░░░░░░░░░░░░░   38.00 % 
+Python                   2 hrs 8 mins        █████░░░░░░░░░░░░░░░░░░░░   19.03 % 
+JavaScript               1 hr 39 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.73 % 
+TypeScript               1 hr 11 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.55 % 
+HTML                     51 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.60 % 
 
 🔥 Editors: 
-Zed                      4 hrs 11 mins       ██████████████░░░░░░░░░░░   56.83 % 
-VS Code                  2 hrs 28 mins       ████████░░░░░░░░░░░░░░░░░   33.41 % 
-Antigravity CLI          43 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.76 % 
+Zed                      11 hrs 6 mins       █████████████████████████   98.52 % 
+Antigravity CLI          10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.48 % 
 
 💻 Operating System: 
-WSL                      7 hrs 23 mins       █████████████████████████   100.00 % 
+WSL                      11 hrs 16 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 6 hrs 54 mins (93.5%)
+⏱ AI Coding Time: 10 hrs 44 mins (95.38%)
 
-✍️ 6,798 lines written by AI, 126 lines written by hand (98.18% AI-written)
+✍️ 7,429 lines written by AI, 126 lines written by hand (98.33% AI-written)
 
-🔤 2,127,546 Input Tokens, 427,004 Output Tokens
+🔤 17,544,065 Input Tokens, 498,365 Output Tokens
 
-💵 $78.42 Estimated AI Cost This Week
+💵 $132.88 Estimated AI Cost This Week
 
-🧠 22 AI Sessions, 73 AI Prompts
+🧠 19 AI Sessions, 64 AI Prompts
 
-Deepseek                 3,264 lines         ██████████████░░░░░░░░░░░   57.52 % 
-GPT                      2,142 lines         █████████░░░░░░░░░░░░░░░░   37.74 % 
-Sonnet                   232 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   04.09 % 
-Gemini                   37 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.65 % 
+Deepseek                 1,522 lines         ████████████████████████░   97.81 % 
+Gemini                   34 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   02.19 % 
+GLM                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+ZCode                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Mimo                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 98.18% of written lines came from AI
-📄 Detailed Prompter — average 1,215 characters per prompt
+🤖 AI-Driven — 98.33% of written lines came from AI
+📄 Detailed Prompter — average 853 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
-🚀 High AI Trust — 1.85% of changed lines were hand-edited
+🚀 High AI Trust — 1.75% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
 
 ```text
-Python                   61 repos            ██████████░░░░░░░░░░░░░░░   39.10 % 
-HTML                     25 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.03 % 
-JavaScript               22 repos            ████░░░░░░░░░░░░░░░░░░░░░   14.10 % 
-Jupyter Notebook         6 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.85 % 
-Astro                    3 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.92 % 
+Python                   61 repos            ██████████░░░░░░░░░░░░░░░   38.85 % 
+HTML                     26 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.56 % 
+Astro                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.55 % 
+Java                     3 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.91 % 
+C                        2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.27 % 
 ```
 
 
