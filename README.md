@@ -339,54 +339,52 @@ Sunday                   933 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Markdown                 3 hrs 52 mins       ████████░░░░░░░░░░░░░░░░░   33.90 % 
-Python                   2 hrs 16 mins       █████░░░░░░░░░░░░░░░░░░░░   19.84 % 
-TypeScript               1 hr 39 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.53 % 
-JavaScript               1 hr 16 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.19 % 
-Astro                    49 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.18 % 
+Markdown                 3 hrs 53 mins       ███████░░░░░░░░░░░░░░░░░░   28.24 % 
+TypeScript               3 hrs 20 mins       ██████░░░░░░░░░░░░░░░░░░░   24.28 % 
+Python                   2 hrs 26 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.67 % 
+JavaScript               2 hrs 5 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.22 % 
+Astro                    49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.96 % 
 
 🔥 Editors: 
-Zed                      11 hrs 17 mins      █████████████████████████   98.69 % 
-Antigravity CLI          9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.31 % 
+Zed                      13 hrs 46 mins      █████████████████████████   100.00 % 
 
 💻 Operating System: 
-WSL                      11 hrs 26 mins      █████████████████████████   100.00 % 
+WSL                      13 hrs 46 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 11 hrs 7 mins (97.19%)
+⏱ AI Coding Time: 13 hrs 31 mins (98.17%)
 
-✍️ 8,475 lines written by AI, 14 lines written by hand (99.84% AI-written)
+✍️ 10,753 lines written by AI, 48 lines written by hand (99.56% AI-written)
 
-🔤 17,460,107 Input Tokens, 467,931 Output Tokens
+🔤 18,626,338 Input Tokens, 644,788 Output Tokens
 
-💵 $110.46 Estimated AI Cost This Week
+💵 $155.45 Estimated AI Cost This Week
 
-🧠 17 AI Sessions, 64 AI Prompts
+🧠 13 AI Sessions, 90 AI Prompts
 
-Deepseek                 588 lines           ████████████████████████░   94.53 % 
-Gemini                   34 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   05.47 % 
+Deepseek                 2,431 lines         █████████████████████████   100.00 % 
 GLM                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 ZCode                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 Mimo                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.84% of written lines came from AI
-📄 Detailed Prompter — average 602 characters per prompt
-🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 0.16% of changed lines were hand-edited
+🤖 AI-Driven — 99.56% of written lines came from AI
+📄 Detailed Prompter — average 528 characters per prompt
+🔁 Iterative Prompter — average 7 prompts per session
+🚀 High AI Trust — 0.43% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
 
 ```text
-Python                   61 repos            ██████████░░░░░░░░░░░░░░░   38.85 % 
-HTML                     26 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.56 % 
-Astro                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.55 % 
-Java                     3 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.91 % 
-C                        2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.27 % 
+Python                   60 repos            ██████████░░░░░░░░░░░░░░░   38.46 % 
+HTML                     26 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
+Astro                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.56 % 
+Java                     3 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.92 % 
+C                        2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.28 % 
 ```
 
 
