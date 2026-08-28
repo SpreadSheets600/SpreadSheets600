@@ -339,42 +339,41 @@ Sunday                   933 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Markdown                 3 hrs 53 mins       ███████░░░░░░░░░░░░░░░░░░   28.24 % 
-TypeScript               3 hrs 20 mins       ██████░░░░░░░░░░░░░░░░░░░   24.28 % 
-Python                   2 hrs 26 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.67 % 
-JavaScript               2 hrs 5 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.22 % 
-Astro                    49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.96 % 
+Markdown                 3 hrs 52 mins       █████████░░░░░░░░░░░░░░░░   35.34 % 
+Python                   2 hrs 26 mins       ██████░░░░░░░░░░░░░░░░░░░   22.16 % 
+JavaScript               1 hr 49 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.68 % 
+TypeScript               55 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 % 
+Astro                    49 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.48 % 
 
 🔥 Editors: 
-Zed                      13 hrs 46 mins      █████████████████████████   100.00 % 
+Zed                      10 hrs 59 mins      █████████████████████████   100.00 % 
 
 💻 Operating System: 
-WSL                      13 hrs 46 mins      █████████████████████████   100.00 % 
+WSL                      10 hrs 59 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 13 hrs 31 mins (98.17%)
+⏱ AI Coding Time: 10 hrs 44 mins (97.79%)
 
-✍️ 10,753 lines written by AI, 48 lines written by hand (99.56% AI-written)
+✍️ 8,594 lines written by AI, 48 lines written by hand (99.44% AI-written)
 
-🔤 18,626,338 Input Tokens, 644,788 Output Tokens
+🔤 17,077,214 Input Tokens, 434,897 Output Tokens
 
-💵 $155.45 Estimated AI Cost This Week
+💵 $92.88 Estimated AI Cost This Week
 
-🧠 13 AI Sessions, 90 AI Prompts
+🧠 11 AI Sessions, 48 AI Prompts
 
-Deepseek                 2,431 lines         █████████████████████████   100.00 % 
 GLM                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 ZCode                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 Mimo                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.56% of written lines came from AI
-📄 Detailed Prompter — average 528 characters per prompt
-🔁 Iterative Prompter — average 7 prompts per session
-🚀 High AI Trust — 0.43% of changed lines were hand-edited
+🤖 AI-Driven — 99.44% of written lines came from AI
+📄 Detailed Prompter — average 523 characters per prompt
+🔁 Iterative Prompter — average 4 prompts per session
+🚀 High AI Trust — 0.55% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
