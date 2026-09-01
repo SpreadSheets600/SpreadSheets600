@@ -315,21 +315,21 @@
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                1245 commits        ██████░░░░░░░░░░░░░░░░░░░   23.57 % 
-🌆 Daytime                1174 commits        ██████░░░░░░░░░░░░░░░░░░░   22.23 % 
-🌃 Evening                2612 commits        ████████████░░░░░░░░░░░░░   49.45 % 
-🌙 Night                  251 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.75 % 
+🌞 Morning                1263 commits        ██████░░░░░░░░░░░░░░░░░░░   23.76 % 
+🌆 Daytime                1178 commits        ██████░░░░░░░░░░░░░░░░░░░   22.16 % 
+🌃 Evening                2624 commits        ████████████░░░░░░░░░░░░░   49.36 % 
+🌙 Night                  251 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.72 % 
 ```
 📅 **I'm Most Productive on Sunday** 
 
 ```text
-Monday                   881 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.68 % 
-Tuesday                  653 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.36 % 
-Wednesday                780 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.77 % 
-Thursday                 600 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.36 % 
-Friday                   656 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.42 % 
-Saturday                 775 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.67 % 
-Sunday                   937 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.74 % 
+Monday                   881 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.57 % 
+Tuesday                  653 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.28 % 
+Wednesday                806 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.16 % 
+Thursday                 600 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.29 % 
+Friday                   662 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.45 % 
+Saturday                 775 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.58 % 
+Sunday                   939 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.66 % 
 ```
 
 
@@ -339,37 +339,19 @@ Sunday                   937 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Astro                    37 mins             █████████░░░░░░░░░░░░░░░░   37.89 % 
-TypeScript               28 mins             ███████░░░░░░░░░░░░░░░░░░   29.09 % 
-CSS                      14 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.32 % 
-Python                   7 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.99 % 
-Markdown                 6 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.63 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Zed                      1 hr 37 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-WSL                      1 hr 37 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 1 hr 36 mins (98.35%)
-
-✍️ 1,979 lines written by AI, 0 lines written by hand (100.0% AI-written)
-
-🔤 320,622 Input Tokens, 65,060 Output Tokens
-
-💵 $0.00 Estimated AI Cost This Week
-
-🧠 3 AI Sessions, 13 AI Prompts
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 100.0% of written lines came from AI
-📝 Concise Prompter — average 359 characters per prompt
-🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 0.0% of changed lines were hand-edited
+No AI Coding Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
