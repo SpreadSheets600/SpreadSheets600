@@ -315,21 +315,21 @@
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                1363 commits        ██████░░░░░░░░░░░░░░░░░░░   25.19 % 
-🌆 Daytime                1176 commits        █████░░░░░░░░░░░░░░░░░░░░   21.74 % 
-🌃 Evening                2620 commits        ████████████░░░░░░░░░░░░░   48.43 % 
-🌙 Night                  251 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.64 % 
+🌞 Morning                1372 commits        ██████░░░░░░░░░░░░░░░░░░░   25.28 % 
+🌆 Daytime                1178 commits        █████░░░░░░░░░░░░░░░░░░░░   21.71 % 
+🌃 Evening                2626 commits        ████████████░░░░░░░░░░░░░   48.39 % 
+🌙 Night                  251 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.63 % 
 ```
 📅 **I'm Most Productive on Sunday** 
 
 ```text
-Monday                   881 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.28 % 
-Tuesday                  764 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.12 % 
-Wednesday                793 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.66 % 
-Thursday                 600 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.09 % 
-Friday                   659 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.18 % 
-Saturday                 775 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.33 % 
-Sunday                   938 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.34 % 
+Monday                   881 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.23 % 
+Tuesday                  764 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.08 % 
+Wednesday                806 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.85 % 
+Thursday                 600 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.06 % 
+Friday                   662 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.20 % 
+Saturday                 775 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.28 % 
+Sunday                   939 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.30 % 
 ```
 
 
@@ -339,19 +339,39 @@ Sunday                   938 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Python                   2 hrs 5 mins        ████████████████████░░░░░   81.53 % 
+Markdown                 24 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.10 % 
+TOML                     3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.37 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Zed                      2 hrs 32 mins       █████████████████████████   98.48 % 
+Unknown Editor           2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.52 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+WSL                      2 hrs 34 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-No AI Coding Activity Tracked This Week
+⏱ AI Coding Time: 28 mins (18.47%)
+
+✍️ 168 lines written by AI, 511 lines written by hand (24.74% AI-written)
+
+🔤 250,994 Input Tokens, 55,514 Output Tokens
+
+💵 $21.06 Estimated AI Cost This Week
+
+🧠 1 AI Sessions, 4 AI Prompts
+
+Spark                    205 lines           █████████████████████████   100.00 % 
+Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+
+🔎 AI Coding Insights:
+🧑‍💻 Mostly Hands-On — 24.74% of written lines came from AI
+📚 Verbose Prompter — average 10,576 characters per prompt
+🔁 Iterative Prompter — average 4 prompts per session
+🔍 Hands-On Reviewer — 71.45% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
