@@ -339,42 +339,42 @@ Sunday                   1034 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   2 hrs 53 mins       ████████████░░░░░░░░░░░░░   48.54 % 
-JavaScript               59 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.59 % 
-Markdown                 37 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.49 % 
-TOML                     24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.79 % 
-HTML                     19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.58 % 
+Python                   2 hrs 38 mins       ████████████░░░░░░░░░░░░░   46.72 % 
+JavaScript               59 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.40 % 
+Markdown                 35 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.30 % 
+TOML                     24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.12 % 
+HTML                     19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.85 % 
 
 🔥 Editors: 
-VS Code                  5 hrs 56 mins       █████████████████████████   99.83 % 
-Antigravity CLI          0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 % 
+VS Code                  5 hrs 39 mins       █████████████████████████   99.82 % 
+Antigravity CLI          0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.18 % 
 
 💻 Operating System: 
-WSL                      5 hrs 47 mins       ████████████████████████░   97.35 % 
-Linux                    9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.65 % 
+WSL                      5 hrs 30 mins       ████████████████████████░   97.22 % 
+Linux                    9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.78 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 5 hrs 15 mins (88.56%)
+⏱ AI Coding Time: 5 hrs 8 mins (90.73%)
 
-✍️ 10,755 lines written by AI, 130 lines written by hand (98.81% AI-written)
+✍️ 10,696 lines written by AI, 64 lines written by hand (99.41% AI-written)
 
-🔤 7,614,183 Input Tokens, 622,926 Output Tokens
+🔤 7,442,195 Input Tokens, 606,280 Output Tokens
 
-💵 $359.46 Estimated AI Cost This Week
+💵 $341.77 Estimated AI Cost This Week
 
-🧠 22 AI Sessions, 45 AI Prompts
+🧠 20 AI Sessions, 43 AI Prompts
 
-Spark                    10,786 lines        █████████████████████████   100.00 % 
+Spark                    10,724 lines        █████████████████████████   100.00 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 98.81% of written lines came from AI
-📚 Verbose Prompter — average 2,707 characters per prompt
+🤖 AI-Driven — 99.41% of written lines came from AI
+📚 Verbose Prompter — average 2,818 characters per prompt
 🔁 Iterative Prompter — average 2 prompts per session
-🚀 High AI Trust — 2.03% of changed lines were hand-edited
+🚀 High AI Trust — 0.94% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
