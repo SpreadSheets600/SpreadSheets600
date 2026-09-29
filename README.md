@@ -306,7 +306,7 @@
 
 ---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C179%20hrs-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C179%20hrs%2048%20mins-blue?style=flat)
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-165%20hrs%202%20mins-blue?style=flat)
 
@@ -339,27 +339,27 @@ Sunday                   1031 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Markdown                 1 hr 13 mins        ███████░░░░░░░░░░░░░░░░░░   29.25 % 
-Java                     46 mins             █████░░░░░░░░░░░░░░░░░░░░   18.38 % 
-Python                   41 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.59 % 
-JavaScript               21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.69 % 
-TypeScript               20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.25 % 
+Markdown                 1 hr 13 mins        ██████░░░░░░░░░░░░░░░░░░░   24.64 % 
+Java                     46 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.49 % 
+YAML                     45 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.29 % 
+Python                   41 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.98 % 
+JavaScript               21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.32 % 
 
 🔥 Editors: 
-VS Code                  4 hrs 11 mins       █████████████████████████   100.00 % 
+VS Code                  4 hrs 59 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-WSL                      3 hrs 52 mins       ███████████████████████░░   92.26 % 
-Linux                    12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.78 % 
-Windows                  7 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.96 % 
+WSL                      3 hrs 52 mins       ███████████████████░░░░░░   77.73 % 
+Windows                  54 mins             █████░░░░░░░░░░░░░░░░░░░░   18.24 % 
+Linux                    12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.03 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 2 hrs 39 mins (63.27%)
+⏱ AI Coding Time: 2 hrs 39 mins (53.31%)
 
-✍️ 4,617 lines written by AI, 248 lines written by hand (94.9% AI-written)
+✍️ 4,617 lines written by AI, 915 lines written by hand (83.46% AI-written)
 
 🔤 526,868 Input Tokens, 234,974 Output Tokens
 
@@ -372,10 +372,10 @@ Spark                    143 lines           █░░░░░░░░░░�
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 94.9% of written lines came from AI
+🤖 AI-Driven — 83.46% of written lines came from AI
 📚 Verbose Prompter — average 1,789 characters per prompt
 🔁 Iterative Prompter — average 2 prompts per session
-🚀 High AI Trust — 7.24% of changed lines were hand-edited
+🚀 High AI Trust — 32.14% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
