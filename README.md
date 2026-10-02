@@ -315,21 +315,21 @@
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1788 commits        ███████░░░░░░░░░░░░░░░░░░   27.75 % 
-🌆 Daytime                1465 commits        ██████░░░░░░░░░░░░░░░░░░░   22.73 % 
-🌃 Evening                2865 commits        ███████████░░░░░░░░░░░░░░   44.46 % 
-🌙 Night                  326 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.06 % 
+🌞 Morning                1797 commits        ███████░░░░░░░░░░░░░░░░░░   27.81 % 
+🌆 Daytime                1467 commits        ██████░░░░░░░░░░░░░░░░░░░   22.71 % 
+🌃 Evening                2871 commits        ███████████░░░░░░░░░░░░░░   44.44 % 
+🌙 Night                  326 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.05 % 
 ```
 📅 **I'm Most Productive on Saturday** 
 
 ```text
-Monday                   899 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.95 % 
-Tuesday                  767 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.90 % 
-Wednesday                810 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.57 % 
-Thursday                 600 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.31 % 
-Friday                   1162 commits        █████░░░░░░░░░░░░░░░░░░░░   18.03 % 
-Saturday                 1175 commits        █████░░░░░░░░░░░░░░░░░░░░   18.23 % 
-Sunday                   1031 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.00 % 
+Monday                   899 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.91 % 
+Tuesday                  767 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.87 % 
+Wednesday                823 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.74 % 
+Thursday                 600 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.29 % 
+Friday                   1165 commits        █████░░░░░░░░░░░░░░░░░░░░   18.03 % 
+Saturday                 1175 commits        █████░░░░░░░░░░░░░░░░░░░░   18.19 % 
+Sunday                   1032 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.97 % 
 ```
 
 
@@ -339,43 +339,42 @@ Sunday                   1031 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-YAML                     1 hr 23 mins        ███████░░░░░░░░░░░░░░░░░░   28.67 % 
-Python                   41 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.34 % 
-CSS                      26 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.24 % 
-JSON                     25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.90 % 
-JavaScript               21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.51 % 
+YAML                     1 hr 23 mins        ████████████░░░░░░░░░░░░░   47.29 % 
+CSS                      26 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.86 % 
+JSON                     18 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.65 % 
+TypeScript               11 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.72 % 
+Text                     11 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.32 % 
 
 🔥 Editors: 
-VS Code                  4 hrs 51 mins       █████████████████████████   100.00 % 
+VS Code                  2 hrs 56 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  2 hrs 29 mins       █████████████░░░░░░░░░░░░   51.39 % 
-WSL                      2 hrs 9 mins        ███████████░░░░░░░░░░░░░░   44.48 % 
-Linux                    12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.13 % 
+Windows                  2 hrs 29 mins       █████████████████████░░░░   84.76 % 
+WSL                      14 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.42 % 
+Linux                    12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.82 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 3 hrs (61.98%)
+⏱ AI Coding Time: 1 hr 5 mins (37.29%)
 
-✍️ 4,867 lines written by AI, 2,522 lines written by hand (65.87% AI-written)
+✍️ 385 lines written by AI, 2,522 lines written by hand (13.24% AI-written)
 
-🔤 948,321 Input Tokens, 262,236 Output Tokens
+🔤 612,707 Input Tokens, 72,872 Output Tokens
 
-💵 $111.22 Estimated AI Cost This Week
+💵 $79.09 Estimated AI Cost This Week
 
-🧠 14 AI Sessions, 37 AI Prompts
+🧠 1 AI Sessions, 17 AI Prompts
 
-Mimo                     2,958 lines         ██████████████████████░░░   87.70 % 
-Spark                    415 lines           ███░░░░░░░░░░░░░░░░░░░░░░   12.30 % 
+Spark                    415 lines           █████████████████████████   100.00 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-⚖️ Balanced with AI — 65.87% of written lines came from AI
-📄 Detailed Prompter — average 1,334 characters per prompt
-🔁 Iterative Prompter — average 3 prompts per session
-🔍 Hands-On Reviewer — 53.29% of changed lines were hand-edited
+🧑‍💻 Mostly Hands-On — 13.24% of written lines came from AI
+📄 Detailed Prompter — average 1,194 characters per prompt
+🔁 Iterative Prompter — average 17 prompts per session
+🔍 Hands-On Reviewer — 93.1% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
