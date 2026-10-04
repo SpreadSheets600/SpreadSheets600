@@ -310,26 +310,26 @@
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-166%20hrs%208%20mins-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-20.21%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-20.18%20million%20lines%20of%20code-blue?style=flat)
 
-**I'm an Early 🐤** 
+**I'm a Night 🦉** 
 
 ```text
-🌞 Morning                1793 commits        ███████░░░░░░░░░░░░░░░░░░   27.73 % 
-🌆 Daytime                1482 commits        ██████░░░░░░░░░░░░░░░░░░░   22.92 % 
-🌃 Evening                2866 commits        ███████████░░░░░░░░░░░░░░   44.32 % 
-🌙 Night                  326 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 % 
+🌞 Morning                1693 commits        ███████░░░░░░░░░░░░░░░░░░   26.59 % 
+🌆 Daytime                1483 commits        ██████░░░░░░░░░░░░░░░░░░░   23.30 % 
+🌃 Evening                2864 commits        ███████████░░░░░░░░░░░░░░   44.99 % 
+🌙 Night                  326 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.12 % 
 ```
 📅 **I'm Most Productive on Friday** 
 
 ```text
-Monday                   899 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.90 % 
-Tuesday                  767 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.86 % 
-Wednesday                823 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.73 % 
-Thursday                 600 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.28 % 
-Friday                   1180 commits        █████░░░░░░░░░░░░░░░░░░░░   18.25 % 
-Saturday                 1175 commits        █████░░░░░░░░░░░░░░░░░░░░   18.17 % 
-Sunday                   1023 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.82 % 
+Monday                   899 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.12 % 
+Tuesday                  658 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
+Wednesday                831 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.05 % 
+Thursday                 597 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.38 % 
+Friday                   1182 commits        █████░░░░░░░░░░░░░░░░░░░░   18.57 % 
+Saturday                 1175 commits        █████░░░░░░░░░░░░░░░░░░░░   18.46 % 
+Sunday                   1024 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.09 % 
 ```
 
 
@@ -380,11 +380,11 @@ Opencode-Cli             0 lines             ░░░░░░░░░░░�
 **I Mostly Code in Python** 
 
 ```text
-Python                   61 repos            ██████████░░░░░░░░░░░░░░░   39.35 % 
-HTML                     25 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.13 % 
-Astro                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.58 % 
-Java                     3 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.94 % 
-C                        2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.29 % 
+Python                   60 repos            ██████████░░░░░░░░░░░░░░░   38.96 % 
+HTML                     25 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.23 % 
+Astro                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.60 % 
+Java                     3 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.95 % 
+C                        2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.30 % 
 ```
 
 
