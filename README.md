@@ -306,9 +306,9 @@
 
 ---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C190%20hrs%2052%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C191%20hrs%2038%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-174%20hrs%206%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-175%20hrs%2038%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-20.31%20million%20lines%20of%20code-blue?style=flat)
 
@@ -339,46 +339,46 @@ Sunday                   1039 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   2 hrs 39 mins       ████████░░░░░░░░░░░░░░░░░   32.74 % 
-TypeScript               2 hrs 18 mins       ███████░░░░░░░░░░░░░░░░░░   28.32 % 
-Markdown                 1 hr 9 mins         ████░░░░░░░░░░░░░░░░░░░░░   14.22 % 
-Bash                     46 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.50 % 
-Dart                     31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.37 % 
+Python                   2 hrs 39 mins       ███████░░░░░░░░░░░░░░░░░░   27.49 % 
+TypeScript               2 hrs 31 mins       ███████░░░░░░░░░░░░░░░░░░   26.14 % 
+Markdown                 1 hr 39 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.09 % 
+Other                    47 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.17 % 
+Bash                     46 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.98 % 
 
 🔥 Editors: 
-VS Code                  7 hrs               ██████████████████████░░░   86.15 % 
-Antigravity CLI          53 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.93 % 
-ZCode                    14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.92 % 
+VS Code                  7 hrs 4 mins        ██████████████████░░░░░░░   73.04 % 
+Antigravity CLI          2 hrs 22 mins       ██████░░░░░░░░░░░░░░░░░░░   24.51 % 
+ZCode                    14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.46 % 
 
 💻 Operating System: 
-WSL                      8 hrs 4 mins        █████████████████████████   99.39 % 
-Windows                  2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 % 
+WSL                      9 hrs 37 mins       █████████████████████████   99.49 % 
+Windows                  2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.51 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 7 hrs 42 mins (94.84%)
+⏱ AI Coding Time: 9 hrs 14 mins (95.43%)
 
-✍️ 22,343 lines written by AI, 97 lines written by hand (99.57% AI-written)
+✍️ 34,003 lines written by AI, 103 lines written by hand (99.7% AI-written)
 
-🔤 3,416,235 Input Tokens, 677,113 Output Tokens
+🔤 4,994,189 Input Tokens, 1,009,760 Output Tokens
 
-💵 $486.58 Estimated AI Cost This Week
+💵 $496.53 Estimated AI Cost This Week
 
-🧠 17 AI Sessions, 68 AI Prompts
+🧠 22 AI Sessions, 82 AI Prompts
 
-Spark                    14,212 lines        ████████████████░░░░░░░░░   62.79 % 
-Step                     4,828 lines         █████░░░░░░░░░░░░░░░░░░░░   21.33 % 
-ZCode                    3,594 lines         ████░░░░░░░░░░░░░░░░░░░░░   15.88 % 
+Spark                    14,212 lines        ██████████░░░░░░░░░░░░░░░   41.44 % 
+Gemini                   11,660 lines        ████████░░░░░░░░░░░░░░░░░   34.00 % 
+Step                     4,828 lines         ████░░░░░░░░░░░░░░░░░░░░░   14.08 % 
+ZCode                    3,594 lines         ███░░░░░░░░░░░░░░░░░░░░░░   10.48 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-GLM                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.57% of written lines came from AI
-📚 Verbose Prompter — average 1,548 characters per prompt
+🤖 AI-Driven — 99.7% of written lines came from AI
+📄 Detailed Prompter — average 1,393 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 0.47% of changed lines were hand-edited
+🚀 High AI Trust — 0.33% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
