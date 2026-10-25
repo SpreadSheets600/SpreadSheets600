@@ -315,21 +315,21 @@
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1842 commits        ███████░░░░░░░░░░░░░░░░░░   27.77 % 
-🌆 Daytime                1557 commits        ██████░░░░░░░░░░░░░░░░░░░   23.47 % 
-🌃 Evening                2903 commits        ███████████░░░░░░░░░░░░░░   43.76 % 
-🌙 Night                  332 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
+🌞 Morning                1851 commits        ███████░░░░░░░░░░░░░░░░░░   27.82 % 
+🌆 Daytime                1560 commits        ██████░░░░░░░░░░░░░░░░░░░   23.45 % 
+🌃 Evening                2910 commits        ███████████░░░░░░░░░░░░░░   43.74 % 
+🌙 Night                  332 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.99 % 
 ```
 📅 **I'm Most Productive on Saturday** 
 
 ```text
-Monday                   907 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.67 % 
-Tuesday                  767 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.56 % 
-Wednesday                901 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.58 % 
-Thursday                 625 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.42 % 
-Friday                   1182 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.82 % 
-Saturday                 1218 commits        █████░░░░░░░░░░░░░░░░░░░░   18.36 % 
-Sunday                   1034 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.59 % 
+Monday                   907 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.63 % 
+Tuesday                  767 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.53 % 
+Wednesday                914 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.74 % 
+Thursday                 625 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.39 % 
+Friday                   1185 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.81 % 
+Saturday                 1220 commits        █████░░░░░░░░░░░░░░░░░░░░   18.34 % 
+Sunday                   1035 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.56 % 
 ```
 
 
@@ -339,44 +339,43 @@ Sunday                   1034 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Markdown                 5 hrs 35 mins       ████████░░░░░░░░░░░░░░░░░   31.46 % 
-Python                   5 hrs 24 mins       ████████░░░░░░░░░░░░░░░░░   30.40 % 
-QML                      1 hr 37 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.10 % 
-Bash                     1 hr 31 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.56 % 
-JSON                     50 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.73 % 
+Python                   4 hrs 52 mins       █████████░░░░░░░░░░░░░░░░   37.81 % 
+Markdown                 4 hrs 28 mins       █████████░░░░░░░░░░░░░░░░   34.71 % 
+Bash                     54 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.99 % 
+Other                    40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.21 % 
+KDL                      37 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.82 % 
 
 🔥 Editors: 
-VS Code                  10 hrs 1 min        ██████████████░░░░░░░░░░░   56.29 % 
-Opencode Cli             6 hrs 4 mins        █████████░░░░░░░░░░░░░░░░   34.08 % 
-OpenCode                 1 hr 42 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.64 % 
+VS Code                  8 hrs 22 mins       ████████████████░░░░░░░░░   64.98 % 
+Opencode Cli             3 hrs 10 mins       ██████░░░░░░░░░░░░░░░░░░░   24.59 % 
+OpenCode                 1 hr 20 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.43 % 
 
 💻 Operating System: 
-Linux                    17 hrs 48 mins      █████████████████████████   100.00 % 
+Linux                    12 hrs 53 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 17 hrs 2 mins (95.73%)
+⏱ AI Coding Time: 12 hrs 36 mins (97.74%)
 
-✍️ 29,908 lines written by AI, 211 lines written by hand (99.3% AI-written)
+✍️ 25,334 lines written by AI, 172 lines written by hand (99.33% AI-written)
 
-🔤 9,027,075 Input Tokens, 2,221,596 Output Tokens
+🔤 6,877,775 Input Tokens, 1,553,320 Output Tokens
 
-💵 $897.25 Estimated AI Cost This Week
+💵 $709.93 Estimated AI Cost This Week
 
-🧠 29 AI Sessions, 114 AI Prompts
+🧠 23 AI Sessions, 90 AI Prompts
 
-DeepSeek                 20,922 lines        █████████████████░░░░░░░░   69.46 % 
-GLM                      6,363 lines         █████░░░░░░░░░░░░░░░░░░░░   21.13 % 
-Nemotron                 2,835 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   09.41 % 
-Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+DeepSeek                 16,305 lines        ████████████████░░░░░░░░░   63.93 % 
+GLM                      6,363 lines         ██████░░░░░░░░░░░░░░░░░░░   24.95 % 
+Nemotron                 2,835 lines         ███░░░░░░░░░░░░░░░░░░░░░░   11.12 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.3% of written lines came from AI
-📄 Detailed Prompter — average 892 characters per prompt
+🤖 AI-Driven — 99.33% of written lines came from AI
+📄 Detailed Prompter — average 916 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 1.07% of changed lines were hand-edited
+🚀 High AI Trust — 1.11% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
