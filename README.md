@@ -147,32 +147,21 @@
   </tr>
 </table>
 
-<table>
+<table width="100%">
   <tr>
-    <th colspan="2">Status<img align="right" src="assets/spacer.svg" width="800" height="1" alt=""></th>
+    <th>Status</th>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
-      <details>
-        <summary>Discord</summary>
-        <br>
-        <a href="https://discord.com/users/727012870683885578">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://lanyard.cnrad.dev/api/727012870683885578?theme=dark&bg=0d1117">
-            <img src="https://lanyard.cnrad.dev/api/727012870683885578?theme=light&bg=ffffff" alt="Discord status">
-          </picture>
-        </a>
-      </details>
-    </td>
+    <td><a href="https://discord.com/users/727012870683885578"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://spreadsheets600-api.spreadsheets600.workers.dev/discord?theme=dark">
+        <img alt="Discord status" src="https://spreadsheets600-api.spreadsheets600.workers.dev/discord?theme=light" width="100%">
+      </picture></a></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
-      <details>
-        <summary>Spotify</summary>
-        <br>
-        <a href="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=x4o0yd3uqpjbzgo1atn61ik6l&cover_image=true&theme=natemoo-re&show_offline=false&background_color=0d1117&interchange=true" alt="Spotify"></a>
-      </details>
-    </td>
+    <td><a href="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://spreadsheets600-api.spreadsheets600.workers.dev/spotify?theme=dark">
+        <img alt="Spotify last played" src="https://spreadsheets600-api.spreadsheets600.workers.dev/spotify?theme=light" width="100%">
+      </picture></a></td>
   </tr>
 </table>
 

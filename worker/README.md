@@ -21,6 +21,8 @@ a day, so GitHub's image cache never serves a stale card.
 | `GET /pfp` | `302` to the GitHub avatar |
 | `GET /ascii` | Plain-text terminal card (the current minimal renderer) |
 | `GET /snapshot` | Full JSON for GitHub, WakaTime, Steam, Spotify, and AniList |
+| `GET /discord` | Live Discord presence card as SVG (`?theme=dark\|light`) |
+| `GET /spotify` | Now playing or last played Spotify card as SVG (`?theme=dark\|light`) |
 
 JSON and text responses send `access-control-allow-origin: *`. `OPTIONS`
 requests return `204`, so the API can be called from a browser or another

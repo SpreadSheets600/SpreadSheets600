@@ -41,10 +41,10 @@ class Cache:
 
         return None
 
-    async def set(self, key, value, ttl):
+    async def set(self, key, value, ttl, persist=True):
         _MEM[key] = (time.time() + ttl, value)
 
-        if self._kv is not None:
+        if persist and self._kv is not None:
             try:
                 await self._kv.put(key, json.dumps(value), expirationTtl=ttl)
 

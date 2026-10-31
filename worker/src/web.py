@@ -11,6 +11,18 @@ def json_response(data, status=200, cache="public, max-age=60"):
     )
 
 
+def svg_response(svg, status=200, cache="no-cache, max-age=0"):
+    return Response(
+        svg,
+        status=status,
+        headers={
+            **CORS,
+            "content-type": "image/svg+xml; charset=utf-8",
+            "cache-control": cache,
+        },
+    )
+
+
 def text_response(text, status=200, cache="public, max-age=60"):
     return Response(
         text,

@@ -6,6 +6,7 @@ compatibility_flags = ["python_workers"]
 [vars]
 GITHUB_LOGIN = "SpreadSheets600"
 STEAM_ID = "76561199634156460"
+DISCORD_ID = "727012870683885578"
 ANILIST_USERNAME = "SpreadSheeets"
 WALLPAPER_REPO = "SpreadSheets600/Wallpapers"
 WALLPAPER_BRANCH = "master"

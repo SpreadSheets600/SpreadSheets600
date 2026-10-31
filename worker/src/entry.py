@@ -4,10 +4,11 @@ from urllib.parse import parse_qs, urlparse
 
 from ascii import render
 from cache import Cache
+from cards import discord_svg, notice, spotify_svg
 from config import load
 from sources import anilist, github, spotify, steam, wakatime
 from wallpapers import pick
-from web import json_response, text_response
+from web import json_response, svg_response, text_response
 from workers import Response, WorkerEntrypoint
 
 SNAPSHOT_TTL = 60 * 15
@@ -45,6 +46,8 @@ class Default(WorkerEntrypoint):
                             "/pfp",
                             "/ascii",
                             "/snapshot",
+                            "/discord",
+                            "/spotify",
                         ],
                     }
                 )
@@ -68,6 +71,9 @@ class Default(WorkerEntrypoint):
             if path == "/snapshot":
                 snapshot = await snapshot_data(config, cache)
                 return json_response(snapshot, cache="public, max-age=900")
+
+            if path in ("/discord", "/spotify"):
+                return await card(path, config, cache, params)
 
             return json_response({"Error": "Not Found"}, status=404)
 
@@ -97,6 +103,25 @@ def health(config):
             "anilist": bool(config.anilist_username),
         },
     }
+
+
+async def card(path, config, cache, params):
+    theme = (params.get("theme") or ["dark"])[0]
+    theme = theme if theme in ("dark", "light") else "dark"
+    render_card = discord_svg if path == "/discord" else spotify_svg
+
+    try:
+        return svg_response(await render_card(config, cache, theme))
+
+    except Exception as error:
+        print(f"Card {path} Failed: {error}")
+
+        return svg_response(
+            notice(
+                f"{path[1:].capitalize()} is unavailable right now", theme, path[1:]
+            ),
+            cache="no-cache, max-age=0",
+        )
 
 
 async def header(config, cache, params):

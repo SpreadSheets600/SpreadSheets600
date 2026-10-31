@@ -11,6 +11,7 @@ class Config:
     spotify_client_id: str | None
     spotify_client_secret: str | None
     spotify_refresh_token: str | None
+    discord_id: str | None
     anilist_username: str
     wallpaper_repo: str
     wallpaper_branch: str
@@ -42,6 +43,7 @@ def load(env):
         spotify_client_id=_get(env, "SPOTIFY_CLIENT_ID") or None,
         spotify_client_secret=_get(env, "SPOTIFY_CLIENT_SECRET") or None,
         spotify_refresh_token=_get(env, "SPOTIFY_REFRESH_TOKEN") or None,
+        discord_id=_get(env, "DISCORD_ID") or None,
         anilist_username=_get(env, "ANILIST_USERNAME", "SpreadSheeets"),
         wallpaper_repo=_get(env, "WALLPAPER_REPO", "SpreadSheets600/Wallpapers"),
         wallpaper_branch=_get(env, "WALLPAPER_BRANCH", "gh-pages"),
