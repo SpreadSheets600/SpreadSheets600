@@ -1,0 +1,45 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "30 0,12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Refresh README
+        env:
+          PROFILE_API_BASE: ${{ vars.PROFILE_API_BASE }}
+          ANILIST_USERNAME: SpreadSheeets
+        run: |
+          if [ -z "$PROFILE_API_BASE" ]; then
+            echo "Set the PROFILE_API_BASE repository variable to the deployed worker URL." >&2
+            exit 1
+          fi
+          python3 .github/scripts/update_profile.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile"
+          git pull --rebase origin main
+          git push

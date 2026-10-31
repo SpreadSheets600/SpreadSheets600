@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="184" viewBox="0 0 392 184" role="img" aria-label="Contributions by weekday" font-family='ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif'>
+<text x="24.0" y="34.0" font-size="11" font-weight="600" fill="#8b949e" text-anchor="start" letter-spacing="0.08em">WEEKDAYS</text>
+<rect x="35.6" y="85.7" width="26.0" height="58.3" rx="3" fill="#327943"/>
+<text x="48.6" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Mon</text>
+<rect x="84.7" y="76.8" width="26.0" height="67.2" rx="3" fill="#327943"/>
+<text x="97.7" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Tue</text>
+<rect x="133.9" y="72.6" width="26.0" height="71.4" rx="3" fill="#327943"/>
+<text x="146.9" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Wed</text>
+<rect x="183.0" y="77.8" width="26.0" height="66.2" rx="3" fill="#327943"/>
+<text x="196.0" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Thu</text>
+<rect x="232.1" y="66.7" width="26.0" height="77.3" rx="3" fill="#327943"/>
+<text x="245.1" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Fri</text>
+<rect x="281.3" y="76.5" width="26.0" height="67.5" rx="3" fill="#327943"/>
+<text x="294.3" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Sat</text>
+<rect x="330.4" y="62.0" width="26.0" height="82.0" rx="3" fill="#3fb950"/>
+<text x="343.4" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Sun</text>
+</svg>

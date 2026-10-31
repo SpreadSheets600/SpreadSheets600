@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="184" viewBox="0 0 392 184" role="img" aria-label="GitHub activity" font-family='ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif'>
+<text x="24.0" y="34.0" font-size="11" font-weight="600" fill="#8b949e" text-anchor="start" letter-spacing="0.08em">ACTIVITY</text>
+<text x="24.0" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">1d</text>
+<text x="24.0" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">current streak</text>
+<text x="138.7" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">80d</text>
+<text x="138.7" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">longest streak</text>
+<text x="253.3" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">309</text>
+<text x="253.3" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">active days</text>
+<text x="24.0" y="140.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">10.9</text>
+<text x="24.0" y="158.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">per day</text>
+<text x="138.7" y="140.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">128</text>
+<text x="138.7" y="158.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">best day</text>
+<text x="253.3" y="140.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">31%</text>
+<text x="253.3" y="158.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">on weekends</text>
+</svg>

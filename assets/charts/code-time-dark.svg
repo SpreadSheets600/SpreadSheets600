@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="210" viewBox="0 0 800 210" role="img" aria-label="WakaTime coding activity" font-family='ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif'>
+<text x="24.0" y="34.0" font-size="11" font-weight="600" fill="#8b949e" text-anchor="start" letter-spacing="0.08em">CODE TIME</text>
+<text x="24.0" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">1,236h</text>
+<text x="24.0" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">all time</text>
+<text x="24.0" y="140.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">14h 00m</text>
+<text x="24.0" y="158.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">last 7 days</text>
+<rect x="180.0" y="150.9" width="20.0" height="5.1" rx="3" fill="#327943"/>
+<text x="190.0" y="174.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Sun</text>
+<rect x="216.0" y="153.0" width="20.0" height="3.0" rx="3" fill="#327943"/>
+<text x="226.0" y="174.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Mon</text>
+<rect x="252.0" y="140.0" width="20.0" height="16.0" rx="3" fill="#327943"/>
+<text x="262.0" y="174.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Tue</text>
+<rect x="288.0" y="125.5" width="20.0" height="30.5" rx="3" fill="#327943"/>
+<text x="298.0" y="174.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Wed</text>
+<rect x="324.0" y="76.0" width="20.0" height="80.0" rx="3" fill="#3fb950"/>
+<text x="334.0" y="174.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Thu</text>
+<rect x="360.0" y="153.0" width="20.0" height="3.0" rx="3" fill="#232a33"/>
+<text x="370.0" y="174.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Fri</text>
+<rect x="396.0" y="145.1" width="20.0" height="10.9" rx="3" fill="#327943"/>
+<text x="406.0" y="174.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Sat</text>
+<text x="450.0" y="56.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">Languages</text>
+<text x="450.0" y="80.0" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">Python</text>
+<text x="600.0" y="80.0" font-size="12" font-weight="400" fill="#8b949e" text-anchor="end">42%</text>
+<rect x="450.0" y="88.0" width="150.0" height="4.0" rx="2" fill="#232a33"/>
+<rect x="450.0" y="88.0" width="63.0" height="4.0" rx="2" fill="#3fb950"/>
+<text x="450.0" y="106.0" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">Markdown</text>
+<text x="600.0" y="106.0" font-size="12" font-weight="400" fill="#8b949e" text-anchor="end">30%</text>
+<rect x="450.0" y="114.0" width="150.0" height="4.0" rx="2" fill="#232a33"/>
+<rect x="450.0" y="114.0" width="44.9" height="4.0" rx="2" fill="#3fb950"/>
+<text x="450.0" y="132.0" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">Bash</text>
+<text x="600.0" y="132.0" font-size="12" font-weight="400" fill="#8b949e" text-anchor="end">9%</text>
+<rect x="450.0" y="140.0" width="150.0" height="4.0" rx="2" fill="#232a33"/>
+<rect x="450.0" y="140.0" width="12.8" height="4.0" rx="2" fill="#3fb950"/>
+<text x="450.0" y="158.0" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">Other</text>
+<text x="600.0" y="158.0" font-size="12" font-weight="400" fill="#8b949e" text-anchor="end">7%</text>
+<rect x="450.0" y="166.0" width="150.0" height="4.0" rx="2" fill="#232a33"/>
+<rect x="450.0" y="166.0" width="9.9" height="4.0" rx="2" fill="#3fb950"/>
+<text x="450.0" y="184.0" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">Git Config</text>
+<text x="600.0" y="184.0" font-size="12" font-weight="400" fill="#8b949e" text-anchor="end">3%</text>
+<rect x="450.0" y="192.0" width="150.0" height="4.0" rx="2" fill="#232a33"/>
+<rect x="450.0" y="192.0" width="5.2" height="4.0" rx="2" fill="#3fb950"/>
+<text x="640.0" y="56.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">Editors</text>
+<text x="640.0" y="80.0" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">VS Code</text>
+<text x="776.0" y="80.0" font-size="12" font-weight="400" fill="#8b949e" text-anchor="end">61%</text>
+<rect x="640.0" y="88.0" width="136.0" height="4.0" rx="2" fill="#232a33"/>
+<rect x="640.0" y="88.0" width="82.7" height="4.0" rx="2" fill="#3fb950"/>
+<text x="640.0" y="106.0" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">Opencode Cli</text>
+<text x="776.0" y="106.0" font-size="12" font-weight="400" fill="#8b949e" text-anchor="end">30%</text>
+<rect x="640.0" y="114.0" width="136.0" height="4.0" rx="2" fill="#232a33"/>
+<rect x="640.0" y="114.0" width="40.2" height="4.0" rx="2" fill="#3fb950"/>
+<text x="640.0" y="132.0" font-size="12" font-weight="400" fill="#e6edf3" text-anchor="start">Zed</text>
+<text x="776.0" y="132.0" font-size="12" font-weight="400" fill="#8b949e" text-anchor="end">3%</text>
+<rect x="640.0" y="140.0" width="136.0" height="4.0" rx="2" fill="#232a33"/>
+<rect x="640.0" y="140.0" width="4.4" height="4.0" rx="2" fill="#3fb950"/>
+</svg>

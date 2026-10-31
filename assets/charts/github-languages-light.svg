@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="184" viewBox="0 0 392 184" role="img" aria-label="Top languages" font-family='ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif'>
+<text x="24.0" y="34.0" font-size="11" font-weight="600" fill="#656d76" text-anchor="start" letter-spacing="0.08em">LANGUAGES</text>
+<text x="24.0" y="60.0" font-size="12" font-weight="400" fill="#1f2328" text-anchor="start">Python</text>
+<text x="368.0" y="60.0" font-size="12" font-weight="400" fill="#656d76" text-anchor="end">33%</text>
+<rect x="24.0" y="68.0" width="344.0" height="4.0" rx="2" fill="#e8ebef"/>
+<rect x="24.0" y="68.0" width="112.3" height="4.0" rx="2" fill="#1f883d"/>
+<text x="24.0" y="86.0" font-size="12" font-weight="400" fill="#1f2328" text-anchor="start">JavaScript</text>
+<text x="368.0" y="86.0" font-size="12" font-weight="400" fill="#656d76" text-anchor="end">12%</text>
+<rect x="24.0" y="94.0" width="344.0" height="4.0" rx="2" fill="#e8ebef"/>
+<rect x="24.0" y="94.0" width="39.8" height="4.0" rx="2" fill="#1f883d"/>
+<text x="24.0" y="112.0" font-size="12" font-weight="400" fill="#1f2328" text-anchor="start">HTML</text>
+<text x="368.0" y="112.0" font-size="12" font-weight="400" fill="#656d76" text-anchor="end">12%</text>
+<rect x="24.0" y="120.0" width="344.0" height="4.0" rx="2" fill="#e8ebef"/>
+<rect x="24.0" y="120.0" width="39.8" height="4.0" rx="2" fill="#1f883d"/>
+<text x="24.0" y="138.0" font-size="12" font-weight="400" fill="#1f2328" text-anchor="start">TypeScript</text>
+<text x="368.0" y="138.0" font-size="12" font-weight="400" fill="#656d76" text-anchor="end">7%</text>
+<rect x="24.0" y="146.0" width="344.0" height="4.0" rx="2" fill="#e8ebef"/>
+<rect x="24.0" y="146.0" width="25.3" height="4.0" rx="2" fill="#1f883d"/>
+<text x="24.0" y="164.0" font-size="12" font-weight="400" fill="#1f2328" text-anchor="start">Jupyter Notebook</text>
+<text x="368.0" y="164.0" font-size="12" font-weight="400" fill="#656d76" text-anchor="end">6%</text>
+<rect x="24.0" y="172.0" width="344.0" height="4.0" rx="2" fill="#e8ebef"/>
+<rect x="24.0" y="172.0" width="21.7" height="4.0" rx="2" fill="#1f883d"/>
+</svg>
