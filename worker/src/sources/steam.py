@@ -14,8 +14,7 @@ STATUS = {
     6: "looking to play",
 }
 
-# Each appid costs one subrequest for achievements and one for rarity.
-# Keep this small: Cloudflare Workers Free allows 50 subrequests per request.
+
 ACHIEVEMENT_GAME_LIMIT = 8
 TOP_GAME_LIMIT = 5
 
@@ -83,7 +82,6 @@ async def _achievements(config, appid):
             if latest
             else None
         ),
-        # Only what the rarity pass needs; removed before returning.
         "items": [
             {"apiname": item.get("apiname"), "name": item.get("name")}
             for item in unlocked
@@ -166,8 +164,6 @@ async def fetch_stats(config):
         reverse=True,
     )[:TOP_GAME_LIMIT]
 
-    # Steam returns recently played games newest first, which is the only
-    # reliable "latest". Ranking owned games by rtime_last_played can disagree.
     played = [game for game in games if game.get("rtime_last_played")]
     last_played = max(played, key=lambda game: game["rtime_last_played"], default=None)
     latest_game = (recent_games or [None])[0] or last_played
@@ -183,8 +179,6 @@ async def fetch_stats(config):
         for game in recent_games
     ]
 
-    # Top played + recently played gives the most interesting achievement
-    # coverage without spending a subrequest on every owned game.
     candidates = []
 
     for game in top_games + recent_games:

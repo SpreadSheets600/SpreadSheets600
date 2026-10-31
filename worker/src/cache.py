@@ -1,10 +1,10 @@
 import json
 import time
 
-_MEM: dict[str, tuple[float, object]] = {}
+_MEM = {}
 
 
-def _binding(env, name: str):
+def _binding(env, name):
     try:
         value = getattr(env, name)
 
@@ -20,7 +20,7 @@ class Cache:
     def __init__(self, env):
         self._kv = _binding(env, "CACHE")
 
-    async def get(self, key: str):
+    async def get(self, key):
         hit = _MEM.get(key)
 
         if hit and hit[0] > time.time():
@@ -41,7 +41,7 @@ class Cache:
 
         return None
 
-    async def set(self, key: str, value, ttl: int) -> None:
+    async def set(self, key, value, ttl):
         _MEM[key] = (time.time() + ttl, value)
 
         if self._kv is not None:

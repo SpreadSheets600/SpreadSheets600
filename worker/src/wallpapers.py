@@ -8,11 +8,11 @@ RAW_URL = "https://raw.githubusercontent.com/{repo}/{branch}/{path}"
 ALLOWED_DIRS = {"thumbs", "headers", "Wallpapers"}
 IMAGE_SUFFIXES = (".webp", ".jpg", ".jpeg", ".png")
 
-# GitHub proxies README images and refuses anything over 5 MB.
+
 MAX_BYTES = 4_500_000
 
 
-async def _list(config, cache, directory: str):
+async def _list(config, cache, directory):
     key = f"wallpapers:v2:{config.wallpaper_repo}:{config.wallpaper_branch}:{directory}"
     cached = await cache.get(key)
 
@@ -56,7 +56,7 @@ async def _list(config, cache, directory: str):
     return paths
 
 
-async def pick(config, cache, directory: str | None = None):
+async def pick(config, cache, directory=None):
     directory = directory or config.wallpaper_dir
 
     if directory not in ALLOWED_DIRS:

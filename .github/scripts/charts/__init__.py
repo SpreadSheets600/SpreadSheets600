@@ -1,14 +1,3 @@
-"""Render every profile chart as a light and dark SVG pair.
-
-Each entry in ``CHARTS`` is ``(file stem, snapshot source, builder)``. A builder
-takes that source's ``data`` and a ``Theme`` and returns an SVG string. To add a
-chart: write a builder, then register it here.
-"""
-
-from __future__ import annotations
-
-from pathlib import Path
-
 from . import anilist, github, steam, wakatime
 from .theme import THEMES
 
@@ -29,11 +18,7 @@ CHARTS = [
 ]
 
 
-def render_all(snapshot: dict, out_dir: Path) -> int:
-    """Write ``<stem>-<theme>.svg`` for every chart; return the file count.
-
-    A source that failed (``ok`` is false) keeps its previous files untouched.
-    """
+def render_all(snapshot, out_dir):
     out_dir.mkdir(parents=True, exist_ok=True)
     written = 0
     for stem, source, builder in CHARTS:

@@ -3,15 +3,15 @@ import unicodedata
 INNER = 42
 
 
-def _char_width(char: str):
+def _char_width(char):
     return 2 if unicodedata.east_asian_width(char) in ("W", "F") else 1
 
 
-def _width(text: str):
+def _width(text):
     return sum(_char_width(char) for char in text)
 
 
-def _fit(text, limit: int):
+def _fit(text, limit):
     text = str(text)
 
     if _width(text) <= limit:
@@ -32,21 +32,21 @@ def _fit(text, limit: int):
     return "".join(kept) + "..."
 
 
-def _pad(text: str, limit: int):
+def _pad(text, limit):
     return text + " " * max(0, limit - _width(text))
 
 
-def _line(label: str, value):
+def _line(label, value):
     body = f" {label:<8} {_fit(value, INNER - 10)}"
     return "│" + _pad(body, INNER) + "│"
 
 
-def _data(snapshot: dict, key: str):
+def _data(snapshot, key):
     entry = snapshot.get(key) or {}
     return entry.get("data") or {}
 
 
-def render(snapshot: dict):
+def render(snapshot):
     anilist = _data(snapshot, "anilist")
     steam = _data(snapshot, "steam")
     github = _data(snapshot, "github")

@@ -5,7 +5,7 @@ from workers import fetch
 BASE = "https://wakatime.com/api/v1"
 
 
-def _headers(config) -> dict:
+def _headers(config):
     encoded = base64.b64encode(config.wakatime_api_key.encode()).decode()
     return {"authorization": f"Basic {encoded}"}
 
@@ -37,8 +37,8 @@ async def fetch_stats(config):
     week_data = await week.json()
 
     days = week_data.get("data") or []
-    languages: dict[str, float] = {}
-    editors: dict[str, float] = {}
+    languages = {}
+    editors = {}
 
     for day in days:
         for language in day.get("languages") or []:

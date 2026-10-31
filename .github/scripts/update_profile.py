@@ -7,9 +7,10 @@ from pathlib import Path
 
 import stack
 import steam_covers
+from charts import render_all
 
 
-def fetch(path: str) -> str:
+def fetch(path):
     base = os.environ.get("PROFILE_API_BASE", "").rstrip("/")
     if not base:
         raise SystemExit("PROFILE_API_BASE is not set")
@@ -18,22 +19,26 @@ def fetch(path: str) -> str:
         base + path,
         headers={"user-agent": "spreadsheets600-readme-action"},
     )
+
     with urllib.request.urlopen(request, timeout=30) as response:
         return response.read().decode("utf-8")
 
 
-def replace_block(readme: str, name: str, body: str) -> str:
+def replace_block(readme, name, body):
     start = f"<!--START_SECTION:{name}-->"
     end = f"<!--END_SECTION:{name}-->"
+
     pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
+
     if not pattern.search(readme):
         print(f"marker {name} not found, skipping", file=sys.stderr)
         return readme
+
     replacement = f"{start}\n{body.strip()}\n{end}"
     return pattern.sub(lambda _match: replacement, readme)
 
 
-def main() -> None:
+def main():
     with open("README.md", encoding="utf-8") as handle:
         readme = handle.read()
 
@@ -46,6 +51,7 @@ def main() -> None:
             "header",
             f'<img src="{header["url"]}" alt="Soham Maity" width="100%">',
         )
+
     except Exception as error:
         print(f"header refresh failed: {error}", file=sys.stderr)
 
@@ -62,23 +68,22 @@ def main() -> None:
                 os.environ.get("ANILIST_USERNAME", "SpreadSheeets")
             )
             snapshot["anilist"] = {"ok": True, "data": anilist_data}
+
             cache_path = Path("assets/anilist.json")
             cache_path.parent.mkdir(parents=True, exist_ok=True)
+
             cache_path.write_text(
                 json.dumps(anilist_data, indent=2, sort_keys=True) + "\n",
                 encoding="utf-8",
             )
             print("anilist: refreshed cache")
+
         except Exception as error:
             print(f"anilist refresh failed: {error}", file=sys.stderr)
-
-        from charts import render_all
 
         written = render_all(snapshot, Path("assets/charts"))
         print(f"charts: wrote {written} SVG files")
     except Exception as error:
-        # Charts are static assets. If one refresh fails, keep the previous
-        # versions in place rather than blocking the README refresh.
         print(f"chart refresh failed: {error}", file=sys.stderr)
 
     with open("README.md", "w", encoding="utf-8") as handle:

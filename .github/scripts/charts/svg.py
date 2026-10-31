@@ -1,32 +1,25 @@
-"""Tiny SVG builder plus the type scale every chart uses."""
-
-from __future__ import annotations
-
 import math
 from xml.sax.saxutils import escape
 
-from .theme import Theme
 
-# GitHub serves README SVGs through <img>, which blocks web fonts: system stack only.
 FONT = 'ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif'
 
-FULL = 800  # full-width card
-HALF = 392  # half-width card (two per table row)
-PAD = 24    # inner padding on every card
-HALF_HEIGHT = 184  # height of every half-width card
-COVER_W, COVER_H = 91, 136  # poster-style cover on media cards
+FULL = 800
+HALF = 392
+PAD = 24
+HALF_HEIGHT = 184
+COVER_W, COVER_H = 91, 136
 
 
-def num(value: float | int) -> str:
+def num(value):
     return f"{int(round(value)):,}"
 
 
-def clip(text: str, limit: int) -> str:
+def clip(text, limit):
     return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
-def wrap(text: str, width: int, lines: int) -> list[str]:
-    """Greedy word wrap to ``lines`` lines of at most ``width`` characters."""
+def wrap(text, width, lines):
     out, current = [], ""
     for word in text.split():
         if current and len(current) + 1 + len(word) > width:
@@ -41,7 +34,7 @@ def wrap(text: str, width: int, lines: int) -> list[str]:
     return out
 
 
-def duration(seconds: float) -> str:
+def duration(seconds):
     minutes = int(seconds // 60)
     hours, minutes = divmod(minutes, 60)
     if hours:
@@ -50,28 +43,39 @@ def duration(seconds: float) -> str:
 
 
 class Svg:
-    def __init__(self, width: int, height: int, theme: Theme, label: str) -> None:
+    def __init__(self, width, height, theme, label):
         self.width, self.height, self.theme, self.label = width, height, theme, label
-        self._parts: list[str] = []
-        self._defs: list[str] = []
+        self._parts = []
+        self._defs = []
 
-    def rect(self, x, y, w, h, fill, rx: float = 0) -> None:
+    def rect(self, x, y, w, h, fill, rx=0):
         self._parts.append(
             f'<rect x="{x:.1f}" y="{y:.1f}" width="{max(w, 0):.1f}" height="{h:.1f}" rx="{rx}" fill="{fill}"/>'
         )
 
-    def text(self, x, y, value, *, size=12, weight=400, fill=None, anchor="start", spacing=None) -> None:
+    def text(
+        self,
+        x,
+        y,
+        value,
+        *,
+        size=12,
+        weight=400,
+        fill=None,
+        anchor="start",
+        spacing=None,
+    ):
         extra = f' letter-spacing="{spacing}"' if spacing else ""
         self._parts.append(
             f'<text x="{x:.1f}" y="{y:.1f}" font-size="{size}" font-weight="{weight}" '
             f'fill="{fill or self.theme.fg}" text-anchor="{anchor}"{extra}>{escape(str(value))}</text>'
         )
 
-    def vline(self, x, y1=0, y2=None) -> None:
+    def vline(self, x, y1=0, y2=None):
         y2 = self.height if y2 is None else y2
         self.rect(x - 0.5, y1, 1, y2 - y1, self.theme.line)
 
-    def ring(self, cx, cy, r, fraction: float, width: float = 6) -> None:
+    def ring(self, cx, cy, r, fraction, width=6):
         c = 2 * math.pi * r
         base = f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke-width="{width}"'
         self._parts.append(f'{base} stroke="{self.theme.track}"/>')
@@ -80,35 +84,45 @@ class Svg:
             f'stroke-dasharray="{max(fraction, 0.02) * c:.1f} {c:.1f}" transform="rotate(-90 {cx} {cy})"/>'
         )
 
-    def image(self, x, y, w, h, href: str, rx: float = 0) -> None:
+    def image(self, x, y, w, h, href, rx=0):
         clip_id = f"clip{len(self._defs)}"
-        self._defs.append(f'<clipPath id="{clip_id}"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}"/></clipPath>')
+        self._defs.append(
+            f'<clipPath id="{clip_id}"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}"/></clipPath>'
+        )
         self._parts.append(
             f'<image x="{x}" y="{y}" width="{w}" height="{h}" href="{href}" '
             f'preserveAspectRatio="xMidYMid slice" clip-path="url(#{clip_id})"/>'
         )
 
-    # -- shared building blocks -------------------------------------------------
+    def caption(self, value, x=PAD, y=34):
+        self.text(
+            x,
+            y,
+            value.upper(),
+            size=11,
+            weight=600,
+            fill=self.theme.muted,
+            spacing="0.08em",
+        )
 
-    def caption(self, value: str, x: float = PAD, y: float = 34) -> None:
-        self.text(x, y, value.upper(), size=11, weight=600, fill=self.theme.muted, spacing="0.08em")
-
-    def stat(self, x: float, y: float, value: str, label: str) -> None:
+    def stat(self, x, y, value, label):
         self.text(x, y, value, size=22, weight=600)
         self.text(x, y + 18, label, size=11, fill=self.theme.muted)
 
-    def bar_row(self, x: float, y: float, width: float, label: str, fraction: float, value: str) -> None:
-        """Label + value on one line, thin bar underneath."""
+    def bar_row(self, x, y, width, label, fraction, value):
         self.text(x, y, label)
         self.text(x + width, y, value, fill=self.theme.muted, anchor="end")
         self.rect(x, y + 8, width, 4, self.theme.track, rx=2)
-        self.rect(x, y + 8, max(width * fraction, 4) if fraction > 0 else 0, 4, self.theme.accent, rx=2)
+        self.rect(
+            x,
+            y + 8,
+            max(width * fraction, 4) if fraction > 0 else 0,
+            4,
+            self.theme.accent,
+            rx=2,
+        )
 
-    def media(self, caption: str, title: str, cover: str | None) -> tuple[float, float]:
-        """Cover on the left, caption and wrapped title on the right.
-
-        Returns the x and width of the text column so callers can add a footer.
-        """
+    def media(self, caption, title, cover):
         x = PAD + COVER_W + 18
         self.caption(caption, x=x)
         if cover:
@@ -117,11 +131,11 @@ class Svg:
             self.text(x, 64 + i * 20, line, size=14, weight=600)
         return x, self.width - PAD - x
 
-    def render(self) -> str:
+    def render(self):
         defs = f"<defs>{''.join(self._defs)}</defs>\n" if self._defs else ""
         body = defs + "\n".join(self._parts)
         return (
             f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.width}" height="{self.height}" '
             f'viewBox="0 0 {self.width} {self.height}" role="img" aria-label="{escape(self.label)}" '
-            f'font-family=\'{FONT}\'>\n{body}\n</svg>\n'
+            f"font-family='{FONT}'>\n{body}\n</svg>\n"
         )

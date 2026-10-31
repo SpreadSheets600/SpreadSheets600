@@ -1,17 +1,28 @@
-"""AniList cards: lifetime totals, plus the latest anime and manga progress."""
-
-from __future__ import annotations
-
 from .svg import FULL, HALF, HALF_HEIGHT, PAD, Svg, num
-from .theme import Theme
 
 
-def totals(data: dict, theme: Theme) -> str:
+def totals(data, theme):
     svg = Svg(FULL, 132, theme, "AniList totals")
     anime, manga = data["anime"], data["manga"]
     blocks = [
-        (PAD, "Anime", [(num(anime["count"]), "titles"), (num(anime["episodesWatched"]), "episodes"), (f'{anime["daysWatched"]:.0f}d', "watched")]),
-        (FULL / 2 + PAD, "Manga", [(num(manga["count"]), "titles"), (num(manga["chaptersRead"]), "chapters"), (num(manga["volumesRead"]), "volumes")]),
+        (
+            PAD,
+            "Anime",
+            [
+                (num(anime["count"]), "titles"),
+                (num(anime["episodesWatched"]), "episodes"),
+                (f"{anime['daysWatched']:.0f}d", "watched"),
+            ],
+        ),
+        (
+            FULL / 2 + PAD,
+            "Manga",
+            [
+                (num(manga["count"]), "titles"),
+                (num(manga["chaptersRead"]), "chapters"),
+                (num(manga["volumesRead"]), "volumes"),
+            ],
+        ),
     ]
     svg.vline(FULL / 2)
     col_w = (FULL / 2 - 2 * PAD) / 3
@@ -22,15 +33,15 @@ def totals(data: dict, theme: Theme) -> str:
     return svg.render()
 
 
-def latest_anime(data: dict, theme: Theme) -> str:
+def latest_anime(data, theme):
     return _latest(data.get("latestAnime"), theme, "Latest anime", "Episode", "Anime")
 
 
-def latest_manga(data: dict, theme: Theme) -> str:
+def latest_manga(data, theme):
     return _latest(data.get("latestManga"), theme, "Latest manga", "Chapter", "Manga")
 
 
-def _latest(entry: dict | None, theme: Theme, caption: str, unit: str, label: str) -> str:
+def _latest(entry, theme, caption, unit, label):
     svg = Svg(HALF, HALF_HEIGHT, theme, caption)
     if not entry:
         svg.caption(caption)
@@ -40,9 +51,15 @@ def _latest(entry: dict | None, theme: Theme, caption: str, unit: str, label: st
     x, width = svg.media(caption, entry["title"], entry.get("cover"))
     progress, total = entry["progress"], entry.get("total")
     done = entry["status"] == "COMPLETED"
-    status = "Completed" if done else f"{unit} {num(progress)}" + (f" of {num(total)}" if total else "")
+    status = (
+        "Completed"
+        if done
+        else f"{unit} {num(progress)}" + (f" of {num(total)}" if total else "")
+    )
     svg.text(x, HALF_HEIGHT - 52, status, fill=theme.muted)
     if total:
         svg.rect(x, HALF_HEIGHT - 38, width, 4, theme.track, rx=2)
-        svg.rect(x, HALF_HEIGHT - 38, max(width * progress / total, 4), 4, theme.accent, rx=2)
+        svg.rect(
+            x, HALF_HEIGHT - 38, max(width * progress / total, 4), 4, theme.accent, rx=2
+        )
     return svg.render()

@@ -3,7 +3,7 @@ from workers import Response
 CORS = {"access-control-allow-origin": "*"}
 
 
-def json_response(data, status: int = 200, cache: str = "public, max-age=60"):
+def json_response(data, status=200, cache="public, max-age=60"):
     return Response.json(
         data,
         status=status,
@@ -11,7 +11,7 @@ def json_response(data, status: int = 200, cache: str = "public, max-age=60"):
     )
 
 
-def text_response(text: str, status: int = 200, cache: str = "public, max-age=60"):
+def text_response(text, status=200, cache="public, max-age=60"):
     return Response(
         text,
         status=status,

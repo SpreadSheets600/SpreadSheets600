@@ -1,20 +1,23 @@
-"""Tech stack table, rendered from the STACK mapping into the README."""
-
-from __future__ import annotations
-
 ICON_URL = "https://skillicons.dev/icons?i={name}&theme={theme}"
 PER_ROW = 3
 
-# Column -> skillicons.dev icon names. Edit this to change the README stack.
 STACK = {
     "Languages": ["python", "html", "css", "javascript", "c", "cpp", "java", "bash"],
-    "Frameworks": ["django", "flask", "nodejs", "vue", "tailwind", "tensorflow", "opencv"],
+    "Frameworks": [
+        "django",
+        "flask",
+        "nodejs",
+        "vue",
+        "tailwind",
+        "tensorflow",
+        "opencv",
+    ],
     "Databases": ["sqlite", "mongo", "mysql", "postgres"],
     "Tools": ["linux", "vscode", "sublime", "replit", "notion", "github", "discord"],
 }
 
 
-def _icon(name: str) -> str:
+def _icon(name):
     dark, light = (ICON_URL.format(name=name, theme=t) for t in ("dark", "light"))
     return (
         f'<picture><source media="(prefers-color-scheme: dark)" srcset="{dark}">'
@@ -22,12 +25,12 @@ def _icon(name: str) -> str:
     )
 
 
-def _cell(names: list[str]) -> str:
+def _cell(names):
     rows = [names[i : i + PER_ROW] for i in range(0, len(names), PER_ROW)]
     return "<br>\n      ".join(" ".join(_icon(name) for name in row) for row in rows)
 
 
-def render() -> str:
+def render():
     heads = "\n".join(f"    <th>{title}</th>" for title in STACK)
     cells = "\n".join(
         f'    <td align="center" valign="top">\n      {_cell(names)}\n    </td>'

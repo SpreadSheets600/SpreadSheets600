@@ -1,13 +1,3 @@
-"""Fetch and normalise AniList data for the profile action.
-
-AniList blocks requests from Cloudflare Workers, so the GitHub Action fetches
-the public GraphQL API and commits a small ``assets/anilist.json`` cache. The
-worker reads that cache for ``/snapshot`` and the chart renderer uses the same
-data directly.
-"""
-
-from __future__ import annotations
-
 import base64
 import json
 import urllib.request
@@ -85,7 +75,7 @@ def _statuses(items):
     ]
 
 
-def _genres(items, include_minutes: bool = False):
+def _genres(items, include_minutes=False):
     genres = []
 
     for item in items or []:
@@ -102,8 +92,7 @@ def _genres(items, include_minutes: bool = False):
     return genres
 
 
-def _latest(payload, key: str, total_field: str):
-    """Most recently updated entry that has actual progress, with its cover."""
+def _latest(payload, key, total_field):
     collection = (payload.get("data") or {}).get(key) or {}
     entries = [
         entry
@@ -131,8 +120,7 @@ def _latest(payload, key: str, total_field: str):
     }
 
 
-def _data_uri(url: str) -> str | None:
-    """Inline the cover: README SVGs are rendered as <img> and cannot load URLs."""
+def _data_uri(url):
     try:
         request = urllib.request.Request(url, headers={"user-agent": USER_AGENT})
         with urllib.request.urlopen(request, timeout=30) as response:
@@ -142,7 +130,7 @@ def _data_uri(url: str) -> str | None:
         return None
 
 
-def _normalise(payload: dict) -> dict | None:
+def _normalise(payload):
     data = payload.get("data") or {}
     user = data.get("User")
 
@@ -187,7 +175,7 @@ def _normalise(payload: dict) -> dict | None:
     }
 
 
-def fetch_anilist(username: str) -> dict:
+def fetch_anilist(username):
     body = json.dumps(
         {
             "query": QUERY,

@@ -19,7 +19,7 @@ class Config:
     profile_branch: str
 
 
-def _get(env, name: str, default: str = ""):
+def _get(env, name, default=""):
     try:
         value = getattr(env, name)
 
