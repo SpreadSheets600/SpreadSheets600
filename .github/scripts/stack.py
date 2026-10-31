@@ -1,5 +1,6 @@
 ICON_URL = "https://skillicons.dev/icons?i={name}&theme={theme}"
-PER_ROW = 3
+PER_ROW = 4
+SPACER = '<img align="right" src="assets/spacer.svg" width="200" height="1" alt="">'
 
 STACK = {
     "Languages": ["python", "html", "css", "javascript", "c", "cpp", "java", "bash"],
@@ -21,7 +22,7 @@ def _icon(name):
     dark, light = (ICON_URL.format(name=name, theme=t) for t in ("dark", "light"))
     return (
         f'<picture><source media="(prefers-color-scheme: dark)" srcset="{dark}">'
-        f'<img src="{light}" alt="{name}" width="44" height="44"></picture>'
+        f'<img src="{light}" alt="{name}" width="22%"></picture>'
     )
 
 
@@ -31,7 +32,7 @@ def _cell(names):
 
 
 def render():
-    heads = "\n".join(f"    <th>{title}</th>" for title in STACK)
+    heads = "\n".join(f"    <th>{title}{SPACER}</th>" for title in STACK)
     cells = "\n".join(
         f'    <td align="center" valign="top">\n      {_cell(names)}\n    </td>'
         for names in STACK.values()
