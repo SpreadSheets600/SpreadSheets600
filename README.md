@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/SpreadSheets600/Wallpapers/master/Wallpapers/128.jpg" alt="Soham Maity" width="100%">
+<img src="https://raw.githubusercontent.com/SpreadSheets600/Wallpapers/master/Wallpapers/127.jpg" alt="Soham Maity" width="100%">
 
 <table width="100%">
   <tr>
