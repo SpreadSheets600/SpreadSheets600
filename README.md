@@ -339,47 +339,47 @@ Sunday                   1046 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   6 hrs 51 mins       ███████████░░░░░░░░░░░░░░   43.73 % 
-Markdown                 4 hrs 50 mins       ████████░░░░░░░░░░░░░░░░░   30.91 % 
-Bash                     1 hr 13 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.80 % 
-Other                    47 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 % 
-Git Config               30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.30 % 
+Python                   6 hrs 11 mins       ████████████░░░░░░░░░░░░░   46.64 % 
+Markdown                 4 hrs 2 mins        ████████░░░░░░░░░░░░░░░░░   30.43 % 
+Bash                     1 hr 4 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.03 % 
+Other                    40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 % 
+Git Config               29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.66 % 
 
 🔥 Editors: 
-VS Code                  8 hrs 54 mins       ██████████████░░░░░░░░░░░   56.89 % 
-Opencode Cli             5 hrs 20 mins       █████████░░░░░░░░░░░░░░░░   34.06 % 
-OpenCode                 39 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.21 % 
-Zed                      27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.90 % 
-Antigravity              11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.22 % 
+VS Code                  8 hrs 7 mins        ███████████████░░░░░░░░░░   61.12 % 
+Opencode Cli             4 hrs 8 mins        ████████░░░░░░░░░░░░░░░░░   31.14 % 
+Zed                      27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.42 % 
+OpenCode                 16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.04 % 
+Antigravity              11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
 
 💻 Operating System: 
-Linux                    15 hrs 40 mins      █████████████████████████   100.00 % 
+Linux                    13 hrs 17 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 12 hrs 22 mins (78.98%)
+⏱ AI Coding Time: 10 hrs 1 min (75.37%)
 
-✍️ 15,089 lines written by AI, 347 lines written by hand (97.75% AI-written)
+✍️ 7,450 lines written by AI, 303 lines written by hand (96.09% AI-written)
 
-🔤 19,442,143 Input Tokens, 1,585,254 Output Tokens
+🔤 16,932,112 Input Tokens, 1,100,621 Output Tokens
 
-💵 $666.88 Estimated AI Cost This Week
+💵 $476.77 Estimated AI Cost This Week
 
-🧠 26 AI Sessions, 125 AI Prompts
+🧠 20 AI Sessions, 111 AI Prompts
 
-DeepSeek                 14,073 lines        ███████████████████████░░   92.51 % 
-Nemotron                 844 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   05.55 % 
-KiloCode                 276 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.81 % 
-GLM                      13 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 % 
-Vscode                   6 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 % 
+DeepSeek                 7,191 lines         ████████████████████████░   95.32 % 
+KiloCode                 276 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.66 % 
+Nemotron                 70 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.93 % 
+Vscode                   6 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
+Haiku                    1 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 97.75% of written lines came from AI
-📄 Detailed Prompter — average 1,047 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 28.41% of changed lines were hand-edited
+🤖 AI-Driven — 96.09% of written lines came from AI
+📄 Detailed Prompter — average 1,140 characters per prompt
+🔁 Iterative Prompter — average 6 prompts per session
+🚀 High AI Trust — 44.25% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
