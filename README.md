@@ -1,5 +1,5 @@
 <!--START_SECTION:header-->
-<img src="https://raw.githubusercontent.com/SpreadSheets600/Wallpapers/master/Wallpapers/186.png" alt="Soham Maity" width="100%">
+<img src="https://raw.githubusercontent.com/SpreadSheets600/Wallpapers/master/Wallpapers/128.jpg" alt="Soham Maity" width="100%">
 <!--END_SECTION:header-->
 
 <table width="100%">
