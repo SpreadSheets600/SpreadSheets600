@@ -36,7 +36,6 @@ SPOTIFY_GREEN = "#1db954"
 VERBS = {
     "playing": "Playing",
     "streaming": "Streaming",
-    "listening": "Listening to",
     "watching": "Watching",
     "competing": "Competing in",
 }

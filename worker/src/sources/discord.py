@@ -17,30 +17,17 @@ def _app_image(activity):
     if image.startswith("mp:"):
         return f"{MEDIA}/{image[3:]}?width=112&height=112"
 
-    if image.startswith("spotify:"):
-        return f"https://i.scdn.co/image/{image[8:]}"
-
     if image.isdigit() and activity.get("application_id"):
         return f"{CDN}/app-assets/{activity['application_id']}/{image}.png?size=128"
 
     return None
 
 
-def _activity(raw, spotify):
-    if raw.get("type") == 2 and spotify:
-        return {
-            "kind": "listening",
-            "name": "Spotify",
-            "details": spotify.get("song"),
-            "state": spotify.get("artist"),
-            "image": spotify.get("album_art_url"),
-        }
-
+def _activity(raw):
     return {
         "kind": {
             0: "playing",
             1: "streaming",
-            2: "listening",
             3: "watching",
             5: "competing",
         }.get(raw.get("type"), "playing"),
@@ -93,7 +80,7 @@ async def fetch_presence(config):
     )
 
     custom = next((item for item in activities if item.get("type") == 4), None)
-    main = next((item for item in activities if item.get("type") != 4), None)
+    main = next((item for item in activities if item.get("type") not in (2, 4)), None)
 
     return {
         "name": user.get("display_name")
@@ -113,7 +100,7 @@ async def fetch_presence(config):
             if guild.get("identity_enabled") and guild.get("badge")
             else None
         ),
-        "activity": _activity(main, data.get("spotify")) if main else None,
+        "activity": _activity(main) if main else None,
         "custom": _custom(custom)
         if custom and (custom.get("state") or custom.get("emoji"))
         else None,
