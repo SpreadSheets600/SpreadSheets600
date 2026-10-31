@@ -1,14 +1,15 @@
 <!--START_SECTION:header-->
-<img src="https://raw.githubusercontent.com/SpreadSheets600/Wallpapers/master/Wallpapers/111.png" alt="Soham Maity" width="100%">
+<img src="https://raw.githubusercontent.com/SpreadSheets600/Wallpapers/master/Wallpapers/203.jpg" alt="Soham Maity" width="100%">
 <!--END_SECTION:header-->
 
 <table width="100%">
   <tr>
     <td align="center">
       <h2>👋 Hello There, I'm SOHAM</h2>
-      Studying Computer Science and Data Science, building projects that make everyday tasks<br>
+      <b>Studying Computer Science and Data Science, building projects that make everyday tasks<br>
       easier for me and for others. I love tweaking open-source AI, and semantic systems are<br>
-      what I'm most excited about.<br><br>
+      what I'm most excited about.</b>
+      <hr>
       When I'm away from the keyboard, you'll find me in a game night with friends,<br>
       lost in an anime or turning the pages of a manga.
       <br><br>
@@ -26,40 +27,37 @@
   </tr>
 </table>
 
-<table width="100%">
+<!--START_SECTION:stack-->
+<table>
   <tr>
-    <th width="20%">Languages</th>
-    <th width="20%">Frameworks</th>
-    <th width="20%">Databases</th>
-    <th width="20%">Tools</th>
+    <th>Languages</th>
+    <th>Frameworks</th>
+    <th>Databases</th>
+    <th>Tools</th>
   </tr>
   <tr>
     <td align="center" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?perline=3&i=python,html,css,javascript,c,cpp,java,bash&theme=dark">
-        <img alt="Languages" src="https://skillicons.dev/icons?perline=3&i=python,html,css,javascript,c,cpp,java,bash&theme=light">
-      </picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python&theme=dark"><img src="https://skillicons.dev/icons?i=python&theme=light" alt="python" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html&theme=dark"><img src="https://skillicons.dev/icons?i=html&theme=light" alt="html" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=css&theme=dark"><img src="https://skillicons.dev/icons?i=css&theme=light" alt="css" width="44" height="44"></picture><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=javascript&theme=dark"><img src="https://skillicons.dev/icons?i=javascript&theme=light" alt="javascript" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c&theme=dark"><img src="https://skillicons.dev/icons?i=c&theme=light" alt="c" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cpp&theme=dark"><img src="https://skillicons.dev/icons?i=cpp&theme=light" alt="cpp" width="44" height="44"></picture><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java&theme=dark"><img src="https://skillicons.dev/icons?i=java&theme=light" alt="java" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=bash&theme=dark"><img src="https://skillicons.dev/icons?i=bash&theme=light" alt="bash" width="44" height="44"></picture>
     </td>
     <td align="center" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?perline=3&i=django,flask,nodejs,vue,tailwind,tensorflow,opencv&theme=dark">
-        <img alt="Frameworks" src="https://skillicons.dev/icons?perline=3&i=django,flask,nodejs,vue,tailwind,tensorflow,opencv&theme=light">
-      </picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=django&theme=dark"><img src="https://skillicons.dev/icons?i=django&theme=light" alt="django" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=flask&theme=dark"><img src="https://skillicons.dev/icons?i=flask&theme=light" alt="flask" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs&theme=dark"><img src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="nodejs" width="44" height="44"></picture><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=vue&theme=dark"><img src="https://skillicons.dev/icons?i=vue&theme=light" alt="vue" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=tailwind&theme=dark"><img src="https://skillicons.dev/icons?i=tailwind&theme=light" alt="tailwind" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=tensorflow&theme=dark"><img src="https://skillicons.dev/icons?i=tensorflow&theme=light" alt="tensorflow" width="44" height="44"></picture><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=opencv&theme=dark"><img src="https://skillicons.dev/icons?i=opencv&theme=light" alt="opencv" width="44" height="44"></picture>
     </td>
     <td align="center" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?perline=3&i=sqlite,mongo,mysql,postgres&theme=dark">
-        <img alt="Databases" src="https://skillicons.dev/icons?perline=3&i=sqlite,mongo,mysql,postgres&theme=light">
-      </picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=sqlite&theme=dark"><img src="https://skillicons.dev/icons?i=sqlite&theme=light" alt="sqlite" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mongo&theme=dark"><img src="https://skillicons.dev/icons?i=mongo&theme=light" alt="mongo" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql&theme=dark"><img src="https://skillicons.dev/icons?i=mysql&theme=light" alt="mysql" width="44" height="44"></picture><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres&theme=dark"><img src="https://skillicons.dev/icons?i=postgres&theme=light" alt="postgres" width="44" height="44"></picture>
     </td>
     <td align="center" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?perline=3&i=linux,vscode,sublime,replit,notion,github,discord&theme=dark">
-        <img alt="Tools" src="https://skillicons.dev/icons?perline=3&i=linux,vscode,sublime,replit,notion,github,discord&theme=light">
-      </picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux&theme=dark"><img src="https://skillicons.dev/icons?i=linux&theme=light" alt="linux" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=vscode&theme=dark"><img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="vscode" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=sublime&theme=dark"><img src="https://skillicons.dev/icons?i=sublime&theme=light" alt="sublime" width="44" height="44"></picture><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=replit&theme=dark"><img src="https://skillicons.dev/icons?i=replit&theme=light" alt="replit" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=notion&theme=dark"><img src="https://skillicons.dev/icons?i=notion&theme=light" alt="notion" width="44" height="44"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=github&theme=dark"><img src="https://skillicons.dev/icons?i=github&theme=light" alt="github" width="44" height="44"></picture><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=discord&theme=dark"><img src="https://skillicons.dev/icons?i=discord&theme=light" alt="discord" width="44" height="44"></picture>
     </td>
   </tr>
 </table>
+<!--END_SECTION:stack-->
 
 <table width="100%">
   <tr>
@@ -70,6 +68,14 @@
         <source media="(prefers-color-scheme: dark)" srcset="assets/charts/github-heatmap-dark.svg">
         <img alt="Contribution heatmap" src="assets/charts/github-heatmap-light.svg" width="100%">
       </picture></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/github-streak-dark.svg">
+        <img alt="Streaks" src="assets/charts/github-streak-light.svg" width="100%">
+      </picture>
+    </td>
   </tr>
   <tr>
     <td width="50%"><picture>
@@ -127,30 +133,28 @@
   </tr>
 </table>
 
-<table width="100%">
+<table>
   <tr>
-    <th>Status</th>
+    <th colspan="2">Status</th>
   </tr>
   <tr>
-    <td>
+    <td valign="top">
       <details>
         <summary>Discord</summary>
         <br>
         <a href="https://discord.com/users/727012870683885578">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://lanyard.cnrad.dev/api/727012870683885578?theme=dark&bg=0d1117">
-          <img src="https://lanyard.cnrad.dev/api/727012870683885578?theme=light&bg=ffffff" alt="Discord status">
-        </picture>
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://lanyard.cnrad.dev/api/727012870683885578?theme=dark&bg=0d1117">
+            <img src="https://lanyard.cnrad.dev/api/727012870683885578?theme=light&bg=ffffff" alt="Discord status">
+          </picture>
         </a>
       </details>
     </td>
-  </tr>
-  <tr>
-    <td>
+    <td valign="top">
       <details>
         <summary>Spotify</summary>
         <br>
-        <a href="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=x4o0yd3uqpjbzgo1atn61ik6l&cover_image=true&theme=compact&show_offline=false&background_color=0d1117&interchange=true" alt="Spotify"></a>
+        <a href="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=x4o0yd3uqpjbzgo1atn61ik6l&cover_image=true&theme=natemoo-re&show_offline=false&background_color=0d1117&interchange=true" alt="Spotify"></a>
       </details>
     </td>
   </tr>
