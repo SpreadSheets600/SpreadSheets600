@@ -5,6 +5,8 @@ import sys
 import urllib.request
 from pathlib import Path
 
+import stack
+
 
 def fetch(path: str) -> str:
     base = os.environ.get("PROFILE_API_BASE", "").rstrip("/")
@@ -33,6 +35,8 @@ def replace_block(readme: str, name: str, body: str) -> str:
 def main() -> None:
     with open("README.md", encoding="utf-8") as handle:
         readme = handle.read()
+
+    readme = replace_block(readme, "stack", stack.render())
 
     try:
         header = json.loads(fetch("/header?format=json"))

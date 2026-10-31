@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from xml.sax.saxutils import escape
 
 from .theme import Theme
@@ -62,6 +63,19 @@ class Svg:
         self._parts.append(
             f'<text x="{x:.1f}" y="{y:.1f}" font-size="{size}" font-weight="{weight}" '
             f'fill="{fill or self.theme.fg}" text-anchor="{anchor}"{extra}>{escape(str(value))}</text>'
+        )
+
+    def vline(self, x, y1=0, y2=None) -> None:
+        y2 = self.height if y2 is None else y2
+        self.rect(x - 0.5, y1, 1, y2 - y1, self.theme.line)
+
+    def ring(self, cx, cy, r, fraction: float, width: float = 6) -> None:
+        c = 2 * math.pi * r
+        base = f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke-width="{width}"'
+        self._parts.append(f'{base} stroke="{self.theme.track}"/>')
+        self._parts.append(
+            f'{base} stroke="{self.theme.accent}" stroke-linecap="round" '
+            f'stroke-dasharray="{max(fraction, 0.02) * c:.1f} {c:.1f}" transform="rotate(-90 {cx} {cy})"/>'
         )
 
     def image(self, x, y, w, h, href: str, rx: float = 0) -> None:

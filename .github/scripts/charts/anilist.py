@@ -14,9 +14,10 @@ def totals(data: dict, theme: Theme) -> str:
     anime, manga = data["anime"], data["manga"]
     blocks = [
         (PAD, "Anime", [(num(anime["count"]), "titles"), (num(anime["episodesWatched"]), "episodes"), (f'{anime["daysWatched"]:.0f}d', "watched")]),
-        (FULL / 2 + 8, "Manga", [(num(manga["count"]), "titles"), (num(manga["chaptersRead"]), "chapters"), (num(manga["volumesRead"]), "volumes")]),
+        (FULL / 2 + PAD, "Manga", [(num(manga["count"]), "titles"), (num(manga["chaptersRead"]), "chapters"), (num(manga["volumesRead"]), "volumes")]),
     ]
-    col_w = (FULL / 2 - PAD - 8) / 3
+    svg.vline(FULL / 2)
+    col_w = (FULL / 2 - 2 * PAD) / 3
     for x, title, stats in blocks:
         svg.caption(title, x=x)
         for i, (value, label) in enumerate(stats):

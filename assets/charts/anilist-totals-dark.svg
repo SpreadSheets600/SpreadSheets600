@@ -1,16 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="132" viewBox="0 0 800 132" role="img" aria-label="AniList totals" font-family='ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif'>
+<rect x="399.5" y="0.0" width="1.0" height="132.0" rx="0" fill="#3d444d"/>
 <text x="24.0" y="34.0" font-size="11" font-weight="600" fill="#8b949e" text-anchor="start" letter-spacing="0.08em">ANIME</text>
 <text x="24.0" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">200</text>
 <text x="24.0" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">titles</text>
-<text x="146.7" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">6,829</text>
-<text x="146.7" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">episodes</text>
-<text x="269.3" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">115d</text>
-<text x="269.3" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">watched</text>
-<text x="408.0" y="34.0" font-size="11" font-weight="600" fill="#8b949e" text-anchor="start" letter-spacing="0.08em">MANGA</text>
-<text x="408.0" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">41</text>
-<text x="408.0" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">titles</text>
-<text x="530.7" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">8,168</text>
-<text x="530.7" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">chapters</text>
-<text x="653.3" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">516</text>
-<text x="653.3" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">volumes</text>
+<text x="141.3" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">6,829</text>
+<text x="141.3" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">episodes</text>
+<text x="258.7" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">115d</text>
+<text x="258.7" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">watched</text>
+<text x="424.0" y="34.0" font-size="11" font-weight="600" fill="#8b949e" text-anchor="start" letter-spacing="0.08em">MANGA</text>
+<text x="424.0" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">41</text>
+<text x="424.0" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">titles</text>
+<text x="541.3" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">8,168</text>
+<text x="541.3" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">chapters</text>
+<text x="658.7" y="80.0" font-size="22" font-weight="600" fill="#e6edf3" text-anchor="start">516</text>
+<text x="658.7" y="98.0" font-size="11" font-weight="400" fill="#8b949e" text-anchor="start">volumes</text>
 </svg>

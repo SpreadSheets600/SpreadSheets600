@@ -14,6 +14,7 @@ from .theme import THEMES
 
 CHARTS = [
     ("github-heatmap", "github", github.heatmap),
+    ("github-streak", "github", github.streak),
     ("github-overview", "github", github.overview),
     ("github-activity", "github", github.activity),
     ("github-languages", "github", github.languages),

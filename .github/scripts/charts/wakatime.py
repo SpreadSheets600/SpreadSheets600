@@ -23,7 +23,7 @@ def code_time(data: dict, theme: Theme) -> str:
     svg.stat(PAD, 140, duration(data["weekSeconds"]), "last 7 days")
 
     # last seven days
-    x0, slot, bar_w, base, max_h = 180, 36, 20, 156, 80
+    x0, slot, bar_w, base, max_h = 168, 32, 18, 156, 80
     daily = data["daily"][-7:]
     peak = max((d["seconds"] for d in daily), default=0) or 1
     for i, day in enumerate(daily):
@@ -34,8 +34,9 @@ def code_time(data: dict, theme: Theme) -> str:
         letter = date.fromisoformat(day["date"]).strftime("%a")
         svg.text(x + bar_w / 2, base + 18, letter, size=10, fill=theme.muted, anchor="middle")
 
-    _ranked(svg, 450, 150, "Languages", data["languages"][:5], data["weekSeconds"], base=62)
-    _ranked(svg, 640, 136, "Editors", data["editors"][:3], data["weekSeconds"], base=62)
+    svg.vline(FULL / 2)
+    _ranked(svg, 424, 160, "Languages", data["languages"][:5], data["weekSeconds"], base=62)
+    _ranked(svg, 608, 168, "Editors", data["editors"][:3], data["weekSeconds"], base=62)
     return svg.render()
 
 

@@ -41,6 +41,61 @@ def heatmap(data: dict, theme: Theme) -> str:
     return svg.render()
 
 
+def _runs(days: list[dict]) -> list[tuple[date, date, int]]:
+    """Consecutive active-day runs as (first, last, length)."""
+    runs, start, prev = [], None, None
+    for day in days:
+        when = date.fromisoformat(day["date"])
+        if day["count"]:
+            start = start or when
+            prev = when
+        elif start:
+            runs.append((start, prev, (prev - start).days + 1))
+            start = None
+    if start:
+        runs.append((start, prev, (prev - start).days + 1))
+    return runs
+
+
+def _span(first: date, last: date) -> str:
+    if first == last:
+        return f'{first.strftime("%b")} {first.day}'
+    return f'{first.strftime("%b")} {first.day} – {last.strftime("%b")} {last.day}'
+
+
+def streak(data: dict, theme: Theme) -> str:
+    svg = Svg(FULL, 156, theme, "GitHub streaks")
+    days = data["calendar"]["contributionDays"]
+    runs = _runs(days)
+    current, longest = data["currentStreak"], data["longestStreak"]
+    last_day = date.fromisoformat(days[-1]["date"])
+
+    current_span = ""
+    if runs and current and (last_day - runs[-1][1]).days <= 1:
+        current_span = _span(runs[-1][0], runs[-1][1])
+    best = max(runs, key=lambda run: run[2], default=None)
+    longest_span = _span(best[0], best[1]) if best and best[2] == longest else ""
+
+    third = FULL / 3
+    svg.vline(third)
+    svg.vline(2 * third)
+
+    for i, (value, label, span) in enumerate([
+        (num(data["calendar"]["total"]), "contributions", "last year"),
+        (None, "current streak", current_span),
+        (f"{longest}d", "longest streak", longest_span),
+    ]):
+        cx = third * i + third / 2
+        if value is None:
+            svg.ring(cx, 66, 36, current / longest if longest else 0)
+            svg.text(cx, 74, f"{current}d", size=22, weight=600, anchor="middle")
+        else:
+            svg.text(cx, 76, value, size=30, weight=600, anchor="middle")
+        svg.text(cx, 124, label, anchor="middle")
+        svg.text(cx, 142, span, size=11, fill=theme.muted, anchor="middle")
+    return svg.render()
+
+
 def overview(data: dict, theme: Theme) -> str:
     svg = Svg(HALF, HALF_HEIGHT, theme, "GitHub overview")
     svg.caption("Overview")
@@ -61,12 +116,12 @@ def activity(data: dict, theme: Theme) -> str:
     svg.caption("Activity")
     total = max(data["weekdayContributions"] + data["weekendContributions"], 1)
     items = [
-        (f'{data["currentStreak"]}d', "current streak"),
-        (f'{data["longestStreak"]}d', "longest streak"),
         (num(data["activeDays"]), "active days"),
         (f'{data["averagePerDay"]:.1f}', "per day"),
         (num(data["bestDay"]["count"]), "best day"),
         (f'{round(100 * data["weekendContributions"] / total)}%', "on weekends"),
+        (num(data["contributedTo"]), "repos contributed"),
+        (num(data["organizations"]), "organizations"),
     ]
     _grid(svg, items)
     return svg.render()

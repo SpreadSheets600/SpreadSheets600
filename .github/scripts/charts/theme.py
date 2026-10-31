@@ -19,6 +19,7 @@ class Theme:
     muted: str
     track: str
     accent: str
+    line: str  # matches GitHub's table borders so card dividers line up
 
     @property
     def ramp(self) -> list[str]:
@@ -26,7 +27,7 @@ class Theme:
         return [self.track] + [mix(self.track, self.accent, t) for t in (0.3, 0.55, 0.8, 1.0)]
 
 
-DARK = Theme("dark", fg="#e6edf3", muted="#8b949e", track="#232a33", accent="#3fb950")
-LIGHT = Theme("light", fg="#1f2328", muted="#656d76", track="#e8ebef", accent="#1f883d")
+DARK = Theme("dark", fg="#e6edf3", muted="#8b949e", track="#232a33", accent="#3fb950", line="#3d444d")
+LIGHT = Theme("light", fg="#1f2328", muted="#656d76", track="#e8ebef", accent="#1f883d", line="#d1d9e0")
 
 THEMES = (DARK, LIGHT)
