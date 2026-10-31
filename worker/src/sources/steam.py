@@ -166,6 +166,9 @@ async def fetch_stats(config):
         reverse=True,
     )[:TOP_GAME_LIMIT]
 
+    played = [game for game in games if game.get("rtime_last_played")]
+    last_played = max(played, key=lambda game: game["rtime_last_played"], default=None)
+
     recent = [
         {
             "appid": game.get("appid"),
@@ -253,6 +256,16 @@ async def fetch_stats(config):
         "averageHours": round(total_minutes / 60 / len(games), 1) if games else 0,
         "backlog": sum(1 for game in games if _minutes(game, "playtime_forever") == 0),
         "recent": recent,
+        "latestPlayed": {
+            "appid": last_played.get("appid"),
+            "name": last_played.get("name"),
+            "minutes": last_played.get("playtime_forever", 0),
+            "hours": round(last_played.get("playtime_forever", 0) / 60),
+            "recentMinutes": last_played.get("playtime_2weeks", 0),
+            "lastPlayed": last_played.get("rtime_last_played"),
+        }
+        if last_played
+        else None,
         "topGames": [
             {
                 "appid": game.get("appid"),
