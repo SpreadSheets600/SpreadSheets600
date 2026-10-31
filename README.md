@@ -7,12 +7,8 @@
     <td align="center">
       <img align="right" src="assets/spacer.svg" width="800" height="1" alt="">
       <h2>👋 Hello There, I'm SOHAM</h2>
-      <b>Studying Computer Science and Data Science, building projects that make everyday tasks<br>
-      easier for me and for others. I love tweaking open-source AI, and semantic systems are<br>
-      what I'm most excited about.</b>
-      <br><br>When I'm away from the keyboard, you'll find me in a game night with friends,<br>
-      lost in an anime or turning the pages of a manga.
-      <br><br>
+      <b>Computer Science and Data Science student building tools that make everyday tasks easier, for me and for others. I love tinkering with open-source AI, and semantic systems are what excite me most.</b>
+      <p>Away from the keyboard, you'll find me at a game night with friends, lost in an anime, or turning the pages of a manga.</p>
       <hr>
     <a href="https://spreadsheets600.me"><img src="assets/icons/portfolio.svg" height="28" alt="Portfolio"></a>&nbsp;&nbsp;&nbsp;<a href="https://blog.spreadsheets600.me"><img src="assets/icons/blog.svg" height="28" alt="Blog"></a>
     </td>
