@@ -8,7 +8,6 @@ from sources import discord, spotify
 FONT = 'ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif'
 WIDTH = 800
 PAD = 24
-RADIUS = 16
 
 THEMES = {
     "dark": {
@@ -26,15 +25,7 @@ THEMES = {
         "line": "#d1d9e0",
     },
 }
-PROFILE_THEME = {
-    "bg": "#09090b",
-    "fg": "#ffffff",
-    "muted": "#c4c9d4",
-    "track": "#0a0a19",
-    "line": "#ffffff",
-}
 
-FALLBACK_COLORS = ("#1e1b4b", "#09090b")
 STATUS = {
     "online": "#23a55a",
     "idle": "#f0b232",
@@ -49,56 +40,6 @@ VERBS = {
     "watching": "Watching",
     "competing": "Competing in",
 }
-
-
-def hex_color(value):
-    return f"#{int(value) & 0xFFFFFF:06x}"
-
-
-def channels(color):
-    return [int(color[i : i + 2], 16) for i in (1, 3, 5)]
-
-
-def luminance(color):
-    def linear(channel):
-        value = channel / 255
-        return value / 12.92 if value <= 0.03928 else ((value + 0.055) / 1.055) ** 2.4
-
-    r, g, b = (linear(channel) for channel in channels(color))
-
-    return 0.2126 * r + 0.7152 * g + 0.0722 * b
-
-
-def contrast(a, b):
-    high, low = sorted((luminance(a), luminance(b)), reverse=True)
-
-    return (high + 0.05) / (low + 0.05)
-
-
-def mix(a, b, amount):
-    return "#" + "".join(
-        f"{round(x + (y - x) * amount):02x}" for x, y in zip(channels(a), channels(b))
-    )
-
-
-def darken(color, limit=0.08):
-    for _ in range(12):
-        if luminance(color) <= limit:
-            break
-
-        color = mix(color, "#09090b", 0.2)
-
-    return color
-
-
-def readable(color, background, minimum=4.5):
-    for _ in range(12):
-        if contrast(color, background) >= minimum:
-            break
-
-        color = mix(color, "#ffffff", 0.2)
-
-    return color
 
 
 class Svg:
@@ -127,20 +68,9 @@ class Svg:
             f"{escape(str(value))}</text>"
         )
 
-    def rect(
-        self, x, y, w, h, fill, rx=0, opacity=None, stroke=None, stroke_opacity=None
-    ):
-        extra = f' fill-opacity="{opacity}"' if opacity is not None else ""
-
-        if stroke:
-            extra += f' stroke="{stroke}" stroke-width="1"'
-
-            if stroke_opacity is not None:
-                extra += f' stroke-opacity="{stroke_opacity}"'
-
+    def rect(self, x, y, w, h, fill, rx=0):
         self.parts.append(
-            f'<rect x="{x:.1f}" y="{y:.1f}" width="{max(w, 0):.1f}" height="{h:.1f}" '
-            f'rx="{rx}" fill="{fill}"{extra}/>'
+            f'<rect x="{x:.1f}" y="{y:.1f}" width="{max(w, 0):.1f}" height="{h:.1f}" rx="{rx}" fill="{fill}"/>'
         )
 
     def circle(self, cx, cy, r, fill, stroke=None, width=2):
@@ -149,16 +79,7 @@ class Svg:
             f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r}" fill="{fill}"{outline}/>'
         )
 
-    def gradient(self, name, stops, x2=1, y2=0):
-        items = "".join(
-            f'<stop offset="{offset}" stop-color="{color}" stop-opacity="{alpha}"/>'
-            for offset, color, alpha in stops
-        )
-        self.defs.append(
-            f'<linearGradient id="{name}" x1="0" y1="0" x2="{x2}" y2="{y2}">{items}</linearGradient>'
-        )
-
-    def image(self, x, y, w, h, href, radius=0, circular=False, align="xMidYMid"):
+    def image(self, x, y, w, h, href, radius=0, circular=False):
         clip_id = f"clip{len(self.defs)}"
         shape = (
             f'<circle cx="{x + w / 2}" cy="{y + h / 2}" r="{w / 2}"/>'
@@ -168,7 +89,7 @@ class Svg:
         self.defs.append(f'<clipPath id="{clip_id}">{shape}</clipPath>')
         self.parts.append(
             f'<image x="{x}" y="{y}" width="{w}" height="{h}" href="{href}" '
-            f'preserveAspectRatio="{align} slice" clip-path="url(#{clip_id})"/>'
+            f'preserveAspectRatio="xMidYMid slice" clip-path="url(#{clip_id})"/>'
         )
 
     def render(self):
@@ -219,64 +140,17 @@ def clock(milliseconds):
     return f"{seconds // 60}:{seconds % 60:02d}"
 
 
-def surface(svg, theme):
-    svg.rect(
-        0.5,
-        0.5,
-        svg.width - 1,
-        svg.height - 1,
-        theme["bg"],
-        rx=RADIUS,
-        stroke=theme["line"],
-        stroke_opacity=0.6,
-    )
-
-
 def notice(message, theme_name, label):
     theme = THEMES[theme_name]
     svg = Svg(WIDTH, 96, theme, label)
-    surface(svg, theme)
     svg.text(WIDTH / 2, 54, message, size=13, fill=theme["muted"], anchor="middle")
 
     return svg.render()
 
 
 def discord_card(data, images, theme_name):
-    profile = data.get("profile") or {}
-    colors = profile.get("themeColors")
-    c1, c2 = (
-        (darken(hex_color(colors[0])), darken(hex_color(colors[1])))
-        if colors
-        else FALLBACK_COLORS
-    )
-    theme = PROFILE_THEME
+    theme = THEMES[theme_name]
     svg = Svg(WIDTH, 208, theme, "Discord status")
-    height = svg.height
-
-    svg.gradient("bg", [(0, c1, 1), (1, c2, 1)], x2=1, y2=1)
-    svg.rect(0, 0, WIDTH, height, "url(#bg)", rx=RADIUS)
-
-    if images.get("nameplate"):
-        svg.image(
-            0, 0, WIDTH, height, images["nameplate"], radius=RADIUS, align="xMinYMid"
-        )
-        svg.gradient(
-            "veil",
-            [(0, c1, 0.94), (0.45, c1, 0.7), (1, c2, 0.3)],
-        )
-        svg.rect(0, 0, WIDTH, height, "url(#veil)", rx=RADIUS)
-
-    svg.rect(
-        0.5,
-        0.5,
-        WIDTH - 1,
-        height - 1,
-        "none",
-        rx=RADIUS,
-        stroke="#ffffff",
-        stroke_opacity=0.14,
-    )
-
     cx, cy = 68, 54
 
     if images.get("avatar"):
@@ -293,38 +167,22 @@ def discord_card(data, images, theme_name):
         cy + 24,
         10,
         STATUS.get(data["status"], STATUS["offline"]),
-        stroke=c1,
+        stroke=theme["bg"],
         width=3,
     )
 
     if data["status"] == "dnd":
-        svg.rect(cx + 19, cy + 22.5, 10, 3, c1, rx=1.5)
+        svg.rect(cx + 19, cy + 22.5, 10, 3, theme["bg"], rx=1.5)
 
     x = 122
     name = fit(data["name"], 22, 380)
-    name_colors = [hex_color(color) for color in profile.get("nameColors") or []]
-    name_fill = theme["fg"]
-
-    if len(name_colors) == 1:
-        name_fill = readable(name_colors[0], c1)
-
-    elif len(name_colors) > 1:
-        svg.gradient(
-            "name",
-            [
-                (index / (len(name_colors) - 1), readable(color, c1), 1)
-                for index, color in enumerate(name_colors)
-            ],
-        )
-        name_fill = "url(#name)"
-
-    svg.text(x, 50, name, size=22, weight=700, fill=name_fill)
+    svg.text(x, 50, name, size=22, weight=700)
 
     cursor = x + len(name) * 22 * 0.7 + 18
 
     if data.get("tag"):
         tag_width = (22 if images.get("badge") else 10) + len(data["tag"]) * 7.8 + 12
-        svg.rect(cursor, 32, tag_width, 24, "#0a0a19", rx=12, opacity=0.5)
+        svg.rect(cursor, 32, tag_width, 24, theme["track"], rx=12)
         text_x = cursor + 10
 
         if images.get("badge"):
@@ -339,7 +197,7 @@ def discord_card(data, images, theme_name):
         cursor += 26
 
     svg.text(x, 76, f"@{data['username']}", size=13, fill=theme["muted"])
-    svg.rect(PAD, 108, WIDTH - 2 * PAD, 1, "#ffffff", opacity=0.14)
+    svg.rect(PAD, 108, WIDTH - 2 * PAD, 1, theme["line"])
 
     activity, custom = data.get("activity"), data.get("custom")
 
@@ -420,7 +278,6 @@ def spotify_card(track, cover, theme_name):
         return notice(message, theme_name, "Spotify")
 
     svg = Svg(WIDTH, 148, theme, "Spotify last played")
-    surface(svg, theme)
     x = PAD + 100 + 24
     room = WIDTH - PAD - x
 
@@ -485,13 +342,12 @@ async def discord_svg(config, cache, theme_name):
     activity = data.get("activity") or {}
     custom = data.get("custom") or {}
     badge_urls = [badge["url"] for badge in profile.get("badges") or []]
-    avatar, decoration, badge, art, emoji, nameplate, *badges = await asyncio.gather(
+    avatar, decoration, badge, art, emoji, *badges = await asyncio.gather(
         data_uri(cache, data["avatarUrl"]),
         data_uri(cache, data["decorationUrl"]),
         data_uri(cache, data["badgeUrl"]),
         data_uri(cache, activity.get("image")),
         data_uri(cache, custom.get("emojiUrl")),
-        data_uri(cache, profile.get("nameplateUrl")),
         *(data_uri(cache, url) for url in badge_urls),
     )
     images = {
@@ -500,7 +356,6 @@ async def discord_svg(config, cache, theme_name):
         "badge": badge,
         "activity": art,
         "emoji": emoji,
-        "nameplate": nameplate,
         "badges": [uri for uri in badges if uri],
     }
 

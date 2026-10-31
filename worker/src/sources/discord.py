@@ -141,12 +141,6 @@ async def fetch_profile(config, cache):
         print(f"Discord Profile Failed: {error}")
         return {}
 
-    user = body.get("user") or {}
-    profile = body.get("user_profile") or {}
-    colors = profile.get("theme_colors") or []
-    styles = user.get("display_name_styles") or profile.get("display_name_styles") or {}
-    asset = ((user.get("collectibles") or {}).get("nameplate") or {}).get("asset", "")
-
     result = {
         "badges": [
             {
@@ -156,13 +150,6 @@ async def fetch_profile(config, cache):
             for badge in body.get("badges") or []
             if badge.get("icon")
         ][:8],
-        "themeColors": colors[:2] if len(colors) >= 2 else None,
-        "nameplateUrl": (
-            f"{CDN}/assets/collectibles/{asset.strip('/')}/static.png"
-            if asset
-            else None
-        ),
-        "nameColors": styles.get("colors") or [],
     }
 
     await cache.set(PROFILE_KEY, result, 3600)
