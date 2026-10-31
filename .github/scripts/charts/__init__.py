@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from . import anilist, github, wakatime
+from . import anilist, github, steam, wakatime
 from .theme import THEMES
 
 CHARTS = [
@@ -23,6 +23,9 @@ CHARTS = [
     ("anilist-totals", "anilist", anilist.totals),
     ("anilist-anime", "anilist", anilist.latest_anime),
     ("anilist-manga", "anilist", anilist.latest_manga),
+    ("steam-totals", "steam", steam.totals),
+    ("steam-most-played", "steam", steam.most_played),
+    ("steam-recent", "steam", steam.recent),
 ]
 
 

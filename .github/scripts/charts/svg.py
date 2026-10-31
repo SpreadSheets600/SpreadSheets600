@@ -13,6 +13,7 @@ FONT = 'ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif'
 FULL = 800  # full-width card
 HALF = 392  # half-width card (two per table row)
 PAD = 24    # inner padding on every card
+HALF_HEIGHT = 184  # height of every half-width card
 
 
 def num(value: float | int) -> str:

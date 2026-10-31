@@ -4,10 +4,8 @@ from __future__ import annotations
 
 from datetime import date
 
-from .svg import FULL, HALF, PAD, Svg, num
+from .svg import FULL, HALF, HALF_HEIGHT, PAD, Svg, num
 from .theme import Theme
-
-HALF_HEIGHT = 184
 
 
 def heatmap(data: dict, theme: Theme) -> str:
