@@ -1,457 +1,166 @@
-<div
-  style="
-    font-family: Consolas, sans-serif;
-    color: #fff;
-    line-height: 1.6;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background-color: #1c1c1c;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  "
->
-  <h3 style="margin-left: 0; margin-right: 0">
-    <samp style="font-size: 1.5rem; color: #ffffff">「</samp>
-  </h3>
+<!--START_SECTION:header-->
+<img src="https://raw.githubusercontent.com/SpreadSheets600/Wallpapers/master/Wallpapers/111.png" alt="Soham Maity" width="100%">
+<!--END_SECTION:header-->
 
-  <div align="center" style="align-items: center; align-self: center; align-content: center">
-    <h3
-      style="
-        align-items: center;
-        align-self: center;
-        align-content: center;
-        text-align: center;
-      "
-    >
-      <samp>
-        <b
-          style="
-            font-size: 1.75rem;
-            color: #ffffff;
-            align-items: center;
-            align-self: center;
-            align-content: center;
-          "
-        >
-          Hello There
-          <br />
-          I'm <span style="color: #ffffff">SOHAM</span>, Just A Computer Science
-          Student And A Tech Enthusiast.
-          <br />
-          I Try To Build Aesthetic Projects. I Love To Code Discord Bots And
-          Watch Anime.
-          <br />
-          ~ SOHAM ~
-        </b>
-      </samp>
-    </h3>
-  </div>
-
-  <h3 align="right" style="text-align: right; margin: 0">
-    <samp style="font-size: 1.5rem; color: #ffffff">」</samp>
-  </h3>
-
-  <div align = "center" style="margin: 20px 0; align-items: center; text-align: center">
-    <a href="https://blog.spreadsheets600.me">
-      <img
-        src="https://img.shields.io/badge/Visit%20My%20Blog-black?style=for-the-badge&logo=blogger&logoColor=white"
-        height="30"
-        padding="10"
-        style="border-radius: 5px"
-      />
-    </a>
-  </div>
-
-  <br />
-
-  <div
-    style="display: flex; justify-content: space-between; margin-bottom: 20px"
-  >
-    <details
-      style="
-        border: 1px solid #444;
-        border-radius: 5px;
-        padding: 10px;
-        background-color: #2b2b2b;
-        flex: 1;
-        margin-right: 10px;
-      "
-    >
-      <summary style="font-size: 1.5rem; cursor: pointer; color: #ffffff">
-        <h2><samp>⛽ Status</samp></h2>
-      </summary>
-      <div style="margin-top: 10px">
-        <table style="width: 100%; margin-bottom: 20px; border: 1px solid #555">
-          <tr>
-            <td style="text-align: left; padding: 10px">
-              <h1 style="font-size: 1.5rem; color: #ffffff">
-                <samp>Discord</samp>
-              </h1>
-              <a href="">
-                <img
-                  src="https://lanyard.cnrad.dev/api/727012870683885578"
-                />
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td style="text-align: left; padding: 10px">
-              <h1 style="font-size: 1.5rem; color: #ffffff">
-                <samp>Spotify</samp>
-              </h1>
-              <a href="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l">
-                <img
-                  src="https://spotify-github-profile.kittinanx.com/api/view?uid=x4o0yd3uqpjbzgo1atn61ik6l&cover_image=true&theme=compact&show_offline=false&background_color=121212&interchange=true"
-                />
-              </a>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </details>
-<div>
-    <details
-      style="
-        border: 1px solid #444;
-        border-radius: 5px;
-        padding: 10px;
-        background-color: #2b2b2b;
-        flex: 1;
-      "
-    >
-      <summary style="font-size: 1.5rem; cursor: pointer; color: #ffffff">
-        <h2><samp>🏆 Trophies</samp></h2>
-      </summary>
-      <div style="margin-top: 10px">
-        <table style="width: 100%; border: 1px solid #555">
-          <tr>
-            <td style="text-align: left; padding: 10px">
-              <a href="#--------">
-                <img
-                  width="100%"
-                  style="border-radius: 5px"
-                  src="https://github-profile-trophy.vercel.app/?username=SpreadSheets600&theme=onestar&margin-w=15&margin-h=15&title=-Reviews"
-                />
-              </a>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </details>
-  </div>
-
-  <details>
-    <summary><h2 style="text-align: left"><samp>📁 Repositories</samp></h2></summary>
-    <br>
-      <p align="center">
-          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Spectrum-Analysis&theme=dark&hide_border=true" alt="Spectrum-Analysis"></a>
-          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Password-Manager&theme=dark&hide_border=true" alt="Password-Manager"></a>
-          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Budget-Tracker&theme=dark&hide_border=true" alt="Budget Tracker"></a>
-          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Fallen-SMP-BOT&theme=dark&hide_border=true" alt="Fallen-SMP-BOT"></a>
-          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=File-Sorter&theme=dark&hide_border=true" alt="File-Sorter"></a>
-          <a href="https://github.com/SpreadSheets6003"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=Sheets-Astrum-BOT&repo=Astrum-V2&theme=dark&hide_border=true" alt="Astrum-V2"></a>
-          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=Pomodoria&theme=dark&hide_border=true" alt="Pomodoria"></a>
-          <a href="https://github.com/SpreadSheets600"><img src="https://github-readme-stats-sortedcord.vercel.app/api/pin/?username=SpreadSheets600&repo=TokenCopy&theme=dark&hide_border=true" alt="TokenCopy"></a>
-      </p>
-  </details>
-
-  <details>
-    <summary><h2 style="text-align: left"><samp>📺 Anilist Stats</samp></h2></summary>
-    <br>
-    
-  <table>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github.com/SpreadSheets600/SpreadSheets600/blob/main/github-metrics.svg" alt=""></img>
-        <img width="900" height="1" alt="">
-      </td>
-    </tr>
-  </table>
-  </details>
-
-<div>
-    <details
-      style="
-        border: 1px solid #444;
-        border-radius: 5px;
-        padding: 10px;
-        background-color: #2b2b2b;
-        flex: 1;
-      "
-    >
-  <summary>
-    <h2 style="text-align: left"><samp>📈 Open Source Stats</samp></h2>
-  </summary>
-
-  <div align = "center" style="text-align: center,align-items: center; align-self: center; align-content: center">
-    <table style="width: 800px; margin: 0 auto; border-collapse: collapse; border: 1px solid #ccc;">
+<table width="100%">
   <tr>
-    <td style="width: 400px; height: 200px; padding: 10px; text-align: center; vertical-align: middle;">
-      <img 
-        src="https://gitroll.io/api/badges/profiles/v1/uVnnLo5DV1iMF0meExWTe4i4XvH22" 
-        alt="GitRoll Profile Badge" 
-        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
-      >
-    </td>
-    <td style="width: 400px; height: 200px; padding: 10px; text-align: center; vertical-align: middle;">
-      <img 
-        src="dev-card.png" 
-        alt="Dev Card" 
-        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
-      >
+    <td align="center">
+      <h2>👋 Hello There, I'm SOHAM</h2>
+      Studying Computer Science and Data Science, building projects that make everyday tasks<br>
+      easier for me and for others. I love tweaking open-source AI, and semantic systems are<br>
+      what I'm most excited about.<br><br>
+      When I'm away from the keyboard, you'll find me in a game night with friends,<br>
+      lost in an anime or turning the pages of a manga.
+      <br><br>
+    <a href="https://github.com/SpreadSheets600"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/soham-maity-114466218/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPHRpdGxlPkxpbmtlZEluPC90aXRsZT48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4%3D" alt="LinkedIn"></a>
+    <a href="https://dev.to/sspreadsheets600"><img src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="DEV.TO"></a>
+    <a href="https://stackoverflow.com/users/23220449/soham-maity"><img src="https://img.shields.io/badge/StackOverflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="StackOverflow"></a>
+    <a href="https://discord.com/users/727012870683885578"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+    <a href="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"></a>
+    <a href="https://anilist.co/user/SpreadSheeets"><img src="https://img.shields.io/badge/AniList-02A9FF?style=for-the-badge&logo=anilist&logoColor=white" alt="AniList"></a>
+    <a href="https://steamcommunity.com/id/SpreadSheeets/"><img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" alt="Steam"></a>
+    <a href="https://spreadsheets600.me"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"></a>
+    <a href="https://blog.spreadsheets600.me"><img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog"></a>
     </td>
   </tr>
 </table>
 
-  </div>
+<table width="100%">
+  <tr>
+    <th width="20%">Languages</th>
+    <th width="20%">Frameworks</th>
+    <th width="20%">Databases</th>
+    <th width="20%">Tools</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?perline=3&i=python,html,css,javascript,c,cpp,java,bash&theme=dark">
+        <img alt="Languages" src="https://skillicons.dev/icons?perline=3&i=python,html,css,javascript,c,cpp,java,bash&theme=light">
+      </picture>
+    </td>
+    <td align="center" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?perline=3&i=django,flask,nodejs,vue,tailwind,tensorflow,opencv&theme=dark">
+        <img alt="Frameworks" src="https://skillicons.dev/icons?perline=3&i=django,flask,nodejs,vue,tailwind,tensorflow,opencv&theme=light">
+      </picture>
+    </td>
+    <td align="center" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?perline=3&i=sqlite,mongo,mysql,postgres&theme=dark">
+        <img alt="Databases" src="https://skillicons.dev/icons?perline=3&i=sqlite,mongo,mysql,postgres&theme=light">
+      </picture>
+    </td>
+    <td align="center" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?perline=3&i=linux,vscode,sublime,replit,notion,github,discord&theme=dark">
+        <img alt="Tools" src="https://skillicons.dev/icons?perline=3&i=linux,vscode,sublime,replit,notion,github,discord&theme=light">
+      </picture>
+    </td>
+  </tr>
+</table>
 
-  </details>
-</div>
-  <div>
-    <details>	
-      <summary>
-        <h2 style="text-align: left"><samp>🔗 GSSoC (24) Badges</samp></h2>
-      </summary>
-        <div style='display:flex; align-items:center; gap: 10px;' align='center'><a href="https://gssoc.girlscript.tech/leaderboard">
-          <img src="https://github.com/user-attachments/assets/c1391e62-8fab-43c7-aae9-edaeae423c57" />
-        </div>
-    </details>
-  </div>
+<table width="100%">
+  <tr>
+    <th colspan="2">GitHub</th>
+  </tr>
+  <tr>
+    <td colspan="2"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/github-heatmap-dark.svg">
+        <img alt="Contribution heatmap" src="assets/charts/github-heatmap-light.svg" width="100%">
+      </picture></td>
+  </tr>
+  <tr>
+    <td width="50%"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/github-overview-dark.svg">
+        <img alt="Overview" src="assets/charts/github-overview-light.svg" width="100%">
+      </picture></td>
+    <td width="50%"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/github-activity-dark.svg">
+        <img alt="Activity" src="assets/charts/github-activity-light.svg" width="100%">
+      </picture></td>
+  </tr>
+  <tr>
+    <td width="50%"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/github-languages-dark.svg">
+        <img alt="Languages" src="assets/charts/github-languages-light.svg" width="100%">
+      </picture></td>
+    <td width="50%"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/github-weekdays-dark.svg">
+        <img alt="Weekdays" src="assets/charts/github-weekdays-light.svg" width="100%">
+      </picture></td>
+  </tr>
+</table>
 
-  <h2 style="text-align: left; color: #ffffff">GitHub Stats</h2>
+<table width="100%">
+  <tr>
+    <th>Code time</th>
+  </tr>
+  <tr>
+    <td><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/code-time-dark.svg">
+        <img alt="WakaTime" src="assets/charts/code-time-light.svg" width="100%">
+      </picture></td>
+  </tr>
+</table>
 
-  <div style="margin: 20px 0">
-    <table style="width: 100%; margin-bottom: 20px">
-      <tr>
-        <td style="text-align: center; padding: 10px; border: 1px solid #555">
-          <a href="#--------">
-            <img
-              height="215px"
-              alt="GitHub Stats"
-              src="https://github-readme-stats-fast.vercel.app/api?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=dark&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=00000000"
-            />
-          </a>
-        </td>
-        <td
-          style="
-            text-align: center;
-            padding: 10px;
-            border: 1px solid #555;
-            border-spacing: 100px;
-          "
-        >
-          <a href="#--------">
-            <img
-              height="215px"
-              alt="Top Language"
-              src="https://github-readme-stats-fast.vercel.app/api/streak?username=spreadsheets600&count_private=true&show_icons=true&include_all_commits=true&line_height=21&hide_border=true&theme=dark&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=00000000"
-              style="border-radius: 5px"
-            />
-          </a>
-        </td>
-      </tr>
-    </table>
-    <table style="width: 100%; margin-bottom: 20px; border: 1px solid #555">
-      <tr>
-        <td style="text-align: center; padding: 10px">
-          <a href="#--------">
-            <img
-              width="100%"
-              style="border-radius: 5px"
-              src="https://github-readme-activity-graph.vercel.app/graph?username=SpreadSheets600&theme=react-dark&hide_border=true&bg_color=151515&color=FFFFFF&line=FFFFFF&point=FFFFFF"
-            />
-          </a>
-        </td>
-      </tr>
-    </table>
-    <br />
-  </div>
-    <div align="center">
-    <a href="https://bento.me/spreadsheets">
-      <img
-        src="https://komarev.com/ghpvc/?username=spreadsheets600&style=for-the-badge"
-      />
-    </a>
-    <a href="http://spreadsheets600.me">
-      <img
-        src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"
-      />
-    </a>
-    <a href="https://dev.to/sspreadsheets600">
-      <img
-        src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=dev-dot-to&logoColor=white"
-      />
-    </a>
-    <a href="https://stackoverflow.com/users/23220449/soham-maity">
-      <img
-        src="https://img.shields.io/badge/STACKOVERFLOW-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white"
-      />
-    </a>
-    <a href="https://www.linkedin.com/in/soham-maity-114466218/">
-      <img
-        src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-      />
-    </a>
-  </div>
-  <br>
-  <div>
-    <a herf="https://holopin.io/@spreadsheets600">
-      <img src="https://holopin.me/spreadsheets600"
-        />
-    </a>
-  </div>
+<table width="100%">
+  <tr>
+    <th colspan="2">Anime &amp; Manga</th>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="https://anilist.co/user/SpreadSheeets"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/anilist-totals-dark.svg">
+        <img alt="AniList totals" src="assets/charts/anilist-totals-light.svg" width="100%">
+      </picture></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/anilist-anime-dark.svg">
+        <img alt="Latest anime" src="assets/charts/anilist-anime-light.svg" width="100%">
+      </picture></td>
+    <td width="50%"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/anilist-manga-dark.svg">
+        <img alt="Latest manga" src="assets/charts/anilist-manga-light.svg" width="100%">
+      </picture></td>
+  </tr>
+</table>
 
-  <br />
+<table width="100%">
+  <tr>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>
+      <details>
+        <summary>Discord</summary>
+        <br>
+        <a href="https://discord.com/users/727012870683885578">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://lanyard.cnrad.dev/api/727012870683885578?theme=dark&bg=0d1117">
+          <img src="https://lanyard.cnrad.dev/api/727012870683885578?theme=light&bg=ffffff" alt="Discord status">
+        </picture>
+        </a>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <details>
+        <summary>Spotify</summary>
+        <br>
+        <a href="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=x4o0yd3uqpjbzgo1atn61ik6l&cover_image=true&theme=compact&show_offline=false&background_color=0d1117&interchange=true" alt="Spotify"></a>
+      </details>
+    </td>
+  </tr>
+</table>
 
----
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C219%20hrs%2041%20mins-blue?style=flat)
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-201%20hrs%204%20mins-blue?style=flat)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-20.29%20million%20lines%20of%20code-blue?style=flat)
-
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                1755 commits        ███████░░░░░░░░░░░░░░░░░░   26.66 % 
-🌆 Daytime                1580 commits        ██████░░░░░░░░░░░░░░░░░░░   24.00 % 
-🌃 Evening                2915 commits        ███████████░░░░░░░░░░░░░░   44.29 % 
-🌙 Night                  332 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 % 
-```
-📅 **I'm Most Productive on Saturday** 
-
-```text
-Monday                   912 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.86 % 
-Tuesday                  680 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.33 % 
-Wednesday                915 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.90 % 
-Thursday                 627 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.53 % 
-Friday                   1182 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.96 % 
-Saturday                 1220 commits        █████░░░░░░░░░░░░░░░░░░░░   18.54 % 
-Sunday                   1046 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.89 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-Python                   6 hrs 11 mins       ████████████░░░░░░░░░░░░░   46.64 % 
-Markdown                 4 hrs 2 mins        ████████░░░░░░░░░░░░░░░░░   30.43 % 
-Bash                     1 hr 4 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.03 % 
-Other                    40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 % 
-Git Config               29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.66 % 
-
-🔥 Editors: 
-VS Code                  8 hrs 7 mins        ███████████████░░░░░░░░░░   61.12 % 
-Opencode Cli             4 hrs 8 mins        ████████░░░░░░░░░░░░░░░░░   31.14 % 
-Zed                      27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.42 % 
-OpenCode                 16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.04 % 
-Antigravity              11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
-
-💻 Operating System: 
-Linux                    13 hrs 17 mins      █████████████████████████   100.00 % 
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-⏱ AI Coding Time: 10 hrs 1 min (75.37%)
-
-✍️ 7,450 lines written by AI, 303 lines written by hand (96.09% AI-written)
-
-🔤 16,932,112 Input Tokens, 1,100,621 Output Tokens
-
-💵 $476.77 Estimated AI Cost This Week
-
-🧠 20 AI Sessions, 111 AI Prompts
-
-DeepSeek                 7,191 lines         ████████████████████████░   95.32 % 
-KiloCode                 276 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.66 % 
-Nemotron                 70 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.93 % 
-Vscode                   6 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
-Haiku                    1 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 96.09% of written lines came from AI
-📄 Detailed Prompter — average 1,140 characters per prompt
-🔁 Iterative Prompter — average 6 prompts per session
-🚀 High AI Trust — 44.25% of changed lines were hand-edited
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   63 repos            ██████████░░░░░░░░░░░░░░░   39.87 % 
-HTML                     24 repos            ████░░░░░░░░░░░░░░░░░░░░░   15.19 % 
-JavaScript               19 repos            ███░░░░░░░░░░░░░░░░░░░░░░   12.03 % 
-Astro                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.53 % 
-Dart                     1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 % 
-```
-
-
-
-
-<!--END_SECTION:waka-->
----
-  <br />
-
-  <h2 style="text-align: left; color: #ffffff">Language And Tools</h2>
-
-  <div style="margin: 20px 0">
-    <h3 style="color: #ffffff; padding: 10px"><samp>Languages</samp></h3>
-    <div style="margin-bottom: 20px">
-      <a
-        ><img
-          src="https://skillicons.dev/icons?i=python,html,css,javascript,c,cpp,java,bash&theme=dark"
-          style="margin-right: 10px; padding: 10px"
-      /></a>
-    </div>
-    <div>
-    <div></div>
-    <h3 style="color: #ffffff; padding: 10px"><samp>Technologies</samp></h3>
-    <div style="margin-bottom: 20px">
-      <a
-        ><img
-          src="https://skillicons.dev/icons?i=django,flask,tensorflow,nodejs,opencv,tailwind,vue&theme=dark"
-          style="margin-right: 10px; padding: 10px"
-      /></a>
-    </div>
-
-</div>
-    <h3 style="color: #ffffff; padding: 10px"><samp>Design & Creativity</samp></h3>
-    <div style="margin-bottom: 20px">
-      <a
-        ><img
-          src="https://skillicons.dev/icons?i=illustrator,xd,figma&theme=dark"
-          style="margin-right: 10px; padding: 10px"
-      /></a>
-    </div>
-<div></div>
-    <h3 style="color: #ffffff; padding: 10px"><samp>Database</samp></h3>
-    <div style="margin-bottom: 20px">
-      <a
-        ><img
-          src="https://skillicons.dev/icons?i=sqlite,mongo,mysql,postgres&theme=dark"
-          style="margin-right: 10px; padding: 10px"
-      /></a>
-    </div>
-<div>
-    <h3 style="color: #ffffff; padding: 10px"><samp>Tools</samp></h3>
-    <div style="margin-bottom: 20px">
-      <a
-        ><img
-          src="https://skillicons.dev/icons?i=linux,vscode,sublime,replit,notion,github&theme=dark"
-          style="margin-right: 10px; padding: 10px" /></a
-      ><br />
-      <a
-        ><img
-          src="https://skillicons.dev/icons?i=discord,bots&theme=dark"
-          style="margin-right: 10px; padding: 10px"
-      /></a>
-    </div>
-  </div>
-</div>
+<table width="100%">
+  <tr>
+    <th>Badges</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://holopin.io/@spreadsheets600"><img src="https://holopin.me/spreadsheets600" alt="Holopin badges"></a></td>
+  </tr>
+</table>
