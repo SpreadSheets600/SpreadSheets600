@@ -14,7 +14,7 @@
       lost in an anime or turning the pages of a manga.
       <br><br>
       <hr>
-    <a href="https://spreadsheets600.me"><img src="assets/icons/portfolio.svg" width="18" height="18" alt=""> Portfolio</a> &nbsp;·&nbsp; <a href="https://blog.spreadsheets600.me"><img src="assets/icons/blog.svg" width="18" height="18" alt=""> Blog</a>
+    <a href="https://spreadsheets600.me"><img src="assets/icons/portfolio.svg" height="28" alt="Portfolio"></a>&nbsp;&nbsp;&nbsp;<a href="https://blog.spreadsheets600.me"><img src="assets/icons/blog.svg" height="28" alt="Blog"></a>
     </td>
   </tr>
 </table>
