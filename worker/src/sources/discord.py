@@ -3,6 +3,8 @@ from workers import fetch
 LANYARD = "https://api.lanyard.rest/v1/users/{id}"
 CDN = "https://cdn.discordapp.com"
 MEDIA = "https://media.discordapp.net"
+PROFILE = "https://dcdn.dstn.to/profile/{id}"
+PROFILE_KEY = "discord:profile"
 
 
 def _app_image(activity):
@@ -116,3 +118,53 @@ async def fetch_presence(config):
         if custom and (custom.get("state") or custom.get("emoji"))
         else None,
     }
+
+
+async def fetch_profile(config, cache):
+    if not config.discord_id:
+        return {}
+
+    cached = await cache.get(PROFILE_KEY)
+
+    if cached:
+        return cached
+
+    try:
+        response = await fetch(PROFILE.format(id=config.discord_id))
+
+        if response.status != 200:
+            return {}
+
+        body = await response.json()
+
+    except Exception as error:
+        print(f"Discord Profile Failed: {error}")
+        return {}
+
+    user = body.get("user") or {}
+    profile = body.get("user_profile") or {}
+    colors = profile.get("theme_colors") or []
+    styles = user.get("display_name_styles") or profile.get("display_name_styles") or {}
+    asset = ((user.get("collectibles") or {}).get("nameplate") or {}).get("asset", "")
+
+    result = {
+        "badges": [
+            {
+                "description": badge.get("description"),
+                "url": f"{CDN}/badge-icons/{badge['icon']}.png",
+            }
+            for badge in body.get("badges") or []
+            if badge.get("icon")
+        ][:8],
+        "themeColors": colors[:2] if len(colors) >= 2 else None,
+        "nameplateUrl": (
+            f"{CDN}/assets/collectibles/{asset.strip('/')}/static.png"
+            if asset
+            else None
+        ),
+        "nameColors": styles.get("colors") or [],
+    }
+
+    await cache.set(PROFILE_KEY, result, 3600)
+
+    return result
