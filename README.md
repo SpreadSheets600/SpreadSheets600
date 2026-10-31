@@ -149,14 +149,14 @@
   </tr>
   <tr>
     <td><a href="https://discord.com/users/727012870683885578"><picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://spreadsheets600-api.spreadsheets600.workers.dev/discord?theme=dark">
-        <img alt="Discord status" src="https://spreadsheets600-api.spreadsheets600.workers.dev/discord?theme=light" width="100%">
+        <source media="(prefers-color-scheme: dark)" srcset="https://spreadsheets600-api-io.spreadsheets600.workers.dev/discord?theme=dark">
+        <img alt="Discord status" src="https://spreadsheets600-api-io.spreadsheets600.workers.dev/discord?theme=light" width="100%">
       </picture></a></td>
   </tr>
   <tr>
     <td><a href="https://open.spotify.com/user/x4o0yd3uqpjbzgo1atn61ik6l"><picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://spreadsheets600-api.spreadsheets600.workers.dev/spotify?theme=dark">
-        <img alt="Spotify last played" src="https://spreadsheets600-api.spreadsheets600.workers.dev/spotify?theme=light" width="100%">
+        <source media="(prefers-color-scheme: dark)" srcset="https://spreadsheets600-api-io.spreadsheets600.workers.dev/spotify?theme=dark">
+        <img alt="Spotify last played" src="https://spreadsheets600-api-io.spreadsheets600.workers.dev/spotify?theme=light" width="100%">
       </picture></a></td>
   </tr>
 </table>
