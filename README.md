@@ -13,8 +13,7 @@
       lost in an anime or turning the pages of a manga.
       <br><br>
       <hr>
-    <a href="https://spreadsheets600.me"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"></a>
-    <a href="https://blog.spreadsheets600.me"><img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog"></a>
+    <a href="https://spreadsheets600.me"><img src="assets/icons/portfolio.svg" width="18" height="18" alt=""> Portfolio</a> &nbsp;·&nbsp; <a href="https://blog.spreadsheets600.me"><img src="assets/icons/blog.svg" width="18" height="18" alt=""> Blog</a>
     </td>
   </tr>
 </table>
@@ -152,7 +151,7 @@
     <th colspan="2">Status</th>
   </tr>
   <tr>
-    <td valign="top">
+    <td colspan="2" valign="top">
       <details>
         <summary>Discord</summary>
         <br>
@@ -164,7 +163,9 @@
         </a>
       </details>
     </td>
-    <td valign="top">
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <details>
         <summary>Spotify</summary>
         <br>

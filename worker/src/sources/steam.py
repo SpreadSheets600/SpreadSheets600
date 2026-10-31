@@ -166,8 +166,11 @@ async def fetch_stats(config):
         reverse=True,
     )[:TOP_GAME_LIMIT]
 
+    # Steam returns recently played games newest first, which is the only
+    # reliable "latest". Ranking owned games by rtime_last_played can disagree.
     played = [game for game in games if game.get("rtime_last_played")]
     last_played = max(played, key=lambda game: game["rtime_last_played"], default=None)
+    latest_game = (recent_games or [None])[0] or last_played
 
     recent = [
         {
@@ -257,14 +260,14 @@ async def fetch_stats(config):
         "backlog": sum(1 for game in games if _minutes(game, "playtime_forever") == 0),
         "recent": recent,
         "latestPlayed": {
-            "appid": last_played.get("appid"),
-            "name": last_played.get("name"),
-            "minutes": last_played.get("playtime_forever", 0),
-            "hours": round(last_played.get("playtime_forever", 0) / 60),
-            "recentMinutes": last_played.get("playtime_2weeks", 0),
-            "lastPlayed": last_played.get("rtime_last_played"),
+            "appid": latest_game.get("appid"),
+            "name": latest_game.get("name"),
+            "minutes": latest_game.get("playtime_forever", 0),
+            "hours": round(latest_game.get("playtime_forever", 0) / 60),
+            "recentMinutes": latest_game.get("playtime_2weeks", 0),
+            "lastPlayed": latest_game.get("rtime_last_played"),
         }
-        if last_played
+        if latest_game
         else None,
         "topGames": [
             {
