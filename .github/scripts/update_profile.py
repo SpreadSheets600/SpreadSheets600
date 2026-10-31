@@ -6,6 +6,7 @@ import urllib.request
 from pathlib import Path
 
 import stack
+import steam_covers
 
 
 def fetch(path: str) -> str:
@@ -50,6 +51,9 @@ def main() -> None:
 
     try:
         snapshot = json.loads(fetch("/snapshot"))
+
+        if snapshot.get("steam", {}).get("ok"):
+            steam_covers.attach(snapshot["steam"]["data"])
 
         try:
             from anilist_source import fetch_anilist

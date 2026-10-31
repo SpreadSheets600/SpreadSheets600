@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from .svg import FULL, HALF, HALF_HEIGHT, PAD, Svg, clip, duration, num
+from .svg import FULL, HALF, HALF_HEIGHT, PAD, Svg, duration, num
 from .theme import Theme
 
 
@@ -23,22 +23,23 @@ def totals(data: dict, theme: Theme) -> str:
 
 
 def most_played(data: dict, theme: Theme) -> str:
-    games = data["topGames"][:5]
-    peak = max((game["minutes"] for game in games), default=0) or 1
-    rows = [(game["name"], game["minutes"] / peak, f'{num(game["hours"])}h') for game in games]
-    return _ranked("Most played", rows, theme)
+    return _game(data.get("mostPlayed"), theme, "Most played", "total playtime")
 
 
-def recent(data: dict, theme: Theme) -> str:
-    games = data["recent"][:5]
-    peak = max((game["minutes"] for game in games), default=0) or 1
-    rows = [(game["name"], game["minutes"] / peak, duration(game["minutes"] * 60)) for game in games]
-    return _ranked("Last two weeks", rows, theme)
+def latest_played(data: dict, theme: Theme) -> str:
+    game = data.get("latestPlayed")
+    recent = duration(game["recentMinutes"] * 60) if game and game.get("recentMinutes") else ""
+    return _game(game, theme, "Latest played", "total playtime", extra=f"{recent} in the last two weeks" if recent else "")
 
 
-def _ranked(caption: str, rows: list[tuple[str, float, str]], theme: Theme) -> str:
+def _game(game: dict | None, theme: Theme, caption: str, label: str, extra: str = "") -> str:
     svg = Svg(HALF, HALF_HEIGHT, theme, caption)
-    svg.caption(caption)
-    for i, (name, fraction, value) in enumerate(rows):
-        svg.bar_row(PAD, 60 + i * 26, HALF - 2 * PAD, clip(name, 30), fraction, value)
+    if not game:
+        svg.caption(caption)
+        svg.text(PAD, 64, "No games yet", fill=theme.muted)
+        return svg.render()
+
+    x, _ = svg.media(caption, game["name"], game.get("cover"))
+    svg.text(x, HALF_HEIGHT - 58, f'{num(game["minutes"] / 60)}h', size=22, weight=600)
+    svg.text(x, HALF_HEIGHT - 40, extra or label, size=11, fill=theme.muted)
     return svg.render()

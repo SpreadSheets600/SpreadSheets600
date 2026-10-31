@@ -2,11 +2,8 @@
 
 from __future__ import annotations
 
-from .svg import FULL, HALF, PAD, Svg, num, wrap
+from .svg import FULL, HALF, HALF_HEIGHT, PAD, Svg, num
 from .theme import Theme
-
-HEIGHT = 184
-COVER_W, COVER_H = 91, 136
 
 
 def totals(data: dict, theme: Theme) -> str:
@@ -34,26 +31,18 @@ def latest_manga(data: dict, theme: Theme) -> str:
 
 
 def _latest(entry: dict | None, theme: Theme, caption: str, unit: str, label: str) -> str:
-    svg = Svg(HALF, HEIGHT, theme, caption)
-    text_x = PAD + COVER_W + 18
-    width = HALF - PAD - text_x
-    svg.caption(caption, x=text_x)
+    svg = Svg(HALF, HALF_HEIGHT, theme, caption)
+    if not entry:
+        svg.caption(caption)
+        svg.text(PAD, 64, f"No {label.lower()} yet", fill=theme.muted)
+        return svg.render()
 
-    if entry:
-        if entry.get("cover"):
-            svg.image(PAD, (HEIGHT - COVER_H) / 2, COVER_W, COVER_H, entry["cover"], rx=6)
-        for i, line in enumerate(wrap(entry["title"], 26, 3)):
-            svg.text(text_x, 64 + i * 20, line, size=14, weight=600)
-
-        progress, total = entry["progress"], entry.get("total")
-        status = "Completed" if entry["status"] == "COMPLETED" else f"{unit} {num(progress)}"
-        if entry["status"] != "COMPLETED" and total:
-            status += f" of {num(total)}"
-        svg.text(text_x, HEIGHT - 52, status, fill=theme.muted)
-        fraction = progress / total if total else 0
-        if total:
-            svg.rect(text_x, HEIGHT - 38, width, 4, theme.track, rx=2)
-            svg.rect(text_x, HEIGHT - 38, max(width * fraction, 4), 4, theme.accent, rx=2)
-    else:
-        svg.text(text_x, 64, f"No {label.lower()} yet", fill=theme.muted)
+    x, width = svg.media(caption, entry["title"], entry.get("cover"))
+    progress, total = entry["progress"], entry.get("total")
+    done = entry["status"] == "COMPLETED"
+    status = "Completed" if done else f"{unit} {num(progress)}" + (f" of {num(total)}" if total else "")
+    svg.text(x, HALF_HEIGHT - 52, status, fill=theme.muted)
+    if total:
+        svg.rect(x, HALF_HEIGHT - 38, width, 4, theme.track, rx=2)
+        svg.rect(x, HALF_HEIGHT - 38, max(width * progress / total, 4), 4, theme.accent, rx=2)
     return svg.render()

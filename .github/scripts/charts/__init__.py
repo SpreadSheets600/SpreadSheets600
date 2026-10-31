@@ -25,7 +25,7 @@ CHARTS = [
     ("anilist-manga", "anilist", anilist.latest_manga),
     ("steam-totals", "steam", steam.totals),
     ("steam-most-played", "steam", steam.most_played),
-    ("steam-recent", "steam", steam.recent),
+    ("steam-latest", "steam", steam.latest_played),
 ]
 
 

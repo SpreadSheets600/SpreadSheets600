@@ -14,6 +14,7 @@ FULL = 800  # full-width card
 HALF = 392  # half-width card (two per table row)
 PAD = 24    # inner padding on every card
 HALF_HEIGHT = 184  # height of every half-width card
+COVER_W, COVER_H = 91, 136  # poster-style cover on media cards
 
 
 def num(value: float | int) -> str:
@@ -102,6 +103,19 @@ class Svg:
         self.text(x + width, y, value, fill=self.theme.muted, anchor="end")
         self.rect(x, y + 8, width, 4, self.theme.track, rx=2)
         self.rect(x, y + 8, max(width * fraction, 4) if fraction > 0 else 0, 4, self.theme.accent, rx=2)
+
+    def media(self, caption: str, title: str, cover: str | None) -> tuple[float, float]:
+        """Cover on the left, caption and wrapped title on the right.
+
+        Returns the x and width of the text column so callers can add a footer.
+        """
+        x = PAD + COVER_W + 18
+        self.caption(caption, x=x)
+        if cover:
+            self.image(PAD, (self.height - COVER_H) / 2, COVER_W, COVER_H, cover, rx=6)
+        for i, line in enumerate(wrap(title, 26, 3)):
+            self.text(x, 64 + i * 20, line, size=14, weight=600)
+        return x, self.width - PAD - x
 
     def render(self) -> str:
         defs = f"<defs>{''.join(self._defs)}</defs>\n" if self._defs else ""

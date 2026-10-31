@@ -1,5 +1,5 @@
 <!--START_SECTION:header-->
-<img src="https://raw.githubusercontent.com/SpreadSheets600/Wallpapers/master/Wallpapers/212.png" alt="Soham Maity" width="100%">
+<img src="https://raw.githubusercontent.com/SpreadSheets600/Wallpapers/master/Wallpapers/75.jpg" alt="Soham Maity" width="100%">
 <!--END_SECTION:header-->
 
 <table width="100%">
@@ -141,8 +141,8 @@
         <img alt="Most played" src="assets/charts/steam-most-played-light.svg" width="100%">
       </picture></td>
     <td width="50%"><picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/steam-recent-dark.svg">
-        <img alt="Recently played" src="assets/charts/steam-recent-light.svg" width="100%">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/charts/steam-latest-dark.svg">
+        <img alt="Latest played" src="assets/charts/steam-latest-light.svg" width="100%">
       </picture></td>
   </tr>
 </table>
