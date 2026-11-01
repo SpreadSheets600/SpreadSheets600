@@ -30,4 +30,4 @@ def render():
         f'    <td width="100%">{" ".join(_icon(name) for name in names)}</td>\n  </tr>'
         for title, names in STACK.items()
     )
-    return f'<table width="100%">\n  <tr>\n    <th colspan="2">Stack</th>\n  </tr>\n{rows}\n</table>'
+    return f'<table width="100%">\n  <tr>\n    <th colspan="2"><img src="assets/spacer.svg" width="100%" height="1" alt="">Stack</th>\n  </tr>\n{rows}\n</table>'

@@ -15,7 +15,7 @@
 <!--START_SECTION:stack-->
 <table width="100%">
   <tr>
-    <th colspan="2">Stack</th>
+    <th colspan="2"><img src="assets/spacer.svg" width="100%" height="1" alt="">Stack</th>
   </tr>
   <tr>
     <th width="120" align="left">Languages</th>
