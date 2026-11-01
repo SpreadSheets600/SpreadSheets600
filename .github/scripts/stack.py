@@ -26,8 +26,8 @@ def _icon(name):
 
 def render():
     rows = "\n".join(
-        f'  <tr>\n    <th align="left">{title}</th>\n'
-        f'    <td>{" ".join(_icon(name) for name in names)}</td>\n  </tr>'
+        f'  <tr>\n    <th width="120" align="left">{title}</th>\n'
+        f'    <td width="100%">{" ".join(_icon(name) for name in names)}</td>\n  </tr>'
         for title, names in STACK.items()
     )
-    return f'<table width="100%">\n{rows}\n</table>'
+    return f'<table width="100%">\n  <tr>\n    <th colspan="2">Stack</th>\n  </tr>\n{rows}\n</table>'
