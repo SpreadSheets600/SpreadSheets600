@@ -2,7 +2,7 @@ name: Update profile
 
 on:
   schedule:
-    - cron: "30 0,12 * * *"
+    - cron: "17 5,17 * * *"
   workflow_dispatch:
 
 permissions:
@@ -10,10 +10,11 @@ permissions:
 
 concurrency:
   group: update-profile
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

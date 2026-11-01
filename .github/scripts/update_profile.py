@@ -45,17 +45,6 @@ def main():
     readme = replace_block(readme, "stack", stack.render())
 
     try:
-        header = json.loads(fetch("/header?format=json"))
-        readme = replace_block(
-            readme,
-            "header",
-            f'<img src="{header["url"]}" alt="Soham Maity" width="100%">',
-        )
-
-    except Exception as error:
-        print(f"header refresh failed: {error}", file=sys.stderr)
-
-    try:
         snapshot = json.loads(fetch("/snapshot"))
 
         if snapshot.get("steam", {}).get("ok"):

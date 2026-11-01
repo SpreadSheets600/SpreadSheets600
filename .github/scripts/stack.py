@@ -1,6 +1,4 @@
 ICON_URL = "https://skillicons.dev/icons?i={name}&theme={theme}"
-PER_ROW = 3
-SPACER = '<img align="right" src="assets/spacer.svg" width="200" height="1" alt="">'
 
 STACK = {
     "Languages": ["python", "html", "css", "javascript", "c", "cpp", "java", "bash"],
@@ -26,15 +24,10 @@ def _icon(name):
     )
 
 
-def _cell(names):
-    rows = [names[i : i + PER_ROW] for i in range(0, len(names), PER_ROW)]
-    return "<br>\n      ".join(" ".join(_icon(name) for name in row) for row in rows)
-
-
 def render():
-    heads = "\n".join(f"    <th>{title}{SPACER}</th>" for title in STACK)
-    cells = "\n".join(
-        f'    <td align="center" valign="top">\n      {_cell(names)}\n    </td>'
-        for names in STACK.values()
+    rows = "\n".join(
+        f'  <tr>\n    <th align="left">{title}</th>\n'
+        f'    <td>{" ".join(_icon(name) for name in names)}</td>\n  </tr>'
+        for title, names in STACK.items()
     )
-    return f"<table>\n  <tr>\n{heads}\n  </tr>\n  <tr>\n{cells}\n  </tr>\n</table>"
+    return f'<table width="100%">\n{rows}\n</table>'
