@@ -1,8 +1,8 @@
 {
   "anime": {
     "count": 200,
-    "daysWatched": 114.94,
-    "episodesWatched": 6829,
+    "daysWatched": 115.17,
+    "episodesWatched": 6830,
     "genres": [
       {
         "count": 138,
@@ -45,9 +45,9 @@
         "minutesWatched": 8132
       }
     ],
-    "hoursWatched": 2758.65,
+    "hoursWatched": 2764.2,
     "meanScore": 100,
-    "minutesWatched": 165519,
+    "minutesWatched": 165852,
     "statuses": [
       {
         "count": 183,
@@ -85,7 +85,7 @@
     "updatedAt": 1793330941
   },
   "manga": {
-    "chaptersRead": 8168,
+    "chaptersRead": 8172,
     "count": 41,
     "genres": [
       {
