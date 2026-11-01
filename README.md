@@ -3,6 +3,7 @@
 <table width="100%">
   <tr>
     <td align="center">
+      <img src="assets/spacer.svg" width="100%" height="1" alt="">
       <h2>👋 Hello There, I'm SOHAM</h2>
       <b>Computer Science and Data Science student building tools that make everyday tasks easier, for me and for others. I love tinkering with open-source AI, and semantic systems are what excite me most.</b>
       <p>Away from the keyboard, you'll find me at a game night with friends, lost in an anime, or turning the pages of a manga.</p>
@@ -38,7 +39,7 @@
 
 <table width="100%">
   <tr>
-    <th colspan="2">GitHub</th>
+    <th colspan="2"><img src="assets/spacer.svg" width="100%" height="1" alt="">GitHub</th>
   </tr>
   <tr>
     <td colspan="2"><picture>
@@ -78,7 +79,7 @@
 
 <table width="100%">
   <tr>
-    <th>Code time</th>
+    <th><img src="assets/spacer.svg" width="100%" height="1" alt="">Code time</th>
   </tr>
   <tr>
     <td><picture>
@@ -90,7 +91,7 @@
 
 <table width="100%">
   <tr>
-    <th colspan="2">Anime &amp; Manga</th>
+    <th colspan="2"><img src="assets/spacer.svg" width="100%" height="1" alt="">Anime &amp; Manga</th>
   </tr>
   <tr>
     <td colspan="2"><a href="https://anilist.co/user/SpreadSheeets"><picture>
@@ -112,7 +113,7 @@
 
 <table width="100%">
   <tr>
-    <th colspan="2">Games</th>
+    <th colspan="2"><img src="assets/spacer.svg" width="100%" height="1" alt="">Games</th>
   </tr>
   <tr>
     <td colspan="2"><a href="https://steamcommunity.com/id/SpreadSheeets/"><picture>
@@ -134,7 +135,7 @@
 
 <table width="100%">
   <tr>
-    <th>Status</th>
+    <th><img src="assets/spacer.svg" width="100%" height="1" alt="">Status</th>
   </tr>
   <tr>
     <td><a href="https://discord.com/users/727012870683885578"><picture>
@@ -152,7 +153,7 @@
 
 <table width="100%">
   <tr>
-    <th>Badges</th>
+    <th><img src="assets/spacer.svg" width="100%" height="1" alt="">Badges</th>
   </tr>
   <tr>
     <td align="center"><a href="https://holopin.io/@spreadsheets600"><img src="https://holopin.me/spreadsheets600" alt="Holopin badges" width="100%"></a></td>
