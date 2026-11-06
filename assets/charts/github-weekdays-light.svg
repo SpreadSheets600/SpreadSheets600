@@ -8,7 +8,7 @@
 <text x="146.9" y="162.0" font-size="10" font-weight="400" fill="#656d76" text-anchor="middle">Wed</text>
 <rect x="183.0" y="82.4" width="26.0" height="61.6" rx="3" fill="#79b58d"/>
 <text x="196.0" y="162.0" font-size="10" font-weight="400" fill="#656d76" text-anchor="middle">Thu</text>
-<rect x="232.1" y="76.5" width="26.0" height="67.5" rx="3" fill="#79b58d"/>
+<rect x="232.1" y="75.8" width="26.0" height="68.2" rx="3" fill="#79b58d"/>
 <text x="245.1" y="162.0" font-size="10" font-weight="400" fill="#656d76" text-anchor="middle">Fri</text>
 <rect x="281.3" y="62.0" width="26.0" height="82.0" rx="3" fill="#1f883d"/>
 <text x="294.3" y="162.0" font-size="10" font-weight="400" fill="#656d76" text-anchor="middle">Sat</text>
