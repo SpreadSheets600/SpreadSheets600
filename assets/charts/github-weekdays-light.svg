@@ -2,7 +2,7 @@
 <text x="24.0" y="34.0" font-size="11" font-weight="600" fill="#656d76" text-anchor="start" letter-spacing="0.08em">WEEKDAYS</text>
 <rect x="35.6" y="87.9" width="26.0" height="56.1" rx="3" fill="#79b58d"/>
 <text x="48.6" y="162.0" font-size="10" font-weight="400" fill="#656d76" text-anchor="middle">Mon</text>
-<rect x="84.7" y="83.2" width="26.0" height="60.8" rx="3" fill="#79b58d"/>
+<rect x="84.7" y="81.4" width="26.0" height="62.6" rx="3" fill="#79b58d"/>
 <text x="97.7" y="162.0" font-size="10" font-weight="400" fill="#656d76" text-anchor="middle">Tue</text>
 <rect x="133.9" y="80.2" width="26.0" height="63.8" rx="3" fill="#79b58d"/>
 <text x="146.9" y="162.0" font-size="10" font-weight="400" fill="#656d76" text-anchor="middle">Wed</text>
