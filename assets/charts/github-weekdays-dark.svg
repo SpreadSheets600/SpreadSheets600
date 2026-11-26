@@ -4,9 +4,9 @@
 <text x="48.6" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Mon</text>
 <rect x="84.7" y="62.0" width="26.0" height="82.0" rx="3" fill="#3fb950"/>
 <text x="97.7" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Tue</text>
-<rect x="133.9" y="63.4" width="26.0" height="80.6" rx="3" fill="#327943"/>
+<rect x="133.9" y="63.3" width="26.0" height="80.7" rx="3" fill="#327943"/>
 <text x="146.9" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Wed</text>
-<rect x="183.0" y="84.0" width="26.0" height="60.0" rx="3" fill="#327943"/>
+<rect x="183.0" y="81.6" width="26.0" height="62.4" rx="3" fill="#327943"/>
 <text x="196.0" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Thu</text>
 <rect x="232.1" y="75.8" width="26.0" height="68.2" rx="3" fill="#327943"/>
 <text x="245.1" y="162.0" font-size="10" font-weight="400" fill="#8b949e" text-anchor="middle">Fri</text>
